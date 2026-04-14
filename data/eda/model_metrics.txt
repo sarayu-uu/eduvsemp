@@ -1,0 +1,8 @@
+Target: gap_ratio_resid (education/employment residualized vs Year)
+LR R2: 0.0080
+LR RMSE: 167.3365
+RF R2: 0.2185
+RF RMSE: 148.5230
+GBR R2: 0.1746
+GBR RMSE: 152.6378
+RF R2 (shuffled avg): -0.6010

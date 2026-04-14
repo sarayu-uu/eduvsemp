@@ -1,0 +1,4600 @@
+State,Year,Metric,Value
+India,2020,Ph.D. Male,116756.0
+India,2019,Ph.D. Male,111400.0
+India,2018,Ph.D. Male,95015.0
+India,2017,Ph.D. Male,92570.0
+India,2016,Ph.D. Male,81795.0
+Andaman and Nicobar Islands,2020,Ph.D. Male,7.0
+Andaman and Nicobar Islands,2019,Ph.D. Male,5.0
+Andaman and Nicobar Islands,2018,Ph.D. Male,44.0
+Andaman and Nicobar Islands,2017,Ph.D. Male,42.0
+Andaman and Nicobar Islands,2016,Ph.D. Male,64.0
+Andhra Pradesh,2020,Ph.D. Male,4283.0
+Andhra Pradesh,2019,Ph.D. Male,3837.0
+Andhra Pradesh,2018,Ph.D. Male,3054.0
+Andhra Pradesh,2017,Ph.D. Male,4007.0
+Andhra Pradesh,2016,Ph.D. Male,2932.0
+Arunachal Pradesh,2020,Ph.D. Male,470.0
+Arunachal Pradesh,2019,Ph.D. Male,565.0
+Arunachal Pradesh,2018,Ph.D. Male,396.0
+Arunachal Pradesh,2017,Ph.D. Male,397.0
+Arunachal Pradesh,2016,Ph.D. Male,365.0
+Assam,2020,Ph.D. Male,3648.0
+Assam,2019,Ph.D. Male,3214.0
+Assam,2018,Ph.D. Male,2970.0
+Assam,2017,Ph.D. Male,2633.0
+Assam,2016,Ph.D. Male,2545.0
+Bihar,2020,Ph.D. Male,2625.0
+Bihar,2019,Ph.D. Male,1665.0
+Bihar,2018,Ph.D. Male,2239.0
+Bihar,2017,Ph.D. Male,1902.0
+Bihar,2016,Ph.D. Male,1502.0
+Chandigarh,2020,Ph.D. Male,323.0
+Chandigarh,2019,Ph.D. Male,409.0
+Chandigarh,2018,Ph.D. Male,353.0
+Chandigarh,2017,Ph.D. Male,472.0
+Chandigarh,2016,Ph.D. Male,629.0
+Chhattisgarh,2020,Ph.D. Male,910.0
+Chhattisgarh,2019,Ph.D. Male,824.0
+Chhattisgarh,2018,Ph.D. Male,965.0
+Chhattisgarh,2017,Ph.D. Male,740.0
+Chhattisgarh,2016,Ph.D. Male,778.0
+Delhi,2020,Ph.D. Male,8112.0
+Delhi,2019,Ph.D. Male,8812.0
+Delhi,2018,Ph.D. Male,4918.0
+Delhi,2017,Ph.D. Male,7580.0
+Delhi,2016,Ph.D. Male,5319.0
+Goa,2020,Ph.D. Male,276.0
+Goa,2019,Ph.D. Male,217.0
+Goa,2018,Ph.D. Male,167.0
+Goa,2017,Ph.D. Male,71.0
+Goa,2016,Ph.D. Male,194.0
+Gujarat,2020,Ph.D. Male,4819.0
+Gujarat,2019,Ph.D. Male,4380.0
+Gujarat,2018,Ph.D. Male,3589.0
+Gujarat,2017,Ph.D. Male,3256.0
+Gujarat,2016,Ph.D. Male,3035.0
+Haryana,2020,Ph.D. Male,2046.0
+Haryana,2019,Ph.D. Male,1810.0
+Haryana,2018,Ph.D. Male,1827.0
+Haryana,2017,Ph.D. Male,1632.0
+Haryana,2016,Ph.D. Male,1817.0
+Himachal Pradesh,2020,Ph.D. Male,1100.0
+Himachal Pradesh,2019,Ph.D. Male,1027.0
+Himachal Pradesh,2018,Ph.D. Male,1121.0
+Himachal Pradesh,2017,Ph.D. Male,906.0
+Himachal Pradesh,2016,Ph.D. Male,721.0
+Jammu and Kashmir,2020,Ph.D. Male,2412.0
+Jammu and Kashmir,2019,Ph.D. Male,2080.0
+Jammu and Kashmir,2018,Ph.D. Male,1392.0
+Jammu and Kashmir,2017,Ph.D. Male,1235.0
+Jammu and Kashmir,2016,Ph.D. Male,991.0
+Jharkhand,2020,Ph.D. Male,1738.0
+Jharkhand,2019,Ph.D. Male,2469.0
+Jharkhand,2018,Ph.D. Male,2108.0
+Jharkhand,2017,Ph.D. Male,1158.0
+Jharkhand,2016,Ph.D. Male,1157.0
+Karnataka,2020,Ph.D. Male,5752.0
+Karnataka,2019,Ph.D. Male,8422.0
+Karnataka,2018,Ph.D. Male,8070.0
+Karnataka,2017,Ph.D. Male,9103.0
+Karnataka,2016,Ph.D. Male,6630.0
+Kerala,2020,Ph.D. Male,3184.0
+Kerala,2019,Ph.D. Male,2817.0
+Kerala,2018,Ph.D. Male,2503.0
+Kerala,2017,Ph.D. Male,2256.0
+Kerala,2016,Ph.D. Male,2185.0
+Jammu and Kashmir,2020,Ph.D. Male,6.0
+Jammu and Kashmir,2019,Ph.D. Male,6.0
+Madhya Pradesh,2020,Ph.D. Male,3676.0
+Madhya Pradesh,2019,Ph.D. Male,3006.0
+Madhya Pradesh,2018,Ph.D. Male,2383.0
+Madhya Pradesh,2017,Ph.D. Male,2427.0
+Madhya Pradesh,2016,Ph.D. Male,1988.0
+Maharashtra,2020,Ph.D. Male,9358.0
+Maharashtra,2019,Ph.D. Male,7122.0
+Maharashtra,2018,Ph.D. Male,4923.0
+Maharashtra,2017,Ph.D. Male,5365.0
+Maharashtra,2016,Ph.D. Male,4382.0
+Manipur,2020,Ph.D. Male,624.0
+Manipur,2019,Ph.D. Male,538.0
+Manipur,2018,Ph.D. Male,601.0
+Manipur,2017,Ph.D. Male,332.0
+Manipur,2016,Ph.D. Male,392.0
+Meghalaya,2020,Ph.D. Male,469.0
+Meghalaya,2019,Ph.D. Male,492.0
+Meghalaya,2018,Ph.D. Male,475.0
+Meghalaya,2017,Ph.D. Male,466.0
+Meghalaya,2016,Ph.D. Male,471.0
+Mizoram,2020,Ph.D. Male,551.0
+Mizoram,2019,Ph.D. Male,479.0
+Mizoram,2018,Ph.D. Male,415.0
+Mizoram,2017,Ph.D. Male,347.0
+Mizoram,2016,Ph.D. Male,362.0
+Nagaland,2020,Ph.D. Male,279.0
+Nagaland,2019,Ph.D. Male,270.0
+Nagaland,2018,Ph.D. Male,235.0
+Nagaland,2017,Ph.D. Male,222.0
+Nagaland,2016,Ph.D. Male,94.0
+Odisha,2020,Ph.D. Male,1947.0
+Odisha,2019,Ph.D. Male,1923.0
+Odisha,2018,Ph.D. Male,2052.0
+Odisha,2017,Ph.D. Male,1671.0
+Odisha,2016,Ph.D. Male,1388.0
+Puducherry,2020,Ph.D. Male,271.0
+Puducherry,2019,Ph.D. Male,291.0
+Puducherry,2018,Ph.D. Male,510.0
+Puducherry,2017,Ph.D. Male,522.0
+Puducherry,2016,Ph.D. Male,604.0
+Punjab,2020,Ph.D. Male,4628.0
+Punjab,2019,Ph.D. Male,4111.0
+Punjab,2018,Ph.D. Male,4382.0
+Punjab,2017,Ph.D. Male,3054.0
+Punjab,2016,Ph.D. Male,3151.0
+Rajasthan,2020,Ph.D. Male,6588.0
+Rajasthan,2019,Ph.D. Male,5478.0
+Rajasthan,2018,Ph.D. Male,5296.0
+Rajasthan,2017,Ph.D. Male,3925.0
+Rajasthan,2016,Ph.D. Male,3672.0
+Sikkim,2020,Ph.D. Male,115.0
+Sikkim,2019,Ph.D. Male,215.0
+Sikkim,2018,Ph.D. Male,211.0
+Sikkim,2017,Ph.D. Male,77.0
+Sikkim,2016,Ph.D. Male,107.0
+Tamil Nadu,2020,Ph.D. Male,17443.0
+Tamil Nadu,2019,Ph.D. Male,15816.0
+Tamil Nadu,2018,Ph.D. Male,13699.0
+Tamil Nadu,2017,Ph.D. Male,16267.0
+Tamil Nadu,2016,Ph.D. Male,16363.0
+Telangana,2020,Ph.D. Male,4228.0
+Telangana,2019,Ph.D. Male,3507.0
+Telangana,2018,Ph.D. Male,2191.0
+Telangana,2017,Ph.D. Male,3252.0
+Telangana,2016,Ph.D. Male,2760.0
+Tripura,2020,Ph.D. Male,452.0
+Tripura,2019,Ph.D. Male,388.0
+Tripura,2018,Ph.D. Male,147.0
+Tripura,2017,Ph.D. Male,75.0
+Tripura,2016,Ph.D. Male,50.0
+Uttar Pradesh,2020,Ph.D. Male,11560.0
+Uttar Pradesh,2019,Ph.D. Male,13693.0
+Uttar Pradesh,2018,Ph.D. Male,11715.0
+Uttar Pradesh,2017,Ph.D. Male,10069.0
+Uttar Pradesh,2016,Ph.D. Male,8838.0
+Uttarakhand,2020,Ph.D. Male,4099.0
+Uttarakhand,2019,Ph.D. Male,3449.0
+Uttarakhand,2018,Ph.D. Male,2903.0
+Uttarakhand,2017,Ph.D. Male,2419.0
+Uttarakhand,2016,Ph.D. Male,1971.0
+West Bengal,2020,Ph.D. Male,8757.0
+West Bengal,2019,Ph.D. Male,8063.0
+West Bengal,2018,Ph.D. Male,7161.0
+West Bengal,2017,Ph.D. Male,4690.0
+West Bengal,2016,Ph.D. Male,4338.0
+India,2020,Ph.D. Female,95086.0
+India,2019,Ph.D. Female,91049.0
+India,2018,Ph.D. Female,74102.0
+India,2017,Ph.D. Female,68842.0
+India,2016,Ph.D. Female,59242.0
+Andaman and Nicobar Islands,2020,Ph.D. Female,12.0
+Andaman and Nicobar Islands,2019,Ph.D. Female,9.0
+Andaman and Nicobar Islands,2018,Ph.D. Female,23.0
+Andaman and Nicobar Islands,2017,Ph.D. Female,26.0
+Andaman and Nicobar Islands,2016,Ph.D. Female,21.0
+Andhra Pradesh,2020,Ph.D. Female,2708.0
+Andhra Pradesh,2019,Ph.D. Female,2879.0
+Andhra Pradesh,2018,Ph.D. Female,1927.0
+Andhra Pradesh,2017,Ph.D. Female,2282.0
+Andhra Pradesh,2016,Ph.D. Female,1740.0
+Arunachal Pradesh,2020,Ph.D. Female,258.0
+Arunachal Pradesh,2019,Ph.D. Female,421.0
+Arunachal Pradesh,2018,Ph.D. Female,280.0
+Arunachal Pradesh,2017,Ph.D. Female,247.0
+Arunachal Pradesh,2016,Ph.D. Female,270.0
+Assam,2020,Ph.D. Female,2356.0
+Assam,2019,Ph.D. Female,2413.0
+Assam,2018,Ph.D. Female,1970.0
+Assam,2017,Ph.D. Female,1704.0
+Assam,2016,Ph.D. Female,1573.0
+Bihar,2020,Ph.D. Female,1183.0
+Bihar,2019,Ph.D. Female,1034.0
+Bihar,2018,Ph.D. Female,1123.0
+Bihar,2017,Ph.D. Female,954.0
+Bihar,2016,Ph.D. Female,726.0
+Chandigarh,2020,Ph.D. Female,427.0
+Chandigarh,2019,Ph.D. Female,550.0
+Chandigarh,2018,Ph.D. Female,508.0
+Chandigarh,2017,Ph.D. Female,415.0
+Chandigarh,2016,Ph.D. Female,625.0
+Chhattisgarh,2020,Ph.D. Female,744.0
+Chhattisgarh,2019,Ph.D. Female,691.0
+Chhattisgarh,2018,Ph.D. Female,509.0
+Chhattisgarh,2017,Ph.D. Female,425.0
+Chhattisgarh,2016,Ph.D. Female,488.0
+Delhi,2020,Ph.D. Female,7332.0
+Delhi,2019,Ph.D. Female,7458.0
+Delhi,2018,Ph.D. Female,4493.0
+Delhi,2017,Ph.D. Female,7132.0
+Delhi,2016,Ph.D. Female,4604.0
+Goa,2020,Ph.D. Female,340.0
+Goa,2019,Ph.D. Female,216.0
+Goa,2018,Ph.D. Female,129.0
+Goa,2017,Ph.D. Female,41.0
+Goa,2016,Ph.D. Female,294.0
+Gujarat,2020,Ph.D. Female,3202.0
+Gujarat,2019,Ph.D. Female,3050.0
+Gujarat,2018,Ph.D. Female,2328.0
+Gujarat,2017,Ph.D. Female,1995.0
+Gujarat,2016,Ph.D. Female,1953.0
+Haryana,2020,Ph.D. Female,2502.0
+Haryana,2019,Ph.D. Female,2356.0
+Haryana,2018,Ph.D. Female,1966.0
+Haryana,2017,Ph.D. Female,1696.0
+Haryana,2016,Ph.D. Female,1784.0
+Himachal Pradesh,2020,Ph.D. Female,1012.0
+Himachal Pradesh,2019,Ph.D. Female,897.0
+Himachal Pradesh,2018,Ph.D. Female,794.0
+Himachal Pradesh,2017,Ph.D. Female,794.0
+Himachal Pradesh,2016,Ph.D. Female,608.0
+Jammu and Kashmir,2020,Ph.D. Female,2033.0
+Jammu and Kashmir,2019,Ph.D. Female,1909.0
+Jammu and Kashmir,2018,Ph.D. Female,1291.0
+Jammu and Kashmir,2017,Ph.D. Female,1261.0
+Jammu and Kashmir,2016,Ph.D. Female,977.0
+Jharkhand,2020,Ph.D. Female,919.0
+Jharkhand,2019,Ph.D. Female,1020.0
+Jharkhand,2018,Ph.D. Female,795.0
+Jharkhand,2017,Ph.D. Female,640.0
+Jharkhand,2016,Ph.D. Female,648.0
+Karnataka,2020,Ph.D. Female,5276.0
+Karnataka,2019,Ph.D. Female,6566.0
+Karnataka,2018,Ph.D. Female,5230.0
+Karnataka,2017,Ph.D. Female,5087.0
+Karnataka,2016,Ph.D. Female,4211.0
+Kerala,2020,Ph.D. Female,5554.0
+Kerala,2019,Ph.D. Female,4687.0
+Kerala,2018,Ph.D. Female,4183.0
+Kerala,2017,Ph.D. Female,3655.0
+Kerala,2016,Ph.D. Female,3121.0
+Jammu and Kashmir,2020,Ph.D. Female,2.0
+Jammu and Kashmir,2019,Ph.D. Female,2.0
+Madhya Pradesh,2020,Ph.D. Female,2477.0
+Madhya Pradesh,2019,Ph.D. Female,2441.0
+Madhya Pradesh,2018,Ph.D. Female,1710.0
+Madhya Pradesh,2017,Ph.D. Female,1558.0
+Madhya Pradesh,2016,Ph.D. Female,1284.0
+Maharashtra,2020,Ph.D. Female,6393.0
+Maharashtra,2019,Ph.D. Female,4861.0
+Maharashtra,2018,Ph.D. Female,3873.0
+Maharashtra,2017,Ph.D. Female,3841.0
+Maharashtra,2016,Ph.D. Female,3146.0
+Manipur,2020,Ph.D. Female,569.0
+Manipur,2019,Ph.D. Female,507.0
+Manipur,2018,Ph.D. Female,487.0
+Manipur,2017,Ph.D. Female,314.0
+Manipur,2016,Ph.D. Female,334.0
+Meghalaya,2020,Ph.D. Female,364.0
+Meghalaya,2019,Ph.D. Female,378.0
+Meghalaya,2018,Ph.D. Female,678.0
+Meghalaya,2017,Ph.D. Female,513.0
+Meghalaya,2016,Ph.D. Female,492.0
+Mizoram,2020,Ph.D. Female,436.0
+Mizoram,2019,Ph.D. Female,388.0
+Mizoram,2018,Ph.D. Female,368.0
+Mizoram,2017,Ph.D. Female,296.0
+Mizoram,2016,Ph.D. Female,256.0
+Nagaland,2020,Ph.D. Female,314.0
+Nagaland,2019,Ph.D. Female,307.0
+Nagaland,2018,Ph.D. Female,257.0
+Nagaland,2017,Ph.D. Female,201.0
+Nagaland,2016,Ph.D. Female,138.0
+Odisha,2020,Ph.D. Female,1324.0
+Odisha,2019,Ph.D. Female,1423.0
+Odisha,2018,Ph.D. Female,1670.0
+Odisha,2017,Ph.D. Female,1311.0
+Odisha,2016,Ph.D. Female,1086.0
+Puducherry,2020,Ph.D. Female,325.0
+Puducherry,2019,Ph.D. Female,217.0
+Puducherry,2018,Ph.D. Female,292.0
+Puducherry,2017,Ph.D. Female,254.0
+Puducherry,2016,Ph.D. Female,334.0
+Punjab,2020,Ph.D. Female,4938.0
+Punjab,2019,Ph.D. Female,4888.0
+Punjab,2018,Ph.D. Female,4713.0
+Punjab,2017,Ph.D. Female,3823.0
+Punjab,2016,Ph.D. Female,3692.0
+Rajasthan,2020,Ph.D. Female,6379.0
+Rajasthan,2019,Ph.D. Female,5372.0
+Rajasthan,2018,Ph.D. Female,5145.0
+Rajasthan,2017,Ph.D. Female,4054.0
+Rajasthan,2016,Ph.D. Female,3338.0
+Sikkim,2020,Ph.D. Female,80.0
+Sikkim,2019,Ph.D. Female,195.0
+Sikkim,2018,Ph.D. Female,188.0
+Sikkim,2017,Ph.D. Female,53.0
+Sikkim,2016,Ph.D. Female,89.0
+Tamil Nadu,2020,Ph.D. Female,16968.0
+Tamil Nadu,2019,Ph.D. Female,14823.0
+Tamil Nadu,2018,Ph.D. Female,12121.0
+Tamil Nadu,2017,Ph.D. Female,13511.0
+Tamil Nadu,2016,Ph.D. Female,12321.0
+Telangana,2020,Ph.D. Female,2487.0
+Telangana,2019,Ph.D. Female,2001.0
+Telangana,2018,Ph.D. Female,1239.0
+Telangana,2017,Ph.D. Female,1632.0
+Telangana,2016,Ph.D. Female,1440.0
+Tripura,2020,Ph.D. Female,220.0
+Tripura,2019,Ph.D. Female,227.0
+Tripura,2018,Ph.D. Female,79.0
+Tripura,2017,Ph.D. Female,44.0
+Tripura,2016,Ph.D. Female,32.0
+Uttar Pradesh,2020,Ph.D. Female,8246.0
+Uttar Pradesh,2019,Ph.D. Female,10071.0
+Uttar Pradesh,2018,Ph.D. Female,7404.0
+Uttar Pradesh,2017,Ph.D. Female,5339.0
+Uttar Pradesh,2016,Ph.D. Female,4389.0
+Uttarakhand,2020,Ph.D. Female,2533.0
+Uttarakhand,2019,Ph.D. Female,2019.0
+Uttarakhand,2018,Ph.D. Female,1759.0
+Uttarakhand,2017,Ph.D. Female,1489.0
+Uttarakhand,2016,Ph.D. Female,1204.0
+West Bengal,2020,Ph.D. Female,5173.0
+West Bengal,2019,Ph.D. Female,4773.0
+West Bengal,2018,Ph.D. Female,4570.0
+West Bengal,2017,Ph.D. Female,2255.0
+West Bengal,2016,Ph.D. Female,2024.0
+India,2020,Ph.D. Both,211842.0
+India,2019,Ph.D. Both,202449.0
+India,2018,Ph.D. Both,169117.0
+India,2017,Ph.D. Both,161412.0
+India,2016,Ph.D. Both,141037.0
+Andaman and Nicobar Islands,2020,Ph.D. Both,19.0
+Andaman and Nicobar Islands,2019,Ph.D. Both,14.0
+Andaman and Nicobar Islands,2018,Ph.D. Both,67.0
+Andaman and Nicobar Islands,2017,Ph.D. Both,68.0
+Andaman and Nicobar Islands,2016,Ph.D. Both,85.0
+Andhra Pradesh,2020,Ph.D. Both,6991.0
+Andhra Pradesh,2019,Ph.D. Both,6716.0
+Andhra Pradesh,2018,Ph.D. Both,4981.0
+Andhra Pradesh,2017,Ph.D. Both,6289.0
+Andhra Pradesh,2016,Ph.D. Both,4672.0
+Arunachal Pradesh,2020,Ph.D. Both,728.0
+Arunachal Pradesh,2019,Ph.D. Both,986.0
+Arunachal Pradesh,2018,Ph.D. Both,676.0
+Arunachal Pradesh,2017,Ph.D. Both,644.0
+Arunachal Pradesh,2016,Ph.D. Both,635.0
+Assam,2020,Ph.D. Both,6004.0
+Assam,2019,Ph.D. Both,5627.0
+Assam,2018,Ph.D. Both,4940.0
+Assam,2017,Ph.D. Both,4337.0
+Assam,2016,Ph.D. Both,4118.0
+Bihar,2020,Ph.D. Both,3808.0
+Bihar,2019,Ph.D. Both,2699.0
+Bihar,2018,Ph.D. Both,3362.0
+Bihar,2017,Ph.D. Both,2856.0
+Bihar,2016,Ph.D. Both,2228.0
+Chandigarh,2020,Ph.D. Both,750.0
+Chandigarh,2019,Ph.D. Both,959.0
+Chandigarh,2018,Ph.D. Both,861.0
+Chandigarh,2017,Ph.D. Both,887.0
+Chandigarh,2016,Ph.D. Both,1254.0
+Chhattisgarh,2020,Ph.D. Both,1654.0
+Chhattisgarh,2019,Ph.D. Both,1515.0
+Chhattisgarh,2018,Ph.D. Both,1474.0
+Chhattisgarh,2017,Ph.D. Both,1165.0
+Chhattisgarh,2016,Ph.D. Both,1266.0
+Delhi,2020,Ph.D. Both,15444.0
+Delhi,2019,Ph.D. Both,16270.0
+Delhi,2018,Ph.D. Both,9411.0
+Delhi,2017,Ph.D. Both,14712.0
+Delhi,2016,Ph.D. Both,9923.0
+Goa,2020,Ph.D. Both,616.0
+Goa,2019,Ph.D. Both,433.0
+Goa,2018,Ph.D. Both,296.0
+Goa,2017,Ph.D. Both,112.0
+Goa,2016,Ph.D. Both,488.0
+Gujarat,2020,Ph.D. Both,8021.0
+Gujarat,2019,Ph.D. Both,7430.0
+Gujarat,2018,Ph.D. Both,5917.0
+Gujarat,2017,Ph.D. Both,5251.0
+Gujarat,2016,Ph.D. Both,4988.0
+Haryana,2020,Ph.D. Both,4548.0
+Haryana,2019,Ph.D. Both,4166.0
+Haryana,2018,Ph.D. Both,3793.0
+Haryana,2017,Ph.D. Both,3328.0
+Haryana,2016,Ph.D. Both,3601.0
+Himachal Pradesh,2020,Ph.D. Both,2112.0
+Himachal Pradesh,2019,Ph.D. Both,1924.0
+Himachal Pradesh,2018,Ph.D. Both,1915.0
+Himachal Pradesh,2017,Ph.D. Both,1700.0
+Himachal Pradesh,2016,Ph.D. Both,1329.0
+Jammu and Kashmir,2020,Ph.D. Both,4445.0
+Jammu and Kashmir,2019,Ph.D. Both,3989.0
+Jammu and Kashmir,2018,Ph.D. Both,2683.0
+Jammu and Kashmir,2017,Ph.D. Both,2496.0
+Jammu and Kashmir,2016,Ph.D. Both,1968.0
+Jharkhand,2020,Ph.D. Both,2657.0
+Jharkhand,2019,Ph.D. Both,3489.0
+Jharkhand,2018,Ph.D. Both,2903.0
+Jharkhand,2017,Ph.D. Both,1798.0
+Jharkhand,2016,Ph.D. Both,1805.0
+Karnataka,2020,Ph.D. Both,11028.0
+Karnataka,2019,Ph.D. Both,14988.0
+Karnataka,2018,Ph.D. Both,13300.0
+Karnataka,2017,Ph.D. Both,14190.0
+Karnataka,2016,Ph.D. Both,10841.0
+Kerala,2020,Ph.D. Both,8738.0
+Kerala,2019,Ph.D. Both,7504.0
+Kerala,2018,Ph.D. Both,6686.0
+Kerala,2017,Ph.D. Both,5911.0
+Kerala,2016,Ph.D. Both,5306.0
+Jammu and Kashmir,2020,Ph.D. Both,8.0
+Jammu and Kashmir,2019,Ph.D. Both,8.0
+Madhya Pradesh,2020,Ph.D. Both,6153.0
+Madhya Pradesh,2019,Ph.D. Both,5447.0
+Madhya Pradesh,2018,Ph.D. Both,4093.0
+Madhya Pradesh,2017,Ph.D. Both,3985.0
+Madhya Pradesh,2016,Ph.D. Both,3272.0
+Maharashtra,2020,Ph.D. Both,15751.0
+Maharashtra,2019,Ph.D. Both,11983.0
+Maharashtra,2018,Ph.D. Both,8796.0
+Maharashtra,2017,Ph.D. Both,9206.0
+Maharashtra,2016,Ph.D. Both,7528.0
+Manipur,2020,Ph.D. Both,1193.0
+Manipur,2019,Ph.D. Both,1045.0
+Manipur,2018,Ph.D. Both,1088.0
+Manipur,2017,Ph.D. Both,646.0
+Manipur,2016,Ph.D. Both,726.0
+Meghalaya,2020,Ph.D. Both,833.0
+Meghalaya,2019,Ph.D. Both,870.0
+Meghalaya,2018,Ph.D. Both,1153.0
+Meghalaya,2017,Ph.D. Both,979.0
+Meghalaya,2016,Ph.D. Both,963.0
+Mizoram,2020,Ph.D. Both,987.0
+Mizoram,2019,Ph.D. Both,867.0
+Mizoram,2018,Ph.D. Both,783.0
+Mizoram,2017,Ph.D. Both,643.0
+Mizoram,2016,Ph.D. Both,618.0
+Nagaland,2020,Ph.D. Both,593.0
+Nagaland,2019,Ph.D. Both,577.0
+Nagaland,2018,Ph.D. Both,492.0
+Nagaland,2017,Ph.D. Both,423.0
+Nagaland,2016,Ph.D. Both,232.0
+Odisha,2020,Ph.D. Both,3271.0
+Odisha,2019,Ph.D. Both,3346.0
+Odisha,2018,Ph.D. Both,3722.0
+Odisha,2017,Ph.D. Both,2982.0
+Odisha,2016,Ph.D. Both,2474.0
+Puducherry,2020,Ph.D. Both,596.0
+Puducherry,2019,Ph.D. Both,508.0
+Puducherry,2018,Ph.D. Both,802.0
+Puducherry,2017,Ph.D. Both,776.0
+Puducherry,2016,Ph.D. Both,938.0
+Punjab,2020,Ph.D. Both,9566.0
+Punjab,2019,Ph.D. Both,8999.0
+Punjab,2018,Ph.D. Both,9095.0
+Punjab,2017,Ph.D. Both,6877.0
+Punjab,2016,Ph.D. Both,6843.0
+Rajasthan,2020,Ph.D. Both,12967.0
+Rajasthan,2019,Ph.D. Both,10850.0
+Rajasthan,2018,Ph.D. Both,10441.0
+Rajasthan,2017,Ph.D. Both,7979.0
+Rajasthan,2016,Ph.D. Both,7010.0
+Sikkim,2020,Ph.D. Both,195.0
+Sikkim,2019,Ph.D. Both,410.0
+Sikkim,2018,Ph.D. Both,399.0
+Sikkim,2017,Ph.D. Both,130.0
+Sikkim,2016,Ph.D. Both,196.0
+Tamil Nadu,2020,Ph.D. Both,34411.0
+Tamil Nadu,2019,Ph.D. Both,30639.0
+Tamil Nadu,2018,Ph.D. Both,25820.0
+Tamil Nadu,2017,Ph.D. Both,29778.0
+Tamil Nadu,2016,Ph.D. Both,28684.0
+Telangana,2020,Ph.D. Both,6715.0
+Telangana,2019,Ph.D. Both,5508.0
+Telangana,2018,Ph.D. Both,3430.0
+Telangana,2017,Ph.D. Both,4884.0
+Telangana,2016,Ph.D. Both,4200.0
+Tripura,2020,Ph.D. Both,672.0
+Tripura,2019,Ph.D. Both,615.0
+Tripura,2018,Ph.D. Both,226.0
+Tripura,2017,Ph.D. Both,119.0
+Tripura,2016,Ph.D. Both,82.0
+Uttar Pradesh,2020,Ph.D. Both,19806.0
+Uttar Pradesh,2019,Ph.D. Both,23764.0
+Uttar Pradesh,2018,Ph.D. Both,19119.0
+Uttar Pradesh,2017,Ph.D. Both,15408.0
+Uttar Pradesh,2016,Ph.D. Both,13227.0
+Uttarakhand,2020,Ph.D. Both,6632.0
+Uttarakhand,2019,Ph.D. Both,5468.0
+Uttarakhand,2018,Ph.D. Both,4662.0
+Uttarakhand,2017,Ph.D. Both,3908.0
+Uttarakhand,2016,Ph.D. Both,3175.0
+West Bengal,2020,Ph.D. Both,13930.0
+West Bengal,2019,Ph.D. Both,12836.0
+West Bengal,2018,Ph.D. Both,11731.0
+West Bengal,2017,Ph.D. Both,6945.0
+West Bengal,2016,Ph.D. Both,6362.0
+India,2020,M.Phil. Male,6345.0
+India,2019,M.Phil. Male,9010.0
+India,2018,M.Phil. Male,11623.0
+India,2017,M.Phil. Male,12287.0
+India,2016,M.Phil. Male,16464.0
+Andhra Pradesh,2020,M.Phil. Male,70.0
+Andhra Pradesh,2019,M.Phil. Male,175.0
+Andhra Pradesh,2018,M.Phil. Male,249.0
+Andhra Pradesh,2017,M.Phil. Male,555.0
+Andhra Pradesh,2016,M.Phil. Male,790.0
+Arunachal Pradesh,2020,M.Phil. Male,56.0
+Arunachal Pradesh,2019,M.Phil. Male,57.0
+Arunachal Pradesh,2018,M.Phil. Male,47.0
+Arunachal Pradesh,2017,M.Phil. Male,43.0
+Arunachal Pradesh,2016,M.Phil. Male,48.0
+Assam,2020,M.Phil. Male,126.0
+Assam,2019,M.Phil. Male,245.0
+Assam,2018,M.Phil. Male,192.0
+Assam,2017,M.Phil. Male,129.0
+Assam,2016,M.Phil. Male,76.0
+Bihar,2020,M.Phil. Male,50.0
+Bihar,2019,M.Phil. Male,55.0
+Chandigarh,2020,M.Phil. Male,158.0
+Chandigarh,2019,M.Phil. Male,140.0
+Chandigarh,2018,M.Phil. Male,145.0
+Chandigarh,2017,M.Phil. Male,168.0
+Chandigarh,2016,M.Phil. Male,56.0
+Chhattisgarh,2020,M.Phil. Male,36.0
+Chhattisgarh,2019,M.Phil. Male,109.0
+Chhattisgarh,2018,M.Phil. Male,193.0
+Chhattisgarh,2017,M.Phil. Male,149.0
+Chhattisgarh,2016,M.Phil. Male,141.0
+Delhi,2020,M.Phil. Male,772.0
+Delhi,2019,M.Phil. Male,650.0
+Delhi,2018,M.Phil. Male,2402.0
+Delhi,2017,M.Phil. Male,1243.0
+Delhi,2016,M.Phil. Male,3028.0
+Goa,2020,M.Phil. Male,6.0
+Goa,2019,M.Phil. Male,1.0
+Goa,2016,M.Phil. Male,2.0
+Gujarat,2020,M.Phil. Male,135.0
+Gujarat,2019,M.Phil. Male,468.0
+Gujarat,2018,M.Phil. Male,470.0
+Gujarat,2017,M.Phil. Male,306.0
+Gujarat,2016,M.Phil. Male,352.0
+Haryana,2020,M.Phil. Male,104.0
+Haryana,2019,M.Phil. Male,80.0
+Haryana,2018,M.Phil. Male,154.0
+Haryana,2017,M.Phil. Male,170.0
+Haryana,2016,M.Phil. Male,208.0
+Himachal Pradesh,2020,M.Phil. Male,136.0
+Himachal Pradesh,2019,M.Phil. Male,118.0
+Himachal Pradesh,2018,M.Phil. Male,95.0
+Himachal Pradesh,2017,M.Phil. Male,92.0
+Himachal Pradesh,2016,M.Phil. Male,104.0
+Jammu and Kashmir,2020,M.Phil. Male,117.0
+Jammu and Kashmir,2019,M.Phil. Male,94.0
+Jammu and Kashmir,2018,M.Phil. Male,143.0
+Jammu and Kashmir,2017,M.Phil. Male,119.0
+Jammu and Kashmir,2016,M.Phil. Male,109.0
+Jharkhand,2020,M.Phil. Male,18.0
+Jharkhand,2019,M.Phil. Male,33.0
+Jharkhand,2018,M.Phil. Male,46.0
+Jharkhand,2017,M.Phil. Male,79.0
+Jharkhand,2016,M.Phil. Male,209.0
+Karnataka,2020,M.Phil. Male,60.0
+Karnataka,2019,M.Phil. Male,160.0
+Karnataka,2018,M.Phil. Male,152.0
+Karnataka,2017,M.Phil. Male,189.0
+Karnataka,2016,M.Phil. Male,198.0
+Kerala,2020,M.Phil. Male,207.0
+Kerala,2019,M.Phil. Male,197.0
+Kerala,2018,M.Phil. Male,204.0
+Kerala,2017,M.Phil. Male,280.0
+Kerala,2016,M.Phil. Male,165.0
+Madhya Pradesh,2020,M.Phil. Male,91.0
+Madhya Pradesh,2019,M.Phil. Male,427.0
+Madhya Pradesh,2018,M.Phil. Male,264.0
+Madhya Pradesh,2017,M.Phil. Male,299.0
+Madhya Pradesh,2016,M.Phil. Male,336.0
+Maharashtra,2020,M.Phil. Male,385.0
+Maharashtra,2019,M.Phil. Male,760.0
+Maharashtra,2018,M.Phil. Male,1007.0
+Maharashtra,2017,M.Phil. Male,1176.0
+Maharashtra,2016,M.Phil. Male,1300.0
+Manipur,2019,M.Phil. Male,2.0
+Manipur,2018,M.Phil. Male,1.0
+Meghalaya,2019,M.Phil. Male,10.0
+Meghalaya,2018,M.Phil. Male,29.0
+Meghalaya,2017,M.Phil. Male,29.0
+Meghalaya,2016,M.Phil. Male,108.0
+Mizoram,2020,M.Phil. Male,56.0
+Mizoram,2019,M.Phil. Male,75.0
+Mizoram,2018,M.Phil. Male,77.0
+Mizoram,2017,M.Phil. Male,71.0
+Mizoram,2016,M.Phil. Male,82.0
+Nagaland,2020,M.Phil. Male,23.0
+Nagaland,2019,M.Phil. Male,10.0
+Nagaland,2018,M.Phil. Male,6.0
+Nagaland,2017,M.Phil. Male,11.0
+Nagaland,2016,M.Phil. Male,1.0
+Odisha,2020,M.Phil. Male,352.0
+Odisha,2019,M.Phil. Male,419.0
+Odisha,2018,M.Phil. Male,523.0
+Odisha,2017,M.Phil. Male,404.0
+Odisha,2016,M.Phil. Male,471.0
+Puducherry,2019,M.Phil. Male,21.0
+Puducherry,2018,M.Phil. Male,12.0
+Puducherry,2017,M.Phil. Male,13.0
+Puducherry,2016,M.Phil. Male,19.0
+Punjab,2020,M.Phil. Male,142.0
+Punjab,2019,M.Phil. Male,307.0
+Punjab,2018,M.Phil. Male,369.0
+Punjab,2017,M.Phil. Male,389.0
+Punjab,2016,M.Phil. Male,509.0
+Rajasthan,2020,M.Phil. Male,166.0
+Rajasthan,2019,M.Phil. Male,261.0
+Rajasthan,2018,M.Phil. Male,116.0
+Rajasthan,2017,M.Phil. Male,173.0
+Rajasthan,2016,M.Phil. Male,420.0
+Sikkim,2020,M.Phil. Male,34.0
+Sikkim,2019,M.Phil. Male,43.0
+Sikkim,2018,M.Phil. Male,37.0
+Sikkim,2017,M.Phil. Male,9.0
+Sikkim,2016,M.Phil. Male,72.0
+Tamil Nadu,2020,M.Phil. Male,1696.0
+Tamil Nadu,2019,M.Phil. Male,2457.0
+Tamil Nadu,2018,M.Phil. Male,3281.0
+Tamil Nadu,2017,M.Phil. Male,4424.0
+Tamil Nadu,2016,M.Phil. Male,5850.0
+Telangana,2020,M.Phil. Male,106.0
+Telangana,2019,M.Phil. Male,203.0
+Telangana,2018,M.Phil. Male,106.0
+Telangana,2017,M.Phil. Male,454.0
+Telangana,2016,M.Phil. Male,384.0
+Tripura,2020,M.Phil. Male,2.0
+Uttar Pradesh,2020,M.Phil. Male,234.0
+Uttar Pradesh,2019,M.Phil. Male,217.0
+Uttar Pradesh,2018,M.Phil. Male,326.0
+Uttar Pradesh,2017,M.Phil. Male,350.0
+Uttar Pradesh,2016,M.Phil. Male,370.0
+Uttarakhand,2020,M.Phil. Male,4.0
+Uttarakhand,2019,M.Phil. Male,21.0
+Uttarakhand,2018,M.Phil. Male,18.0
+Uttarakhand,2017,M.Phil. Male,11.0
+Uttarakhand,2016,M.Phil. Male,7.0
+West Bengal,2020,M.Phil. Male,1003.0
+West Bengal,2019,M.Phil. Male,1195.0
+West Bengal,2018,M.Phil. Male,959.0
+West Bengal,2017,M.Phil. Male,952.0
+West Bengal,2016,M.Phil. Male,1049.0
+India,2020,M.Phil. Female,10399.0
+India,2019,M.Phil. Female,14855.0
+India,2018,M.Phil. Female,19069.0
+India,2017,M.Phil. Female,21822.0
+India,2016,M.Phil. Female,26803.0
+Andhra Pradesh,2020,M.Phil. Female,48.0
+Andhra Pradesh,2019,M.Phil. Female,102.0
+Andhra Pradesh,2018,M.Phil. Female,182.0
+Andhra Pradesh,2017,M.Phil. Female,342.0
+Andhra Pradesh,2016,M.Phil. Female,472.0
+Arunachal Pradesh,2020,M.Phil. Female,74.0
+Arunachal Pradesh,2019,M.Phil. Female,88.0
+Arunachal Pradesh,2018,M.Phil. Female,77.0
+Arunachal Pradesh,2017,M.Phil. Female,67.0
+Arunachal Pradesh,2016,M.Phil. Female,68.0
+Assam,2020,M.Phil. Female,180.0
+Assam,2019,M.Phil. Female,371.0
+Assam,2018,M.Phil. Female,272.0
+Assam,2017,M.Phil. Female,224.0
+Assam,2016,M.Phil. Female,152.0
+Bihar,2020,M.Phil. Female,23.0
+Bihar,2019,M.Phil. Female,15.0
+Chandigarh,2020,M.Phil. Female,29.0
+Chandigarh,2019,M.Phil. Female,48.0
+Chandigarh,2018,M.Phil. Female,43.0
+Chandigarh,2017,M.Phil. Female,67.0
+Chandigarh,2016,M.Phil. Female,87.0
+Chhattisgarh,2020,M.Phil. Female,22.0
+Chhattisgarh,2019,M.Phil. Female,89.0
+Chhattisgarh,2018,M.Phil. Female,151.0
+Chhattisgarh,2017,M.Phil. Female,150.0
+Chhattisgarh,2016,M.Phil. Female,136.0
+Delhi,2020,M.Phil. Female,764.0
+Delhi,2019,M.Phil. Female,672.0
+Delhi,2018,M.Phil. Female,2684.0
+Delhi,2017,M.Phil. Female,1380.0
+Delhi,2016,M.Phil. Female,3380.0
+Goa,2020,M.Phil. Female,2.0
+Goa,2019,M.Phil. Female,4.0
+Goa,2016,M.Phil. Female,1.0
+Gujarat,2020,M.Phil. Female,177.0
+Gujarat,2019,M.Phil. Female,469.0
+Gujarat,2018,M.Phil. Female,414.0
+Gujarat,2017,M.Phil. Female,291.0
+Gujarat,2016,M.Phil. Female,406.0
+Haryana,2020,M.Phil. Female,142.0
+Haryana,2019,M.Phil. Female,230.0
+Haryana,2018,M.Phil. Female,287.0
+Haryana,2017,M.Phil. Female,270.0
+Haryana,2016,M.Phil. Female,260.0
+Himachal Pradesh,2020,M.Phil. Female,134.0
+Himachal Pradesh,2019,M.Phil. Female,214.0
+Himachal Pradesh,2018,M.Phil. Female,179.0
+Himachal Pradesh,2017,M.Phil. Female,167.0
+Himachal Pradesh,2016,M.Phil. Female,163.0
+Jammu and Kashmir,2020,M.Phil. Female,180.0
+Jammu and Kashmir,2019,M.Phil. Female,156.0
+Jammu and Kashmir,2018,M.Phil. Female,174.0
+Jammu and Kashmir,2017,M.Phil. Female,123.0
+Jammu and Kashmir,2016,M.Phil. Female,143.0
+Jharkhand,2020,M.Phil. Female,63.0
+Jharkhand,2019,M.Phil. Female,74.0
+Jharkhand,2018,M.Phil. Female,110.0
+Jharkhand,2017,M.Phil. Female,125.0
+Jharkhand,2016,M.Phil. Female,368.0
+Karnataka,2020,M.Phil. Female,189.0
+Karnataka,2019,M.Phil. Female,368.0
+Karnataka,2018,M.Phil. Female,316.0
+Karnataka,2017,M.Phil. Female,338.0
+Karnataka,2016,M.Phil. Female,329.0
+Kerala,2020,M.Phil. Female,745.0
+Kerala,2019,M.Phil. Female,676.0
+Kerala,2018,M.Phil. Female,685.0
+Kerala,2017,M.Phil. Female,630.0
+Kerala,2016,M.Phil. Female,569.0
+Madhya Pradesh,2020,M.Phil. Female,58.0
+Madhya Pradesh,2019,M.Phil. Female,449.0
+Madhya Pradesh,2018,M.Phil. Female,379.0
+Madhya Pradesh,2017,M.Phil. Female,466.0
+Madhya Pradesh,2016,M.Phil. Female,547.0
+Maharashtra,2020,M.Phil. Female,349.0
+Maharashtra,2019,M.Phil. Female,716.0
+Maharashtra,2018,M.Phil. Female,1165.0
+Maharashtra,2017,M.Phil. Female,1245.0
+Maharashtra,2016,M.Phil. Female,1360.0
+Manipur,2020,M.Phil. Female,12.0
+Manipur,2019,M.Phil. Female,10.0
+Manipur,2018,M.Phil. Female,10.0
+Manipur,2017,M.Phil. Female,7.0
+Manipur,2016,M.Phil. Female,3.0
+Meghalaya,2019,M.Phil. Female,23.0
+Meghalaya,2018,M.Phil. Female,46.0
+Meghalaya,2017,M.Phil. Female,57.0
+Meghalaya,2016,M.Phil. Female,137.0
+Mizoram,2020,M.Phil. Female,59.0
+Mizoram,2019,M.Phil. Female,77.0
+Mizoram,2018,M.Phil. Female,112.0
+Mizoram,2017,M.Phil. Female,75.0
+Mizoram,2016,M.Phil. Female,95.0
+Nagaland,2020,M.Phil. Female,30.0
+Nagaland,2019,M.Phil. Female,28.0
+Nagaland,2018,M.Phil. Female,12.0
+Nagaland,2017,M.Phil. Female,23.0
+Nagaland,2016,M.Phil. Female,9.0
+Odisha,2020,M.Phil. Female,378.0
+Odisha,2019,M.Phil. Female,584.0
+Odisha,2018,M.Phil. Female,638.0
+Odisha,2017,M.Phil. Female,676.0
+Odisha,2016,M.Phil. Female,777.0
+Puducherry,2020,M.Phil. Female,2.0
+Puducherry,2019,M.Phil. Female,46.0
+Puducherry,2018,M.Phil. Female,54.0
+Puducherry,2017,M.Phil. Female,53.0
+Puducherry,2016,M.Phil. Female,61.0
+Punjab,2020,M.Phil. Female,169.0
+Punjab,2019,M.Phil. Female,315.0
+Punjab,2018,M.Phil. Female,367.0
+Punjab,2017,M.Phil. Female,513.0
+Punjab,2016,M.Phil. Female,714.0
+Rajasthan,2020,M.Phil. Female,104.0
+Rajasthan,2019,M.Phil. Female,203.0
+Rajasthan,2018,M.Phil. Female,160.0
+Rajasthan,2017,M.Phil. Female,182.0
+Rajasthan,2016,M.Phil. Female,191.0
+Sikkim,2020,M.Phil. Female,30.0
+Sikkim,2019,M.Phil. Female,44.0
+Sikkim,2018,M.Phil. Female,42.0
+Sikkim,2017,M.Phil. Female,17.0
+Sikkim,2016,M.Phil. Female,75.0
+Tamil Nadu,2020,M.Phil. Female,5007.0
+Tamil Nadu,2019,M.Phil. Female,7298.0
+Tamil Nadu,2018,M.Phil. Female,9144.0
+Tamil Nadu,2017,M.Phil. Female,12755.0
+Tamil Nadu,2016,M.Phil. Female,14811.0
+Telangana,2020,M.Phil. Female,74.0
+Telangana,2019,M.Phil. Female,170.0
+Telangana,2018,M.Phil. Female,123.0
+Telangana,2017,M.Phil. Female,340.0
+Telangana,2016,M.Phil. Female,230.0
+Tripura,2020,M.Phil. Female,10.0
+Uttar Pradesh,2020,M.Phil. Female,381.0
+Uttar Pradesh,2019,M.Phil. Female,320.0
+Uttar Pradesh,2018,M.Phil. Female,431.0
+Uttar Pradesh,2017,M.Phil. Female,510.0
+Uttar Pradesh,2016,M.Phil. Female,502.0
+Uttarakhand,2020,M.Phil. Female,1.0
+Uttarakhand,2019,M.Phil. Female,13.0
+Uttarakhand,2018,M.Phil. Female,9.0
+Uttarakhand,2017,M.Phil. Female,5.0
+Uttarakhand,2016,M.Phil. Female,4.0
+West Bengal,2020,M.Phil. Female,963.0
+West Bengal,2019,M.Phil. Female,983.0
+West Bengal,2018,M.Phil. Female,803.0
+West Bengal,2017,M.Phil. Female,724.0
+West Bengal,2016,M.Phil. Female,753.0
+India,2020,M.Phil. Both,16744.0
+India,2019,M.Phil. Both,23865.0
+India,2018,M.Phil. Both,30692.0
+India,2017,M.Phil. Both,34109.0
+India,2016,M.Phil. Both,43267.0
+Andhra Pradesh,2020,M.Phil. Both,118.0
+Andhra Pradesh,2019,M.Phil. Both,277.0
+Andhra Pradesh,2018,M.Phil. Both,431.0
+Andhra Pradesh,2017,M.Phil. Both,897.0
+Andhra Pradesh,2016,M.Phil. Both,1262.0
+Arunachal Pradesh,2020,M.Phil. Both,130.0
+Arunachal Pradesh,2019,M.Phil. Both,145.0
+Arunachal Pradesh,2018,M.Phil. Both,124.0
+Arunachal Pradesh,2017,M.Phil. Both,110.0
+Arunachal Pradesh,2016,M.Phil. Both,116.0
+Assam,2020,M.Phil. Both,306.0
+Assam,2019,M.Phil. Both,616.0
+Assam,2018,M.Phil. Both,464.0
+Assam,2017,M.Phil. Both,353.0
+Assam,2016,M.Phil. Both,228.0
+Bihar,2020,M.Phil. Both,73.0
+Bihar,2019,M.Phil. Both,70.0
+Chandigarh,2020,M.Phil. Both,187.0
+Chandigarh,2019,M.Phil. Both,188.0
+Chandigarh,2018,M.Phil. Both,188.0
+Chandigarh,2017,M.Phil. Both,235.0
+Chandigarh,2016,M.Phil. Both,143.0
+Chhattisgarh,2020,M.Phil. Both,58.0
+Chhattisgarh,2019,M.Phil. Both,198.0
+Chhattisgarh,2018,M.Phil. Both,344.0
+Chhattisgarh,2017,M.Phil. Both,299.0
+Chhattisgarh,2016,M.Phil. Both,277.0
+Delhi,2020,M.Phil. Both,1536.0
+Delhi,2019,M.Phil. Both,1322.0
+Delhi,2018,M.Phil. Both,5086.0
+Delhi,2017,M.Phil. Both,2623.0
+Delhi,2016,M.Phil. Both,6408.0
+Goa,2020,M.Phil. Both,8.0
+Goa,2019,M.Phil. Both,5.0
+Goa,2016,M.Phil. Both,3.0
+Gujarat,2020,M.Phil. Both,312.0
+Gujarat,2019,M.Phil. Both,937.0
+Gujarat,2018,M.Phil. Both,884.0
+Gujarat,2017,M.Phil. Both,597.0
+Gujarat,2016,M.Phil. Both,758.0
+Haryana,2020,M.Phil. Both,246.0
+Haryana,2019,M.Phil. Both,310.0
+Haryana,2018,M.Phil. Both,441.0
+Haryana,2017,M.Phil. Both,440.0
+Haryana,2016,M.Phil. Both,468.0
+Himachal Pradesh,2020,M.Phil. Both,270.0
+Himachal Pradesh,2019,M.Phil. Both,332.0
+Himachal Pradesh,2018,M.Phil. Both,274.0
+Himachal Pradesh,2017,M.Phil. Both,259.0
+Himachal Pradesh,2016,M.Phil. Both,267.0
+Jammu and Kashmir,2020,M.Phil. Both,297.0
+Jammu and Kashmir,2019,M.Phil. Both,250.0
+Jammu and Kashmir,2018,M.Phil. Both,317.0
+Jammu and Kashmir,2017,M.Phil. Both,242.0
+Jammu and Kashmir,2016,M.Phil. Both,252.0
+Jharkhand,2020,M.Phil. Both,81.0
+Jharkhand,2019,M.Phil. Both,107.0
+Jharkhand,2018,M.Phil. Both,156.0
+Jharkhand,2017,M.Phil. Both,204.0
+Jharkhand,2016,M.Phil. Both,577.0
+Karnataka,2020,M.Phil. Both,249.0
+Karnataka,2019,M.Phil. Both,528.0
+Karnataka,2018,M.Phil. Both,468.0
+Karnataka,2017,M.Phil. Both,527.0
+Karnataka,2016,M.Phil. Both,527.0
+Kerala,2020,M.Phil. Both,952.0
+Kerala,2019,M.Phil. Both,873.0
+Kerala,2018,M.Phil. Both,889.0
+Kerala,2017,M.Phil. Both,910.0
+Kerala,2016,M.Phil. Both,734.0
+Madhya Pradesh,2020,M.Phil. Both,149.0
+Madhya Pradesh,2019,M.Phil. Both,876.0
+Madhya Pradesh,2018,M.Phil. Both,643.0
+Madhya Pradesh,2017,M.Phil. Both,765.0
+Madhya Pradesh,2016,M.Phil. Both,883.0
+Maharashtra,2020,M.Phil. Both,734.0
+Maharashtra,2019,M.Phil. Both,1476.0
+Maharashtra,2018,M.Phil. Both,2172.0
+Maharashtra,2017,M.Phil. Both,2421.0
+Maharashtra,2016,M.Phil. Both,2660.0
+Manipur,2020,M.Phil. Both,12.0
+Manipur,2019,M.Phil. Both,12.0
+Manipur,2018,M.Phil. Both,11.0
+Manipur,2017,M.Phil. Both,7.0
+Manipur,2016,M.Phil. Both,3.0
+Meghalaya,2019,M.Phil. Both,33.0
+Meghalaya,2018,M.Phil. Both,75.0
+Meghalaya,2017,M.Phil. Both,86.0
+Meghalaya,2016,M.Phil. Both,245.0
+Mizoram,2020,M.Phil. Both,115.0
+Mizoram,2019,M.Phil. Both,152.0
+Mizoram,2018,M.Phil. Both,189.0
+Mizoram,2017,M.Phil. Both,146.0
+Mizoram,2016,M.Phil. Both,177.0
+Nagaland,2020,M.Phil. Both,53.0
+Nagaland,2019,M.Phil. Both,38.0
+Nagaland,2018,M.Phil. Both,18.0
+Nagaland,2017,M.Phil. Both,34.0
+Nagaland,2016,M.Phil. Both,10.0
+Odisha,2020,M.Phil. Both,730.0
+Odisha,2019,M.Phil. Both,1003.0
+Odisha,2018,M.Phil. Both,1161.0
+Odisha,2017,M.Phil. Both,1080.0
+Odisha,2016,M.Phil. Both,1248.0
+Puducherry,2020,M.Phil. Both,2.0
+Puducherry,2019,M.Phil. Both,67.0
+Puducherry,2018,M.Phil. Both,66.0
+Puducherry,2017,M.Phil. Both,66.0
+Puducherry,2016,M.Phil. Both,80.0
+Punjab,2020,M.Phil. Both,311.0
+Punjab,2019,M.Phil. Both,622.0
+Punjab,2018,M.Phil. Both,736.0
+Punjab,2017,M.Phil. Both,902.0
+Punjab,2016,M.Phil. Both,1223.0
+Rajasthan,2020,M.Phil. Both,270.0
+Rajasthan,2019,M.Phil. Both,464.0
+Rajasthan,2018,M.Phil. Both,276.0
+Rajasthan,2017,M.Phil. Both,355.0
+Rajasthan,2016,M.Phil. Both,611.0
+Sikkim,2020,M.Phil. Both,64.0
+Sikkim,2019,M.Phil. Both,87.0
+Sikkim,2018,M.Phil. Both,79.0
+Sikkim,2017,M.Phil. Both,26.0
+Sikkim,2016,M.Phil. Both,147.0
+Tamil Nadu,2020,M.Phil. Both,6703.0
+Tamil Nadu,2019,M.Phil. Both,9755.0
+Tamil Nadu,2018,M.Phil. Both,12425.0
+Tamil Nadu,2017,M.Phil. Both,17179.0
+Tamil Nadu,2016,M.Phil. Both,20661.0
+Telangana,2020,M.Phil. Both,180.0
+Telangana,2019,M.Phil. Both,373.0
+Telangana,2018,M.Phil. Both,229.0
+Telangana,2017,M.Phil. Both,794.0
+Telangana,2016,M.Phil. Both,614.0
+Tripura,2020,M.Phil. Both,12.0
+Uttar Pradesh,2020,M.Phil. Both,615.0
+Uttar Pradesh,2019,M.Phil. Both,537.0
+Uttar Pradesh,2018,M.Phil. Both,757.0
+Uttar Pradesh,2017,M.Phil. Both,860.0
+Uttar Pradesh,2016,M.Phil. Both,872.0
+Uttarakhand,2020,M.Phil. Both,5.0
+Uttarakhand,2019,M.Phil. Both,34.0
+Uttarakhand,2018,M.Phil. Both,27.0
+Uttarakhand,2017,M.Phil. Both,16.0
+Uttarakhand,2016,M.Phil. Both,11.0
+West Bengal,2020,M.Phil. Both,1966.0
+West Bengal,2019,M.Phil. Both,2178.0
+West Bengal,2018,M.Phil. Both,1762.0
+West Bengal,2017,M.Phil. Both,1676.0
+West Bengal,2016,M.Phil. Both,1802.0
+India,2020,Post Graduate Male,1496213.0
+India,2019,Post Graduate Male,1355452.0
+India,2018,Post Graduate Male,1306690.0
+India,2017,Post Graduate Male,1278165.0
+India,2016,Post Graduate Male,1266377.0
+Andaman and Nicobar Islands,2020,Post Graduate Male,69.0
+Andaman and Nicobar Islands,2019,Post Graduate Male,69.0
+Andaman and Nicobar Islands,2018,Post Graduate Male,133.0
+Andaman and Nicobar Islands,2017,Post Graduate Male,125.0
+Andaman and Nicobar Islands,2016,Post Graduate Male,130.0
+Andhra Pradesh,2020,Post Graduate Male,89655.0
+Andhra Pradesh,2019,Post Graduate Male,88923.0
+Andhra Pradesh,2018,Post Graduate Male,93827.0
+Andhra Pradesh,2017,Post Graduate Male,103187.0
+Andhra Pradesh,2016,Post Graduate Male,104560.0
+Arunachal Pradesh,2020,Post Graduate Male,4281.0
+Arunachal Pradesh,2019,Post Graduate Male,2874.0
+Arunachal Pradesh,2018,Post Graduate Male,2158.0
+Arunachal Pradesh,2017,Post Graduate Male,1659.0
+Arunachal Pradesh,2016,Post Graduate Male,1439.0
+Assam,2020,Post Graduate Male,13634.0
+Assam,2019,Post Graduate Male,12716.0
+Assam,2018,Post Graduate Male,13127.0
+Assam,2017,Post Graduate Male,12126.0
+Assam,2016,Post Graduate Male,10797.0
+Bihar,2020,Post Graduate Male,50051.0
+Bihar,2019,Post Graduate Male,37369.0
+Bihar,2018,Post Graduate Male,49296.0
+Bihar,2017,Post Graduate Male,37001.0
+Bihar,2016,Post Graduate Male,44327.0
+Chandigarh,2020,Post Graduate Male,4244.0
+Chandigarh,2019,Post Graduate Male,4482.0
+Chandigarh,2018,Post Graduate Male,4184.0
+Chandigarh,2017,Post Graduate Male,4854.0
+Chandigarh,2016,Post Graduate Male,4532.0
+Chhattisgarh,2020,Post Graduate Male,25566.0
+Chhattisgarh,2019,Post Graduate Male,23040.0
+Chhattisgarh,2018,Post Graduate Male,22060.0
+Chhattisgarh,2017,Post Graduate Male,19804.0
+Chhattisgarh,2016,Post Graduate Male,19086.0
+Delhi,2020,Post Graduate Male,20904.0
+Delhi,2019,Post Graduate Male,24635.0
+Delhi,2018,Post Graduate Male,25115.0
+Delhi,2017,Post Graduate Male,24109.0
+Delhi,2016,Post Graduate Male,22423.0
+Goa,2020,Post Graduate Male,2169.0
+Goa,2019,Post Graduate Male,1799.0
+Goa,2018,Post Graduate Male,1615.0
+Goa,2017,Post Graduate Male,1436.0
+Goa,2016,Post Graduate Male,1596.0
+Gujarat,2020,Post Graduate Male,79326.0
+Gujarat,2019,Post Graduate Male,62682.0
+Gujarat,2018,Post Graduate Male,57767.0
+Gujarat,2017,Post Graduate Male,55820.0
+Gujarat,2016,Post Graduate Male,65749.0
+Haryana,2020,Post Graduate Male,31622.0
+Haryana,2019,Post Graduate Male,28328.0
+Haryana,2018,Post Graduate Male,28449.0
+Haryana,2017,Post Graduate Male,26862.0
+Haryana,2016,Post Graduate Male,25922.0
+Himachal Pradesh,2020,Post Graduate Male,8255.0
+Himachal Pradesh,2019,Post Graduate Male,7680.0
+Himachal Pradesh,2018,Post Graduate Male,7690.0
+Himachal Pradesh,2017,Post Graduate Male,7402.0
+Himachal Pradesh,2016,Post Graduate Male,6621.0
+Jammu and Kashmir,2020,Post Graduate Male,9240.0
+Jammu and Kashmir,2019,Post Graduate Male,9412.0
+Jammu and Kashmir,2018,Post Graduate Male,9388.0
+Jammu and Kashmir,2017,Post Graduate Male,9729.0
+Jammu and Kashmir,2016,Post Graduate Male,8417.0
+Jharkhand,2020,Post Graduate Male,31936.0
+Jharkhand,2019,Post Graduate Male,32122.0
+Jharkhand,2018,Post Graduate Male,24359.0
+Jharkhand,2017,Post Graduate Male,21129.0
+Jharkhand,2016,Post Graduate Male,20497.0
+Karnataka,2020,Post Graduate Male,96240.0
+Karnataka,2019,Post Graduate Male,86081.0
+Karnataka,2018,Post Graduate Male,80841.0
+Karnataka,2017,Post Graduate Male,80938.0
+Karnataka,2016,Post Graduate Male,82065.0
+Kerala,2020,Post Graduate Male,25672.0
+Kerala,2019,Post Graduate Male,21928.0
+Kerala,2018,Post Graduate Male,20891.0
+Kerala,2017,Post Graduate Male,19937.0
+Kerala,2016,Post Graduate Male,21369.0
+Jammu and Kashmir,2020,Post Graduate Male,70.0
+Jammu and Kashmir,2019,Post Graduate Male,26.0
+Lakshadweep,2017,Post Graduate Male,4.0
+Lakshadweep,2016,Post Graduate Male,1.0
+Madhya Pradesh,2020,Post Graduate Male,148845.0
+Madhya Pradesh,2019,Post Graduate Male,116350.0
+Madhya Pradesh,2018,Post Graduate Male,90434.0
+Madhya Pradesh,2017,Post Graduate Male,83111.0
+Madhya Pradesh,2016,Post Graduate Male,79470.0
+Maharashtra,2020,Post Graduate Male,188587.0
+Maharashtra,2019,Post Graduate Male,184339.0
+Maharashtra,2018,Post Graduate Male,177933.0
+Maharashtra,2017,Post Graduate Male,159620.0
+Maharashtra,2016,Post Graduate Male,160932.0
+Manipur,2020,Post Graduate Male,3099.0
+Manipur,2019,Post Graduate Male,2744.0
+Manipur,2018,Post Graduate Male,2433.0
+Manipur,2017,Post Graduate Male,1995.0
+Manipur,2016,Post Graduate Male,2190.0
+Meghalaya,2020,Post Graduate Male,3125.0
+Meghalaya,2019,Post Graduate Male,2979.0
+Meghalaya,2018,Post Graduate Male,2479.0
+Meghalaya,2017,Post Graduate Male,2353.0
+Meghalaya,2016,Post Graduate Male,2100.0
+Mizoram,2020,Post Graduate Male,1127.0
+Mizoram,2019,Post Graduate Male,1143.0
+Mizoram,2018,Post Graduate Male,1217.0
+Mizoram,2017,Post Graduate Male,1168.0
+Mizoram,2016,Post Graduate Male,1076.0
+Nagaland,2020,Post Graduate Male,2077.0
+Nagaland,2019,Post Graduate Male,1346.0
+Nagaland,2018,Post Graduate Male,1299.0
+Nagaland,2017,Post Graduate Male,979.0
+Nagaland,2016,Post Graduate Male,951.0
+Odisha,2020,Post Graduate Male,38709.0
+Odisha,2019,Post Graduate Male,35798.0
+Odisha,2018,Post Graduate Male,31016.0
+Odisha,2017,Post Graduate Male,27040.0
+Odisha,2016,Post Graduate Male,25600.0
+Puducherry,2020,Post Graduate Male,5386.0
+Puducherry,2019,Post Graduate Male,4134.0
+Puducherry,2018,Post Graduate Male,3788.0
+Puducherry,2017,Post Graduate Male,3647.0
+Puducherry,2016,Post Graduate Male,3719.0
+Punjab,2020,Post Graduate Male,30225.0
+Punjab,2019,Post Graduate Male,30990.0
+Punjab,2018,Post Graduate Male,30100.0
+Punjab,2017,Post Graduate Male,34969.0
+Punjab,2016,Post Graduate Male,30003.0
+Rajasthan,2020,Post Graduate Male,66114.0
+Rajasthan,2019,Post Graduate Male,79931.0
+Rajasthan,2018,Post Graduate Male,55450.0
+Rajasthan,2017,Post Graduate Male,57743.0
+Rajasthan,2016,Post Graduate Male,46278.0
+Sikkim,2020,Post Graduate Male,1633.0
+Sikkim,2019,Post Graduate Male,1190.0
+Sikkim,2018,Post Graduate Male,1061.0
+Sikkim,2017,Post Graduate Male,1002.0
+Sikkim,2016,Post Graduate Male,774.0
+Tamil Nadu,2020,Post Graduate Male,106868.0
+Tamil Nadu,2019,Post Graduate Male,101932.0
+Tamil Nadu,2018,Post Graduate Male,110199.0
+Tamil Nadu,2017,Post Graduate Male,98085.0
+Tamil Nadu,2016,Post Graduate Male,100277.0
+Telangana,2020,Post Graduate Male,68545.0
+Telangana,2019,Post Graduate Male,65433.0
+Telangana,2018,Post Graduate Male,69250.0
+Telangana,2017,Post Graduate Male,76279.0
+Telangana,2016,Post Graduate Male,84340.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Post Graduate Male,259.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Post Graduate Male,188.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Post Graduate Male,175.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Post Graduate Male,126.0
+The Dadra and Nagar Haveli and Daman and Diu,2016,Post Graduate Male,121.0
+Tripura,2020,Post Graduate Male,2536.0
+Tripura,2019,Post Graduate Male,2136.0
+Tripura,2018,Post Graduate Male,2286.0
+Tripura,2017,Post Graduate Male,1673.0
+Tripura,2016,Post Graduate Male,1858.0
+Uttar Pradesh,2020,Post Graduate Male,250456.0
+Uttar Pradesh,2019,Post Graduate Male,214150.0
+Uttar Pradesh,2018,Post Graduate Male,221599.0
+Uttar Pradesh,2017,Post Graduate Male,241833.0
+Uttar Pradesh,2016,Post Graduate Male,229277.0
+Uttarakhand,2020,Post Graduate Male,31382.0
+Uttarakhand,2019,Post Graduate Male,22980.0
+Uttarakhand,2018,Post Graduate Male,23575.0
+Uttarakhand,2017,Post Graduate Male,21621.0
+Uttarakhand,2016,Post Graduate Male,20030.0
+West Bengal,2020,Post Graduate Male,54306.0
+West Bengal,2019,Post Graduate Male,43523.0
+West Bengal,2018,Post Graduate Male,41496.0
+West Bengal,2017,Post Graduate Male,38800.0
+West Bengal,2016,Post Graduate Male,37850.0
+India,2020,Post Graduate Female,1955015.0
+India,2019,Post Graduate Female,1835637.0
+India,2018,Post Graduate Female,1736745.0
+India,2017,Post Graduate Female,1657638.0
+India,2016,Post Graduate Female,1542745.0
+Andaman and Nicobar Islands,2020,Post Graduate Female,283.0
+Andaman and Nicobar Islands,2019,Post Graduate Female,283.0
+Andaman and Nicobar Islands,2018,Post Graduate Female,322.0
+Andaman and Nicobar Islands,2017,Post Graduate Female,313.0
+Andaman and Nicobar Islands,2016,Post Graduate Female,318.0
+Andhra Pradesh,2020,Post Graduate Female,91447.0
+Andhra Pradesh,2019,Post Graduate Female,85176.0
+Andhra Pradesh,2018,Post Graduate Female,82209.0
+Andhra Pradesh,2017,Post Graduate Female,85391.0
+Andhra Pradesh,2016,Post Graduate Female,81112.0
+Arunachal Pradesh,2020,Post Graduate Female,3678.0
+Arunachal Pradesh,2019,Post Graduate Female,2296.0
+Arunachal Pradesh,2018,Post Graduate Female,1635.0
+Arunachal Pradesh,2017,Post Graduate Female,1521.0
+Arunachal Pradesh,2016,Post Graduate Female,1417.0
+Assam,2020,Post Graduate Female,20125.0
+Assam,2019,Post Graduate Female,17995.0
+Assam,2018,Post Graduate Female,17545.0
+Assam,2017,Post Graduate Female,15972.0
+Assam,2016,Post Graduate Female,14105.0
+Bihar,2020,Post Graduate Female,48189.0
+Bihar,2019,Post Graduate Female,35886.0
+Bihar,2018,Post Graduate Female,40098.0
+Bihar,2017,Post Graduate Female,32460.0
+Bihar,2016,Post Graduate Female,33630.0
+Chandigarh,2020,Post Graduate Female,8142.0
+Chandigarh,2019,Post Graduate Female,8372.0
+Chandigarh,2018,Post Graduate Female,8052.0
+Chandigarh,2017,Post Graduate Female,8340.0
+Chandigarh,2016,Post Graduate Female,8091.0
+Chhattisgarh,2020,Post Graduate Female,39663.0
+Chhattisgarh,2019,Post Graduate Female,34523.0
+Chhattisgarh,2018,Post Graduate Female,30531.0
+Chhattisgarh,2017,Post Graduate Female,27619.0
+Chhattisgarh,2016,Post Graduate Female,25009.0
+Delhi,2020,Post Graduate Female,21417.0
+Delhi,2019,Post Graduate Female,24080.0
+Delhi,2018,Post Graduate Female,24578.0
+Delhi,2017,Post Graduate Female,24492.0
+Delhi,2016,Post Graduate Female,20826.0
+Goa,2020,Post Graduate Female,3376.0
+Goa,2019,Post Graduate Female,3139.0
+Goa,2018,Post Graduate Female,2846.0
+Goa,2017,Post Graduate Female,2563.0
+Goa,2016,Post Graduate Female,2672.0
+Gujarat,2020,Post Graduate Female,91062.0
+Gujarat,2019,Post Graduate Female,81184.0
+Gujarat,2018,Post Graduate Female,76620.0
+Gujarat,2017,Post Graduate Female,71116.0
+Gujarat,2016,Post Graduate Female,79069.0
+Haryana,2020,Post Graduate Female,57938.0
+Haryana,2019,Post Graduate Female,52669.0
+Haryana,2018,Post Graduate Female,52423.0
+Haryana,2017,Post Graduate Female,49009.0
+Haryana,2016,Post Graduate Female,47851.0
+Himachal Pradesh,2020,Post Graduate Female,11665.0
+Himachal Pradesh,2019,Post Graduate Female,10928.0
+Himachal Pradesh,2018,Post Graduate Female,10949.0
+Himachal Pradesh,2017,Post Graduate Female,11051.0
+Himachal Pradesh,2016,Post Graduate Female,10240.0
+Jammu and Kashmir,2020,Post Graduate Female,11038.0
+Jammu and Kashmir,2019,Post Graduate Female,9747.0
+Jammu and Kashmir,2018,Post Graduate Female,9852.0
+Jammu and Kashmir,2017,Post Graduate Female,10431.0
+Jammu and Kashmir,2016,Post Graduate Female,8882.0
+Jharkhand,2020,Post Graduate Female,48853.0
+Jharkhand,2019,Post Graduate Female,47381.0
+Jharkhand,2018,Post Graduate Female,34374.0
+Jharkhand,2017,Post Graduate Female,28978.0
+Jharkhand,2016,Post Graduate Female,24039.0
+Karnataka,2020,Post Graduate Female,125432.0
+Karnataka,2019,Post Graduate Female,111740.0
+Karnataka,2018,Post Graduate Female,101159.0
+Karnataka,2017,Post Graduate Female,96783.0
+Karnataka,2016,Post Graduate Female,87824.0
+Kerala,2020,Post Graduate Female,80026.0
+Kerala,2019,Post Graduate Female,69228.0
+Kerala,2018,Post Graduate Female,64717.0
+Kerala,2017,Post Graduate Female,60432.0
+Kerala,2016,Post Graduate Female,57243.0
+Jammu and Kashmir,2020,Post Graduate Female,23.0
+Jammu and Kashmir,2019,Post Graduate Female,28.0
+Lakshadweep,2020,Post Graduate Female,26.0
+Lakshadweep,2019,Post Graduate Female,26.0
+Lakshadweep,2018,Post Graduate Female,26.0
+Lakshadweep,2017,Post Graduate Female,33.0
+Lakshadweep,2016,Post Graduate Female,12.0
+Madhya Pradesh,2020,Post Graduate Female,175910.0
+Madhya Pradesh,2019,Post Graduate Female,150926.0
+Madhya Pradesh,2018,Post Graduate Female,112362.0
+Madhya Pradesh,2017,Post Graduate Female,99069.0
+Madhya Pradesh,2016,Post Graduate Female,92331.0
+Maharashtra,2020,Post Graduate Female,206097.0
+Maharashtra,2019,Post Graduate Female,215963.0
+Maharashtra,2018,Post Graduate Female,205550.0
+Maharashtra,2017,Post Graduate Female,172083.0
+Maharashtra,2016,Post Graduate Female,157145.0
+Manipur,2020,Post Graduate Female,4070.0
+Manipur,2019,Post Graduate Female,3274.0
+Manipur,2018,Post Graduate Female,2633.0
+Manipur,2017,Post Graduate Female,2211.0
+Manipur,2016,Post Graduate Female,2041.0
+Meghalaya,2020,Post Graduate Female,4882.0
+Meghalaya,2019,Post Graduate Female,4304.0
+Meghalaya,2018,Post Graduate Female,3772.0
+Meghalaya,2017,Post Graduate Female,3121.0
+Meghalaya,2016,Post Graduate Female,2855.0
+Mizoram,2020,Post Graduate Female,1313.0
+Mizoram,2019,Post Graduate Female,1173.0
+Mizoram,2018,Post Graduate Female,1174.0
+Mizoram,2017,Post Graduate Female,1183.0
+Mizoram,2016,Post Graduate Female,1045.0
+Nagaland,2020,Post Graduate Female,2865.0
+Nagaland,2019,Post Graduate Female,2205.0
+Nagaland,2018,Post Graduate Female,1996.0
+Nagaland,2017,Post Graduate Female,1444.0
+Nagaland,2016,Post Graduate Female,1403.0
+Odisha,2020,Post Graduate Female,36806.0
+Odisha,2019,Post Graduate Female,34649.0
+Odisha,2018,Post Graduate Female,30870.0
+Odisha,2017,Post Graduate Female,28156.0
+Odisha,2016,Post Graduate Female,23957.0
+Puducherry,2020,Post Graduate Female,7009.0
+Puducherry,2019,Post Graduate Female,5473.0
+Puducherry,2018,Post Graduate Female,4928.0
+Puducherry,2017,Post Graduate Female,4343.0
+Puducherry,2016,Post Graduate Female,4030.0
+Punjab,2020,Post Graduate Female,48376.0
+Punjab,2019,Post Graduate Female,57741.0
+Punjab,2018,Post Graduate Female,61071.0
+Punjab,2017,Post Graduate Female,72264.0
+Punjab,2016,Post Graduate Female,66793.0
+Rajasthan,2020,Post Graduate Female,105900.0
+Rajasthan,2019,Post Graduate Female,107686.0
+Rajasthan,2018,Post Graduate Female,88245.0
+Rajasthan,2017,Post Graduate Female,84109.0
+Rajasthan,2016,Post Graduate Female,70062.0
+Sikkim,2020,Post Graduate Female,2312.0
+Sikkim,2019,Post Graduate Female,1540.0
+Sikkim,2018,Post Graduate Female,1264.0
+Sikkim,2017,Post Graduate Female,1376.0
+Sikkim,2016,Post Graduate Female,1031.0
+Tamil Nadu,2020,Post Graduate Female,175312.0
+Tamil Nadu,2019,Post Graduate Female,180859.0
+Tamil Nadu,2018,Post Graduate Female,193722.0
+Tamil Nadu,2017,Post Graduate Female,173486.0
+Tamil Nadu,2016,Post Graduate Female,163173.0
+Telangana,2020,Post Graduate Female,87864.0
+Telangana,2019,Post Graduate Female,82606.0
+Telangana,2018,Post Graduate Female,85725.0
+Telangana,2017,Post Graduate Female,88296.0
+Telangana,2016,Post Graduate Female,81846.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Post Graduate Female,508.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Post Graduate Female,433.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Post Graduate Female,308.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Post Graduate Female,198.0
+The Dadra and Nagar Haveli and Daman and Diu,2016,Post Graduate Female,176.0
+Tripura,2020,Post Graduate Female,2425.0
+Tripura,2019,Post Graduate Female,1932.0
+Tripura,2018,Post Graduate Female,1867.0
+Tripura,2017,Post Graduate Female,1276.0
+Tripura,2016,Post Graduate Female,1386.0
+Uttar Pradesh,2020,Post Graduate Female,332791.0
+Uttar Pradesh,2019,Post Graduate Female,311564.0
+Uttar Pradesh,2018,Post Graduate Female,309829.0
+Uttar Pradesh,2017,Post Graduate Female,331580.0
+Uttar Pradesh,2016,Post Graduate Female,310861.0
+Uttarakhand,2020,Post Graduate Female,40142.0
+Uttarakhand,2019,Post Graduate Female,30380.0
+Uttarakhand,2018,Post Graduate Female,28739.0
+Uttarakhand,2017,Post Graduate Female,26538.0
+Uttarakhand,2016,Post Graduate Female,24165.0
+West Bengal,2020,Post Graduate Female,58050.0
+West Bengal,2019,Post Graduate Female,48248.0
+West Bengal,2018,Post Graduate Female,44754.0
+West Bengal,2017,Post Graduate Female,40401.0
+West Bengal,2016,Post Graduate Female,36105.0
+India,2020,Post Graduate Both,3451228.0
+India,2019,Post Graduate Both,3191089.0
+India,2018,Post Graduate Both,3043435.0
+India,2017,Post Graduate Both,2935803.0
+India,2016,Post Graduate Both,2809122.0
+Andaman and Nicobar Islands,2020,Post Graduate Both,352.0
+Andaman and Nicobar Islands,2019,Post Graduate Both,352.0
+Andaman and Nicobar Islands,2018,Post Graduate Both,455.0
+Andaman and Nicobar Islands,2017,Post Graduate Both,438.0
+Andaman and Nicobar Islands,2016,Post Graduate Both,448.0
+Andhra Pradesh,2020,Post Graduate Both,181102.0
+Andhra Pradesh,2019,Post Graduate Both,174099.0
+Andhra Pradesh,2018,Post Graduate Both,176036.0
+Andhra Pradesh,2017,Post Graduate Both,188578.0
+Andhra Pradesh,2016,Post Graduate Both,185672.0
+Arunachal Pradesh,2020,Post Graduate Both,7959.0
+Arunachal Pradesh,2019,Post Graduate Both,5170.0
+Arunachal Pradesh,2018,Post Graduate Both,3793.0
+Arunachal Pradesh,2017,Post Graduate Both,3180.0
+Arunachal Pradesh,2016,Post Graduate Both,2856.0
+Assam,2020,Post Graduate Both,33759.0
+Assam,2019,Post Graduate Both,30711.0
+Assam,2018,Post Graduate Both,30672.0
+Assam,2017,Post Graduate Both,28097.0
+Assam,2016,Post Graduate Both,24902.0
+Bihar,2020,Post Graduate Both,98240.0
+Bihar,2019,Post Graduate Both,73255.0
+Bihar,2018,Post Graduate Both,89394.0
+Bihar,2017,Post Graduate Both,69461.0
+Bihar,2016,Post Graduate Both,77957.0
+Chandigarh,2020,Post Graduate Both,12386.0
+Chandigarh,2019,Post Graduate Both,12854.0
+Chandigarh,2018,Post Graduate Both,12236.0
+Chandigarh,2017,Post Graduate Both,13194.0
+Chandigarh,2016,Post Graduate Both,12623.0
+Chhattisgarh,2020,Post Graduate Both,65229.0
+Chhattisgarh,2019,Post Graduate Both,57563.0
+Chhattisgarh,2018,Post Graduate Both,52591.0
+Chhattisgarh,2017,Post Graduate Both,47423.0
+Chhattisgarh,2016,Post Graduate Both,44095.0
+Delhi,2020,Post Graduate Both,42321.0
+Delhi,2019,Post Graduate Both,48715.0
+Delhi,2018,Post Graduate Both,49693.0
+Delhi,2017,Post Graduate Both,48602.0
+Delhi,2016,Post Graduate Both,43249.0
+Goa,2020,Post Graduate Both,5545.0
+Goa,2019,Post Graduate Both,4938.0
+Goa,2018,Post Graduate Both,4461.0
+Goa,2017,Post Graduate Both,3998.0
+Goa,2016,Post Graduate Both,4268.0
+Gujarat,2020,Post Graduate Both,170388.0
+Gujarat,2019,Post Graduate Both,143866.0
+Gujarat,2018,Post Graduate Both,134387.0
+Gujarat,2017,Post Graduate Both,126936.0
+Gujarat,2016,Post Graduate Both,144818.0
+Haryana,2020,Post Graduate Both,89560.0
+Haryana,2019,Post Graduate Both,80997.0
+Haryana,2018,Post Graduate Both,80872.0
+Haryana,2017,Post Graduate Both,75872.0
+Haryana,2016,Post Graduate Both,73773.0
+Himachal Pradesh,2020,Post Graduate Both,19920.0
+Himachal Pradesh,2019,Post Graduate Both,18608.0
+Himachal Pradesh,2018,Post Graduate Both,18639.0
+Himachal Pradesh,2017,Post Graduate Both,18453.0
+Himachal Pradesh,2016,Post Graduate Both,16861.0
+Jammu and Kashmir,2020,Post Graduate Both,20278.0
+Jammu and Kashmir,2019,Post Graduate Both,19159.0
+Jammu and Kashmir,2018,Post Graduate Both,19240.0
+Jammu and Kashmir,2017,Post Graduate Both,20160.0
+Jammu and Kashmir,2016,Post Graduate Both,17299.0
+Jharkhand,2020,Post Graduate Both,80789.0
+Jharkhand,2019,Post Graduate Both,79503.0
+Jharkhand,2018,Post Graduate Both,58733.0
+Jharkhand,2017,Post Graduate Both,50107.0
+Jharkhand,2016,Post Graduate Both,44536.0
+Karnataka,2020,Post Graduate Both,221672.0
+Karnataka,2019,Post Graduate Both,197821.0
+Karnataka,2018,Post Graduate Both,182000.0
+Karnataka,2017,Post Graduate Both,177721.0
+Karnataka,2016,Post Graduate Both,169889.0
+Kerala,2020,Post Graduate Both,105698.0
+Kerala,2019,Post Graduate Both,91156.0
+Kerala,2018,Post Graduate Both,85608.0
+Kerala,2017,Post Graduate Both,80369.0
+Kerala,2016,Post Graduate Both,78612.0
+Jammu and Kashmir,2020,Post Graduate Both,93.0
+Jammu and Kashmir,2019,Post Graduate Both,54.0
+Lakshadweep,2020,Post Graduate Both,26.0
+Lakshadweep,2019,Post Graduate Both,26.0
+Lakshadweep,2018,Post Graduate Both,26.0
+Lakshadweep,2017,Post Graduate Both,37.0
+Lakshadweep,2016,Post Graduate Both,13.0
+Madhya Pradesh,2020,Post Graduate Both,324755.0
+Madhya Pradesh,2019,Post Graduate Both,267276.0
+Madhya Pradesh,2018,Post Graduate Both,202796.0
+Madhya Pradesh,2017,Post Graduate Both,182180.0
+Madhya Pradesh,2016,Post Graduate Both,171801.0
+Maharashtra,2020,Post Graduate Both,394684.0
+Maharashtra,2019,Post Graduate Both,400302.0
+Maharashtra,2018,Post Graduate Both,383483.0
+Maharashtra,2017,Post Graduate Both,331703.0
+Maharashtra,2016,Post Graduate Both,318077.0
+Manipur,2020,Post Graduate Both,7169.0
+Manipur,2019,Post Graduate Both,6018.0
+Manipur,2018,Post Graduate Both,5066.0
+Manipur,2017,Post Graduate Both,4206.0
+Manipur,2016,Post Graduate Both,4231.0
+Meghalaya,2020,Post Graduate Both,8007.0
+Meghalaya,2019,Post Graduate Both,7283.0
+Meghalaya,2018,Post Graduate Both,6251.0
+Meghalaya,2017,Post Graduate Both,5473.0
+Meghalaya,2016,Post Graduate Both,4955.0
+Mizoram,2020,Post Graduate Both,2440.0
+Mizoram,2019,Post Graduate Both,2316.0
+Mizoram,2018,Post Graduate Both,2391.0
+Mizoram,2017,Post Graduate Both,2351.0
+Mizoram,2016,Post Graduate Both,2121.0
+Nagaland,2020,Post Graduate Both,4942.0
+Nagaland,2019,Post Graduate Both,3551.0
+Nagaland,2018,Post Graduate Both,3295.0
+Nagaland,2017,Post Graduate Both,2423.0
+Nagaland,2016,Post Graduate Both,2354.0
+Odisha,2020,Post Graduate Both,75515.0
+Odisha,2019,Post Graduate Both,70447.0
+Odisha,2018,Post Graduate Both,61886.0
+Odisha,2017,Post Graduate Both,55196.0
+Odisha,2016,Post Graduate Both,49557.0
+Puducherry,2020,Post Graduate Both,12395.0
+Puducherry,2019,Post Graduate Both,9607.0
+Puducherry,2018,Post Graduate Both,8716.0
+Puducherry,2017,Post Graduate Both,7990.0
+Puducherry,2016,Post Graduate Both,7749.0
+Punjab,2020,Post Graduate Both,78601.0
+Punjab,2019,Post Graduate Both,88731.0
+Punjab,2018,Post Graduate Both,91171.0
+Punjab,2017,Post Graduate Both,107232.0
+Punjab,2016,Post Graduate Both,96796.0
+Rajasthan,2020,Post Graduate Both,172014.0
+Rajasthan,2019,Post Graduate Both,187617.0
+Rajasthan,2018,Post Graduate Both,143695.0
+Rajasthan,2017,Post Graduate Both,141852.0
+Rajasthan,2016,Post Graduate Both,116340.0
+Sikkim,2020,Post Graduate Both,3945.0
+Sikkim,2019,Post Graduate Both,2730.0
+Sikkim,2018,Post Graduate Both,2325.0
+Sikkim,2017,Post Graduate Both,2378.0
+Sikkim,2016,Post Graduate Both,1805.0
+Tamil Nadu,2020,Post Graduate Both,282180.0
+Tamil Nadu,2019,Post Graduate Both,282791.0
+Tamil Nadu,2018,Post Graduate Both,303921.0
+Tamil Nadu,2017,Post Graduate Both,271571.0
+Tamil Nadu,2016,Post Graduate Both,263450.0
+Telangana,2020,Post Graduate Both,156409.0
+Telangana,2019,Post Graduate Both,148039.0
+Telangana,2018,Post Graduate Both,154975.0
+Telangana,2017,Post Graduate Both,164576.0
+Telangana,2016,Post Graduate Both,166186.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Post Graduate Both,767.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Post Graduate Both,621.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Post Graduate Both,483.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Post Graduate Both,324.0
+The Dadra and Nagar Haveli and Daman and Diu,2016,Post Graduate Both,297.0
+Tripura,2020,Post Graduate Both,4961.0
+Tripura,2019,Post Graduate Both,4068.0
+Tripura,2018,Post Graduate Both,4153.0
+Tripura,2017,Post Graduate Both,2950.0
+Tripura,2016,Post Graduate Both,3244.0
+Uttar Pradesh,2020,Post Graduate Both,583247.0
+Uttar Pradesh,2019,Post Graduate Both,525714.0
+Uttar Pradesh,2018,Post Graduate Both,531428.0
+Uttar Pradesh,2017,Post Graduate Both,573413.0
+Uttar Pradesh,2016,Post Graduate Both,540138.0
+Uttarakhand,2020,Post Graduate Both,71524.0
+Uttarakhand,2019,Post Graduate Both,53360.0
+Uttarakhand,2018,Post Graduate Both,52314.0
+Uttarakhand,2017,Post Graduate Both,48159.0
+Uttarakhand,2016,Post Graduate Both,44195.0
+West Bengal,2020,Post Graduate Both,112356.0
+West Bengal,2019,Post Graduate Both,91771.0
+West Bengal,2018,Post Graduate Both,86250.0
+West Bengal,2017,Post Graduate Both,79201.0
+West Bengal,2016,Post Graduate Both,73955.0
+India,2020,Under Graduate Male,15009256.0
+India,2019,Under Graduate Male,13817639.0
+India,2018,Under Graduate Male,13586745.0
+India,2017,Under Graduate Male,13484766.15
+India,2016,Under Graduate Male,13383665.0
+Andaman and Nicobar Islands,2020,Under Graduate Male,2473.0
+Andaman and Nicobar Islands,2019,Under Graduate Male,1933.0
+Andaman and Nicobar Islands,2018,Under Graduate Male,2322.0
+Andaman and Nicobar Islands,2017,Under Graduate Male,2178.0
+Andaman and Nicobar Islands,2016,Under Graduate Male,2165.0
+Andhra Pradesh,2020,Under Graduate Male,765880.0
+Andhra Pradesh,2019,Under Graduate Male,671286.0
+Andhra Pradesh,2018,Under Graduate Male,653301.0
+Andhra Pradesh,2017,Under Graduate Male,660999.0
+Andhra Pradesh,2016,Under Graduate Male,625596.0
+Arunachal Pradesh,2020,Under Graduate Male,19091.0
+Arunachal Pradesh,2019,Under Graduate Male,16058.0
+Arunachal Pradesh,2018,Under Graduate Male,14019.0
+Arunachal Pradesh,2017,Under Graduate Male,13539.0
+Arunachal Pradesh,2016,Under Graduate Male,13139.0
+Assam,2020,Under Graduate Male,282547.0
+Assam,2019,Under Graduate Male,241521.0
+Assam,2018,Under Graduate Male,265072.0
+Assam,2017,Under Graduate Male,251898.0
+Assam,2016,Under Graduate Male,248429.0
+Bihar,2020,Under Graduate Male,1057661.0
+Bihar,2019,Under Graduate Male,801196.0
+Bihar,2018,Under Graduate Male,760584.0
+Bihar,2017,Under Graduate Male,723821.0
+Bihar,2016,Under Graduate Male,796541.0
+Chandigarh,2020,Under Graduate Male,26105.0
+Chandigarh,2019,Under Graduate Male,26617.0
+Chandigarh,2018,Under Graduate Male,26406.0
+Chandigarh,2017,Under Graduate Male,26276.0
+Chandigarh,2016,Under Graduate Male,25672.0
+Chhattisgarh,2020,Under Graduate Male,203718.0
+Chhattisgarh,2019,Under Graduate Male,173403.0
+Chhattisgarh,2018,Under Graduate Male,171481.0
+Chhattisgarh,2017,Under Graduate Male,166217.0
+Chhattisgarh,2016,Under Graduate Male,163885.0
+Delhi,2020,Under Graduate Male,167197.0
+Delhi,2019,Under Graduate Male,162498.0
+Delhi,2018,Under Graduate Male,159224.0
+Delhi,2017,Under Graduate Male,157782.0
+Delhi,2016,Under Graduate Male,149412.0
+Goa,2020,Under Graduate Male,17717.0
+Goa,2019,Under Graduate Male,15641.0
+Goa,2018,Under Graduate Male,16567.0
+Goa,2017,Under Graduate Male,13379.0
+Goa,2016,Under Graduate Male,12906.0
+Gujarat,2020,Under Graduate Male,675468.0
+Gujarat,2019,Under Graduate Male,652694.0
+Gujarat,2018,Under Graduate Male,619723.0
+Gujarat,2017,Under Graduate Male,615711.0
+Gujarat,2016,Under Graduate Male,607268.0
+Haryana,2020,Under Graduate Male,305577.0
+Haryana,2019,Under Graduate Male,282926.0
+Haryana,2018,Under Graduate Male,297161.0
+Haryana,2017,Under Graduate Male,306411.0
+Haryana,2016,Under Graduate Male,303902.0
+Himachal Pradesh,2020,Under Graduate Male,86266.0
+Himachal Pradesh,2019,Under Graduate Male,88779.0
+Himachal Pradesh,2018,Under Graduate Male,89450.0
+Himachal Pradesh,2017,Under Graduate Male,87359.0
+Himachal Pradesh,2016,Under Graduate Male,88384.0
+Jammu and Kashmir,2020,Under Graduate Male,109709.0
+Jammu and Kashmir,2019,Under Graduate Male,112144.0
+Jammu and Kashmir,2018,Under Graduate Male,108605.0
+Jammu and Kashmir,2017,Under Graduate Male,97068.0
+Jammu and Kashmir,2016,Under Graduate Male,95847.0
+Jharkhand,2020,Under Graduate Male,286992.0
+Jharkhand,2019,Under Graduate Male,300527.0
+Jharkhand,2018,Under Graduate Male,281348.0
+Jharkhand,2017,Under Graduate Male,278327.0
+Jharkhand,2016,Under Graduate Male,274718.0
+Karnataka,2020,Under Graduate Male,909437.0
+Karnataka,2019,Under Graduate Male,828434.0
+Karnataka,2018,Under Graduate Male,754255.0
+Karnataka,2017,Under Graduate Male,719930.0
+Karnataka,2016,Under Graduate Male,697936.0
+Kerala,2020,Under Graduate Male,328404.0
+Kerala,2019,Under Graduate Male,287531.0
+Kerala,2018,Under Graduate Male,281525.0
+Kerala,2017,Under Graduate Male,276683.0
+Kerala,2016,Under Graduate Male,273120.0
+Jammu and Kashmir,2020,Under Graduate Male,740.0
+Jammu and Kashmir,2019,Under Graduate Male,798.0
+Lakshadweep,2020,Under Graduate Male,133.0
+Lakshadweep,2019,Under Graduate Male,133.0
+Lakshadweep,2018,Under Graduate Male,127.0
+Lakshadweep,2017,Under Graduate Male,112.0
+Lakshadweep,2016,Under Graduate Male,148.0
+Madhya Pradesh,2020,Under Graduate Male,998782.0
+Madhya Pradesh,2019,Under Graduate Male,825452.0
+Madhya Pradesh,2018,Under Graduate Male,719279.0
+Madhya Pradesh,2017,Under Graduate Male,700005.0
+Madhya Pradesh,2016,Under Graduate Male,678062.0
+Maharashtra,2020,Under Graduate Male,1581859.0
+Maharashtra,2019,Under Graduate Male,1504364.0
+Maharashtra,2018,Under Graduate Male,1504130.0
+Maharashtra,2017,Under Graduate Male,1443382.0
+Maharashtra,2016,Under Graduate Male,1429213.0
+Manipur,2020,Under Graduate Male,60239.0
+Manipur,2019,Under Graduate Male,52759.0
+Manipur,2018,Under Graduate Male,46921.0
+Manipur,2017,Under Graduate Male,43572.0
+Manipur,2016,Under Graduate Male,42698.0
+Meghalaya,2020,Under Graduate Male,35316.0
+Meghalaya,2019,Under Graduate Male,32135.0
+Meghalaya,2018,Under Graduate Male,31975.0
+Meghalaya,2017,Under Graduate Male,31670.0
+Meghalaya,2016,Under Graduate Male,31345.0
+Mizoram,2020,Under Graduate Male,13723.0
+Mizoram,2019,Under Graduate Male,10938.0
+Mizoram,2018,Under Graduate Male,10794.0
+Mizoram,2017,Under Graduate Male,10263.0
+Mizoram,2016,Under Graduate Male,11030.0
+Nagaland,2020,Under Graduate Male,17094.0
+Nagaland,2019,Under Graduate Male,16442.0
+Nagaland,2018,Under Graduate Male,16205.0
+Nagaland,2017,Under Graduate Male,15678.0
+Nagaland,2016,Under Graduate Male,14901.0
+Odisha,2020,Under Graduate Male,353485.0
+Odisha,2019,Under Graduate Male,363971.0
+Odisha,2018,Under Graduate Male,394120.0
+Odisha,2017,Under Graduate Male,390228.0
+Odisha,2016,Under Graduate Male,385789.0
+Puducherry,2020,Under Graduate Male,26497.0
+Puducherry,2019,Under Graduate Male,22863.0
+Puducherry,2018,Under Graduate Male,23585.0
+Puducherry,2017,Under Graduate Male,20473.0
+Puducherry,2016,Under Graduate Male,19615.0
+Punjab,2020,Under Graduate Male,279028.0
+Punjab,2019,Under Graduate Male,289293.0
+Punjab,2018,Under Graduate Male,304502.0
+Punjab,2017,Under Graduate Male,335220.0
+Punjab,2016,Under Graduate Male,312815.0
+Rajasthan,2020,Under Graduate Male,922456.0
+Rajasthan,2019,Under Graduate Male,837759.0
+Rajasthan,2018,Under Graduate Male,834092.0
+Rajasthan,2017,Under Graduate Male,784493.0
+Rajasthan,2016,Under Graduate Male,758502.0
+Sikkim,2020,Under Graduate Male,10347.0
+Sikkim,2019,Under Graduate Male,8412.0
+Sikkim,2018,Under Graduate Male,8156.0
+Sikkim,2017,Under Graduate Male,7129.0
+Sikkim,2016,Under Graduate Male,6699.0
+Tamil Nadu,2020,Under Graduate Male,1091024.0
+Tamil Nadu,2019,Under Graduate Male,1094717.0
+Tamil Nadu,2018,Under Graduate Male,1085926.0
+Tamil Nadu,2017,Under Graduate Male,1072395.0
+Tamil Nadu,2016,Under Graduate Male,1041425.0
+Telangana,2020,Under Graduate Male,561388.0
+Telangana,2019,Under Graduate Male,511433.0
+Telangana,2018,Under Graduate Male,529253.0
+Telangana,2017,Under Graduate Male,549751.0
+Telangana,2016,Under Graduate Male,566916.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Under Graduate Male,4020.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Under Graduate Male,3436.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Under Graduate Male,3127.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Under Graduate Male,2707.0
+The Dadra and Nagar Haveli and Daman and Diu,2016,Under Graduate Male,2784.0
+Tripura,2020,Under Graduate Male,35886.0
+Tripura,2019,Under Graduate Male,34858.0
+Tripura,2018,Under Graduate Male,32051.0
+Tripura,2017,Under Graduate Male,31857.0
+Tripura,2016,Under Graduate Male,34293.0
+Uttar Pradesh,2020,Under Graduate Male,2781718.0
+Uttar Pradesh,2019,Under Graduate Male,2594537.0
+Uttar Pradesh,2018,Under Graduate Male,2607963.0
+Uttar Pradesh,2017,Under Graduate Male,2723792.0
+Uttar Pradesh,2016,Under Graduate Male,2703343.0
+Uttarakhand,2020,Under Graduate Male,194631.0
+Uttarakhand,2019,Under Graduate Male,157586.0
+Uttarakhand,2018,Under Graduate Male,157059.0
+Uttarakhand,2017,Under Graduate Male,144591.0
+Uttarakhand,2016,Under Graduate Male,139084.0
+West Bengal,2020,Under Graduate Male,796648.0
+West Bengal,2019,Under Graduate Male,792565.0
+West Bengal,2018,Under Graduate Male,776437.0
+West Bengal,2017,Under Graduate Male,779869.0
+West Bengal,2016,Under Graduate Male,826083.0
+India,2020,Under Graduate Female,14687217.0
+India,2019,Under Graduate Female,13911801.0
+India,2018,Under Graduate Female,13542118.0
+India,2017,Under Graduate Female,12977172.6
+India,2016,Under Graduate Female,12307907.0
+Andaman and Nicobar Islands,2020,Under Graduate Female,3423.0
+Andaman and Nicobar Islands,2019,Under Graduate Female,2757.0
+Andaman and Nicobar Islands,2018,Under Graduate Female,3573.0
+Andaman and Nicobar Islands,2017,Under Graduate Female,3145.0
+Andaman and Nicobar Islands,2016,Under Graduate Female,2974.0
+Andhra Pradesh,2020,Under Graduate Female,704221.0
+Andhra Pradesh,2019,Under Graduate Female,602648.0
+Andhra Pradesh,2018,Under Graduate Female,567063.0
+Andhra Pradesh,2017,Under Graduate Female,549687.0
+Andhra Pradesh,2016,Under Graduate Female,503014.0
+Arunachal Pradesh,2020,Under Graduate Female,15895.0
+Arunachal Pradesh,2019,Under Graduate Female,13373.0
+Arunachal Pradesh,2018,Under Graduate Female,12954.0
+Arunachal Pradesh,2017,Under Graduate Female,12775.0
+Arunachal Pradesh,2016,Under Graduate Female,11893.0
+Assam,2020,Under Graduate Female,295148.0
+Assam,2019,Under Graduate Female,259643.0
+Assam,2018,Under Graduate Female,276843.0
+Assam,2017,Under Graduate Female,263822.0
+Assam,2016,Under Graduate Female,248071.0
+Bihar,2020,Under Graduate Female,864953.0
+Bihar,2019,Under Graduate Female,647494.0
+Bihar,2018,Under Graduate Female,580133.0
+Bihar,2017,Under Graduate Female,550366.0
+Bihar,2016,Under Graduate Female,597755.0
+Chandigarh,2020,Under Graduate Female,28727.0
+Chandigarh,2019,Under Graduate Female,28722.0
+Chandigarh,2018,Under Graduate Female,28567.0
+Chandigarh,2017,Under Graduate Female,29050.0
+Chandigarh,2016,Under Graduate Female,27863.0
+Chhattisgarh,2020,Under Graduate Female,251446.0
+Chhattisgarh,2019,Under Graduate Female,219635.0
+Chhattisgarh,2018,Under Graduate Female,204922.0
+Chhattisgarh,2017,Under Graduate Female,188330.0
+Chhattisgarh,2016,Under Graduate Female,172395.0
+Delhi,2020,Under Graduate Female,185508.0
+Delhi,2019,Under Graduate Female,178598.0
+Delhi,2018,Under Graduate Female,169739.0
+Delhi,2017,Under Graduate Female,164764.0
+Delhi,2016,Under Graduate Female,151142.0
+Goa,2020,Under Graduate Female,21797.0
+Goa,2019,Under Graduate Female,20727.0
+Goa,2018,Under Graduate Female,21225.0
+Goa,2017,Under Graduate Female,19031.0
+Goa,2016,Under Graduate Female,17831.0
+Gujarat,2020,Under Graduate Female,523944.0
+Gujarat,2019,Under Graduate Female,509260.0
+Gujarat,2018,Under Graduate Female,479352.0
+Gujarat,2017,Under Graduate Female,471275.0
+Gujarat,2016,Under Graduate Female,455387.0
+Haryana,2020,Under Graduate Female,349690.0
+Haryana,2019,Under Graduate Female,333714.0
+Haryana,2018,Under Graduate Female,339410.0
+Haryana,2017,Under Graduate Female,304134.0
+Haryana,2016,Under Graduate Female,284392.0
+Himachal Pradesh,2020,Under Graduate Female,110790.0
+Himachal Pradesh,2019,Under Graduate Female,113683.0
+Himachal Pradesh,2018,Under Graduate Female,113337.0
+Himachal Pradesh,2017,Under Graduate Female,109341.0
+Himachal Pradesh,2016,Under Graduate Female,104863.0
+Jammu and Kashmir,2020,Under Graduate Female,121257.0
+Jammu and Kashmir,2019,Under Graduate Female,118427.0
+Jammu and Kashmir,2018,Under Graduate Female,127493.0
+Jammu and Kashmir,2017,Under Graduate Female,121183.0
+Jammu and Kashmir,2016,Under Graduate Female,113913.0
+Jharkhand,2020,Under Graduate Female,299084.0
+Jharkhand,2019,Under Graduate Female,314385.0
+Jharkhand,2018,Under Graduate Female,285456.0
+Jharkhand,2017,Under Graduate Female,278589.0
+Jharkhand,2016,Under Graduate Female,263353.0
+Karnataka,2020,Under Graduate Female,902573.0
+Karnataka,2019,Under Graduate Female,847140.0
+Karnataka,2018,Under Graduate Female,777917.0
+Karnataka,2017,Under Graduate Female,756748.0
+Karnataka,2016,Under Graduate Female,708806.0
+Kerala,2020,Under Graduate Female,464401.0
+Kerala,2019,Under Graduate Female,410502.0
+Kerala,2018,Under Graduate Female,397212.0
+Kerala,2017,Under Graduate Female,392323.0
+Kerala,2016,Under Graduate Female,368794.0
+Jammu and Kashmir,2020,Under Graduate Female,1738.0
+Jammu and Kashmir,2019,Under Graduate Female,1746.0
+Lakshadweep,2020,Under Graduate Female,401.0
+Lakshadweep,2019,Under Graduate Female,401.0
+Lakshadweep,2018,Under Graduate Female,392.0
+Lakshadweep,2017,Under Graduate Female,403.0
+Lakshadweep,2016,Under Graduate Female,363.0
+Madhya Pradesh,2020,Under Graduate Female,903915.0
+Madhya Pradesh,2019,Under Graduate Female,753608.0
+Madhya Pradesh,2018,Under Graduate Female,648370.0
+Madhya Pradesh,2017,Under Graduate Female,604738.0
+Madhya Pradesh,2016,Under Graduate Female,562793.0
+Maharashtra,2020,Under Graduate Female,1341819.0
+Maharashtra,2019,Under Graduate Female,1341482.0
+Maharashtra,2018,Under Graduate Female,1321255.0
+Maharashtra,2017,Under Graduate Female,1282847.0
+Maharashtra,2016,Under Graduate Female,1213913.0
+Manipur,2020,Under Graduate Female,59595.0
+Manipur,2019,Under Graduate Female,54453.0
+Manipur,2018,Under Graduate Female,47938.0
+Manipur,2017,Under Graduate Female,47757.0
+Manipur,2016,Under Graduate Female,44860.0
+Meghalaya,2020,Under Graduate Female,43731.0
+Meghalaya,2019,Under Graduate Female,37234.0
+Meghalaya,2018,Under Graduate Female,36789.0
+Meghalaya,2017,Under Graduate Female,34497.0
+Meghalaya,2016,Under Graduate Female,31952.0
+Mizoram,2020,Under Graduate Female,12815.0
+Mizoram,2019,Under Graduate Female,9351.0
+Mizoram,2018,Under Graduate Female,9069.0
+Mizoram,2017,Under Graduate Female,8879.0
+Mizoram,2016,Under Graduate Female,9661.0
+Nagaland,2020,Under Graduate Female,18734.0
+Nagaland,2019,Under Graduate Female,18743.0
+Nagaland,2018,Under Graduate Female,17857.0
+Nagaland,2017,Under Graduate Female,16947.0
+Nagaland,2016,Under Graduate Female,15810.0
+Odisha,2020,Under Graduate Female,354989.0
+Odisha,2019,Under Graduate Female,353662.0
+Odisha,2018,Under Graduate Female,357910.0
+Odisha,2017,Under Graduate Female,375364.0
+Odisha,2016,Under Graduate Female,354689.0
+Puducherry,2020,Under Graduate Female,32765.0
+Puducherry,2019,Under Graduate Female,28309.0
+Puducherry,2018,Under Graduate Female,28067.0
+Puducherry,2017,Under Graduate Female,25118.0
+Puducherry,2016,Under Graduate Female,23516.0
+Punjab,2020,Under Graduate Female,272962.0
+Punjab,2019,Under Graduate Female,302541.0
+Punjab,2018,Under Graduate Female,351837.0
+Punjab,2017,Under Graduate Female,339528.0
+Punjab,2016,Under Graduate Female,301284.0
+Rajasthan,2020,Under Graduate Female,877498.0
+Rajasthan,2019,Under Graduate Female,823253.0
+Rajasthan,2018,Under Graduate Female,819343.0
+Rajasthan,2017,Under Graduate Female,712336.0
+Rajasthan,2016,Under Graduate Female,662449.0
+Sikkim,2020,Under Graduate Female,10389.0
+Sikkim,2019,Under Graduate Female,9660.0
+Sikkim,2018,Under Graduate Female,9367.0
+Sikkim,2017,Under Graduate Female,8897.0
+Sikkim,2016,Under Graduate Female,7760.0
+Tamil Nadu,2020,Under Graduate Female,1186072.0
+Tamil Nadu,2019,Under Graduate Female,1194788.0
+Tamil Nadu,2018,Under Graduate Female,1178654.0
+Tamil Nadu,2017,Under Graduate Female,1177662.0
+Tamil Nadu,2016,Under Graduate Female,1096983.0
+Telangana,2020,Under Graduate Female,593419.0
+Telangana,2019,Under Graduate Female,552425.0
+Telangana,2018,Under Graduate Female,559635.0
+Telangana,2017,Under Graduate Female,518250.0
+Telangana,2016,Under Graduate Female,520211.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Under Graduate Female,4681.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Under Graduate Female,4165.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Under Graduate Female,3834.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Under Graduate Female,3689.0
+The Dadra and Nagar Haveli and Daman and Diu,2016,Under Graduate Female,3422.0
+Tripura,2020,Under Graduate Female,32179.0
+Tripura,2019,Under Graduate Female,28462.0
+Tripura,2018,Under Graduate Female,27988.0
+Tripura,2017,Under Graduate Female,29014.0
+Tripura,2016,Under Graduate Female,29052.0
+Uttar Pradesh,2020,Under Graduate Female,2708037.0
+Uttar Pradesh,2019,Under Graduate Female,2742207.0
+Uttar Pradesh,2018,Under Graduate Female,2755880.0
+Uttar Pradesh,2017,Under Graduate Female,2635230.0
+Uttar Pradesh,2016,Under Graduate Female,2474977.0
+Uttarakhand,2020,Under Graduate Female,207892.0
+Uttarakhand,2019,Under Graduate Female,158781.0
+Uttarakhand,2018,Under Graduate Female,155233.0
+Uttarakhand,2017,Under Graduate Female,149171.0
+Uttarakhand,2016,Under Graduate Female,140816.0
+West Bengal,2020,Under Graduate Female,880729.0
+West Bengal,2019,Under Graduate Female,875822.0
+West Bengal,2018,Under Graduate Female,827504.0
+West Bengal,2017,Under Graduate Female,792280.0
+West Bengal,2016,Under Graduate Female,780950.0
+India,2020,Under Graduate Both,29696473.0
+India,2019,Under Graduate Both,27729440.0
+India,2018,Under Graduate Both,27128863.0
+India,2017,Under Graduate Both,26461938.74
+India,2016,Under Graduate Both,25691572.0
+Andaman and Nicobar Islands,2020,Under Graduate Both,5896.0
+Andaman and Nicobar Islands,2019,Under Graduate Both,4690.0
+Andaman and Nicobar Islands,2018,Under Graduate Both,5895.0
+Andaman and Nicobar Islands,2017,Under Graduate Both,5323.0
+Andaman and Nicobar Islands,2016,Under Graduate Both,5139.0
+Andhra Pradesh,2020,Under Graduate Both,1470101.0
+Andhra Pradesh,2019,Under Graduate Both,1273934.0
+Andhra Pradesh,2018,Under Graduate Both,1220364.0
+Andhra Pradesh,2017,Under Graduate Both,1210686.002
+Andhra Pradesh,2016,Under Graduate Both,1128610.0
+Arunachal Pradesh,2020,Under Graduate Both,34986.0
+Arunachal Pradesh,2019,Under Graduate Both,29431.0
+Arunachal Pradesh,2018,Under Graduate Both,26973.0
+Arunachal Pradesh,2017,Under Graduate Both,26314.0
+Arunachal Pradesh,2016,Under Graduate Both,25032.0
+Assam,2020,Under Graduate Both,577695.0
+Assam,2019,Under Graduate Both,501164.0
+Assam,2018,Under Graduate Both,541915.0
+Assam,2017,Under Graduate Both,515720.0
+Assam,2016,Under Graduate Both,496500.0
+Bihar,2020,Under Graduate Both,1922614.0
+Bihar,2019,Under Graduate Both,1448690.0
+Bihar,2018,Under Graduate Both,1340717.0
+Bihar,2017,Under Graduate Both,1274187.0
+Bihar,2016,Under Graduate Both,1394296.0
+Chandigarh,2020,Under Graduate Both,54832.0
+Chandigarh,2019,Under Graduate Both,55339.0
+Chandigarh,2018,Under Graduate Both,54973.0
+Chandigarh,2017,Under Graduate Both,55325.0
+Chandigarh,2016,Under Graduate Both,53535.0
+Chhattisgarh,2020,Under Graduate Both,455164.0
+Chhattisgarh,2019,Under Graduate Both,393038.0
+Chhattisgarh,2018,Under Graduate Both,376403.0
+Chhattisgarh,2017,Under Graduate Both,354547.0
+Chhattisgarh,2016,Under Graduate Both,336280.0
+Delhi,2020,Under Graduate Both,352705.0
+Delhi,2019,Under Graduate Both,341096.0
+Delhi,2018,Under Graduate Both,328963.0
+Delhi,2017,Under Graduate Both,322546.0
+Delhi,2016,Under Graduate Both,300554.0
+Goa,2020,Under Graduate Both,39514.0
+Goa,2019,Under Graduate Both,36368.0
+Goa,2018,Under Graduate Both,37792.0
+Goa,2017,Under Graduate Both,32410.0
+Goa,2016,Under Graduate Both,30737.0
+Gujarat,2020,Under Graduate Both,1199412.0
+Gujarat,2019,Under Graduate Both,1161954.0
+Gujarat,2018,Under Graduate Both,1099075.0
+Gujarat,2017,Under Graduate Both,1086986.0
+Gujarat,2016,Under Graduate Both,1062655.0
+Haryana,2020,Under Graduate Both,655267.0
+Haryana,2019,Under Graduate Both,616640.0
+Haryana,2018,Under Graduate Both,636571.0
+Haryana,2017,Under Graduate Both,610545.0
+Haryana,2016,Under Graduate Both,588294.0
+Himachal Pradesh,2020,Under Graduate Both,197056.0
+Himachal Pradesh,2019,Under Graduate Both,202462.0
+Himachal Pradesh,2018,Under Graduate Both,202787.0
+Himachal Pradesh,2017,Under Graduate Both,196700.0
+Himachal Pradesh,2016,Under Graduate Both,193247.0
+Jammu and Kashmir,2020,Under Graduate Both,230966.0
+Jammu and Kashmir,2019,Under Graduate Both,230571.0
+Jammu and Kashmir,2018,Under Graduate Both,236098.0
+Jammu and Kashmir,2017,Under Graduate Both,218251.0
+Jammu and Kashmir,2016,Under Graduate Both,209760.0
+Jharkhand,2020,Under Graduate Both,586076.0
+Jharkhand,2019,Under Graduate Both,614912.0
+Jharkhand,2018,Under Graduate Both,566804.0
+Jharkhand,2017,Under Graduate Both,556916.0
+Jharkhand,2016,Under Graduate Both,538071.0
+Karnataka,2020,Under Graduate Both,1812010.0
+Karnataka,2019,Under Graduate Both,1675574.0
+Karnataka,2018,Under Graduate Both,1532172.0
+Karnataka,2017,Under Graduate Both,1476679.0
+Karnataka,2016,Under Graduate Both,1406742.0
+Kerala,2020,Under Graduate Both,792805.0
+Kerala,2019,Under Graduate Both,698033.0
+Kerala,2018,Under Graduate Both,678737.0
+Kerala,2017,Under Graduate Both,669007.0
+Kerala,2016,Under Graduate Both,641914.0
+Jammu and Kashmir,2020,Under Graduate Both,2478.0
+Jammu and Kashmir,2019,Under Graduate Both,2544.0
+Lakshadweep,2020,Under Graduate Both,534.0
+Lakshadweep,2019,Under Graduate Both,534.0
+Lakshadweep,2018,Under Graduate Both,519.0
+Lakshadweep,2017,Under Graduate Both,515.0
+Lakshadweep,2016,Under Graduate Both,511.0
+Madhya Pradesh,2020,Under Graduate Both,1902697.0
+Madhya Pradesh,2019,Under Graduate Both,1579060.0
+Madhya Pradesh,2018,Under Graduate Both,1367649.0
+Madhya Pradesh,2017,Under Graduate Both,1304743.0
+Madhya Pradesh,2016,Under Graduate Both,1240855.0
+Maharashtra,2020,Under Graduate Both,2923678.0
+Maharashtra,2019,Under Graduate Both,2845846.0
+Maharashtra,2018,Under Graduate Both,2825385.0
+Maharashtra,2017,Under Graduate Both,2726229.0
+Maharashtra,2016,Under Graduate Both,2643126.0
+Manipur,2020,Under Graduate Both,119834.0
+Manipur,2019,Under Graduate Both,107212.0
+Manipur,2018,Under Graduate Both,94859.0
+Manipur,2017,Under Graduate Both,91329.0
+Manipur,2016,Under Graduate Both,87558.0
+Meghalaya,2020,Under Graduate Both,79047.0
+Meghalaya,2019,Under Graduate Both,69369.0
+Meghalaya,2018,Under Graduate Both,68764.0
+Meghalaya,2017,Under Graduate Both,66167.0
+Meghalaya,2016,Under Graduate Both,63297.0
+Mizoram,2020,Under Graduate Both,26538.0
+Mizoram,2019,Under Graduate Both,20289.0
+Mizoram,2018,Under Graduate Both,19863.0
+Mizoram,2017,Under Graduate Both,19142.0
+Mizoram,2016,Under Graduate Both,20691.0
+Nagaland,2020,Under Graduate Both,35828.0
+Nagaland,2019,Under Graduate Both,35185.0
+Nagaland,2018,Under Graduate Both,34062.0
+Nagaland,2017,Under Graduate Both,32625.0
+Nagaland,2016,Under Graduate Both,30711.0
+Odisha,2020,Under Graduate Both,708474.0
+Odisha,2019,Under Graduate Both,717633.0
+Odisha,2018,Under Graduate Both,752030.0
+Odisha,2017,Under Graduate Both,765592.0
+Odisha,2016,Under Graduate Both,740478.0
+Puducherry,2020,Under Graduate Both,59262.0
+Puducherry,2019,Under Graduate Both,51172.0
+Puducherry,2018,Under Graduate Both,51652.0
+Puducherry,2017,Under Graduate Both,45592.0
+Puducherry,2016,Under Graduate Both,43131.0
+Punjab,2020,Under Graduate Both,551990.0
+Punjab,2019,Under Graduate Both,591834.0
+Punjab,2018,Under Graduate Both,656339.0
+Punjab,2017,Under Graduate Both,674748.0
+Punjab,2016,Under Graduate Both,614099.0
+Rajasthan,2020,Under Graduate Both,1799954.0
+Rajasthan,2019,Under Graduate Both,1661012.0
+Rajasthan,2018,Under Graduate Both,1653435.0
+Rajasthan,2017,Under Graduate Both,1496829.0
+Rajasthan,2016,Under Graduate Both,1420951.0
+Sikkim,2020,Under Graduate Both,20736.0
+Sikkim,2019,Under Graduate Both,18072.0
+Sikkim,2018,Under Graduate Both,17523.0
+Sikkim,2017,Under Graduate Both,16027.0
+Sikkim,2016,Under Graduate Both,14459.0
+Tamil Nadu,2020,Under Graduate Both,2277096.0
+Tamil Nadu,2019,Under Graduate Both,2289505.0
+Tamil Nadu,2018,Under Graduate Both,2264580.0
+Tamil Nadu,2017,Under Graduate Both,2250057.0
+Tamil Nadu,2016,Under Graduate Both,2138408.0
+Telangana,2020,Under Graduate Both,1154807.0
+Telangana,2019,Under Graduate Both,1063858.0
+Telangana,2018,Under Graduate Both,1088888.0
+Telangana,2017,Under Graduate Both,1068001.0
+Telangana,2016,Under Graduate Both,1087127.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Under Graduate Both,8701.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Under Graduate Both,7601.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Under Graduate Both,6961.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Under Graduate Both,6396.0
+The Dadra and Nagar Haveli and Daman and Diu,2016,Under Graduate Both,6206.0
+Tripura,2020,Under Graduate Both,68065.0
+Tripura,2019,Under Graduate Both,63320.0
+Tripura,2018,Under Graduate Both,60039.0
+Tripura,2017,Under Graduate Both,60872.0
+Tripura,2016,Under Graduate Both,63345.0
+Uttar Pradesh,2020,Under Graduate Both,5489755.0
+Uttar Pradesh,2019,Under Graduate Both,5336744.0
+Uttar Pradesh,2018,Under Graduate Both,5363843.0
+Uttar Pradesh,2017,Under Graduate Both,5359022.0
+Uttar Pradesh,2016,Under Graduate Both,5178320.0
+Uttarakhand,2020,Under Graduate Both,402523.0
+Uttarakhand,2019,Under Graduate Both,316367.0
+Uttarakhand,2018,Under Graduate Both,312292.0
+Uttarakhand,2017,Under Graduate Both,293762.0
+Uttarakhand,2016,Under Graduate Both,279900.0
+West Bengal,2020,Under Graduate Both,1677377.0
+West Bengal,2019,Under Graduate Both,1668387.0
+West Bengal,2018,Under Graduate Both,1603941.0
+West Bengal,2017,Under Graduate Both,1572149.0
+West Bengal,2016,Under Graduate Both,1607033.0
+India,2020,PG Diploma Male,69158.0
+India,2019,PG Diploma Male,65483.0
+India,2018,PG Diploma Male,64495.0
+India,2017,PG Diploma Male,75195.0
+India,2016,PG Diploma Male,72222.0
+Andaman and Nicobar Islands,2020,PG Diploma Male,14.0
+Andhra Pradesh,2020,PG Diploma Male,187.0
+Andhra Pradesh,2019,PG Diploma Male,792.0
+Andhra Pradesh,2018,PG Diploma Male,837.0
+Andhra Pradesh,2017,PG Diploma Male,996.0
+Andhra Pradesh,2016,PG Diploma Male,928.0
+Arunachal Pradesh,2020,PG Diploma Male,87.0
+Arunachal Pradesh,2019,PG Diploma Male,59.0
+Arunachal Pradesh,2018,PG Diploma Male,73.0
+Arunachal Pradesh,2017,PG Diploma Male,45.0
+Arunachal Pradesh,2016,PG Diploma Male,71.0
+Assam,2020,PG Diploma Male,389.0
+Assam,2019,PG Diploma Male,473.0
+Assam,2018,PG Diploma Male,681.0
+Assam,2017,PG Diploma Male,686.0
+Assam,2016,PG Diploma Male,696.0
+Bihar,2020,PG Diploma Male,886.0
+Bihar,2019,PG Diploma Male,788.0
+Bihar,2018,PG Diploma Male,749.0
+Bihar,2017,PG Diploma Male,681.0
+Bihar,2016,PG Diploma Male,669.0
+Chandigarh,2020,PG Diploma Male,175.0
+Chandigarh,2019,PG Diploma Male,264.0
+Chandigarh,2018,PG Diploma Male,257.0
+Chandigarh,2017,PG Diploma Male,243.0
+Chandigarh,2016,PG Diploma Male,182.0
+Chhattisgarh,2020,PG Diploma Male,4450.0
+Chhattisgarh,2019,PG Diploma Male,4672.0
+Chhattisgarh,2018,PG Diploma Male,4491.0
+Chhattisgarh,2017,PG Diploma Male,4163.0
+Chhattisgarh,2016,PG Diploma Male,3391.0
+Delhi,2020,PG Diploma Male,4076.0
+Delhi,2019,PG Diploma Male,2692.0
+Delhi,2018,PG Diploma Male,1933.0
+Delhi,2017,PG Diploma Male,2468.0
+Delhi,2016,PG Diploma Male,2776.0
+Goa,2020,PG Diploma Male,24.0
+Goa,2019,PG Diploma Male,39.0
+Goa,2018,PG Diploma Male,37.0
+Goa,2017,PG Diploma Male,43.0
+Goa,2016,PG Diploma Male,64.0
+Gujarat,2020,PG Diploma Male,2645.0
+Gujarat,2019,PG Diploma Male,3055.0
+Gujarat,2018,PG Diploma Male,2891.0
+Gujarat,2017,PG Diploma Male,2859.0
+Gujarat,2016,PG Diploma Male,3045.0
+Haryana,2020,PG Diploma Male,1089.0
+Haryana,2019,PG Diploma Male,1372.0
+Haryana,2018,PG Diploma Male,1062.0
+Haryana,2017,PG Diploma Male,1199.0
+Haryana,2016,PG Diploma Male,1036.0
+Himachal Pradesh,2020,PG Diploma Male,364.0
+Himachal Pradesh,2019,PG Diploma Male,354.0
+Himachal Pradesh,2018,PG Diploma Male,747.0
+Himachal Pradesh,2017,PG Diploma Male,445.0
+Himachal Pradesh,2016,PG Diploma Male,325.0
+Jammu and Kashmir,2020,PG Diploma Male,159.0
+Jammu and Kashmir,2019,PG Diploma Male,220.0
+Jammu and Kashmir,2018,PG Diploma Male,262.0
+Jammu and Kashmir,2017,PG Diploma Male,182.0
+Jammu and Kashmir,2016,PG Diploma Male,296.0
+Jharkhand,2020,PG Diploma Male,885.0
+Jharkhand,2019,PG Diploma Male,1516.0
+Jharkhand,2018,PG Diploma Male,1416.0
+Jharkhand,2017,PG Diploma Male,1817.0
+Jharkhand,2016,PG Diploma Male,1779.0
+Karnataka,2020,PG Diploma Male,2852.0
+Karnataka,2019,PG Diploma Male,2861.0
+Karnataka,2018,PG Diploma Male,2280.0
+Karnataka,2017,PG Diploma Male,2182.0
+Karnataka,2016,PG Diploma Male,2008.0
+Kerala,2020,PG Diploma Male,571.0
+Kerala,2019,PG Diploma Male,399.0
+Kerala,2018,PG Diploma Male,476.0
+Kerala,2017,PG Diploma Male,639.0
+Kerala,2016,PG Diploma Male,244.0
+Madhya Pradesh,2020,PG Diploma Male,20339.0
+Madhya Pradesh,2019,PG Diploma Male,16921.0
+Madhya Pradesh,2018,PG Diploma Male,18203.0
+Madhya Pradesh,2017,PG Diploma Male,25153.0
+Madhya Pradesh,2016,PG Diploma Male,23552.0
+Maharashtra,2020,PG Diploma Male,8734.0
+Maharashtra,2019,PG Diploma Male,9129.0
+Maharashtra,2018,PG Diploma Male,8490.0
+Maharashtra,2017,PG Diploma Male,8586.0
+Maharashtra,2016,PG Diploma Male,8742.0
+Manipur,2020,PG Diploma Male,345.0
+Manipur,2019,PG Diploma Male,144.0
+Manipur,2018,PG Diploma Male,106.0
+Manipur,2017,PG Diploma Male,96.0
+Manipur,2016,PG Diploma Male,114.0
+Meghalaya,2020,PG Diploma Male,42.0
+Meghalaya,2019,PG Diploma Male,32.0
+Meghalaya,2018,PG Diploma Male,26.0
+Meghalaya,2017,PG Diploma Male,17.0
+Meghalaya,2016,PG Diploma Male,34.0
+Nagaland,2019,PG Diploma Male,23.0
+Nagaland,2018,PG Diploma Male,21.0
+Nagaland,2017,PG Diploma Male,10.0
+Nagaland,2016,PG Diploma Male,13.0
+Odisha,2020,PG Diploma Male,1480.0
+Odisha,2019,PG Diploma Male,649.0
+Odisha,2018,PG Diploma Male,556.0
+Odisha,2017,PG Diploma Male,621.0
+Odisha,2016,PG Diploma Male,438.0
+Puducherry,2020,PG Diploma Male,15.0
+Puducherry,2019,PG Diploma Male,52.0
+Puducherry,2018,PG Diploma Male,97.0
+Puducherry,2017,PG Diploma Male,63.0
+Puducherry,2016,PG Diploma Male,140.0
+Punjab,2020,PG Diploma Male,1514.0
+Punjab,2019,PG Diploma Male,2144.0
+Punjab,2018,PG Diploma Male,2383.0
+Punjab,2017,PG Diploma Male,2894.0
+Punjab,2016,PG Diploma Male,2586.0
+Rajasthan,2020,PG Diploma Male,4150.0
+Rajasthan,2019,PG Diploma Male,3012.0
+Rajasthan,2018,PG Diploma Male,2689.0
+Rajasthan,2017,PG Diploma Male,3175.0
+Rajasthan,2016,PG Diploma Male,2826.0
+Tamil Nadu,2020,PG Diploma Male,1232.0
+Tamil Nadu,2019,PG Diploma Male,1365.0
+Tamil Nadu,2018,PG Diploma Male,1515.0
+Tamil Nadu,2017,PG Diploma Male,1605.0
+Tamil Nadu,2016,PG Diploma Male,2048.0
+Telangana,2020,PG Diploma Male,2111.0
+Telangana,2019,PG Diploma Male,1628.0
+Telangana,2018,PG Diploma Male,1280.0
+Telangana,2017,PG Diploma Male,1222.0
+Telangana,2016,PG Diploma Male,882.0
+Tripura,2020,PG Diploma Male,47.0
+Tripura,2019,PG Diploma Male,17.0
+Tripura,2018,PG Diploma Male,52.0
+Tripura,2017,PG Diploma Male,50.0
+Tripura,2016,PG Diploma Male,54.0
+Uttar Pradesh,2020,PG Diploma Male,7063.0
+Uttar Pradesh,2019,PG Diploma Male,7380.0
+Uttar Pradesh,2018,PG Diploma Male,7722.0
+Uttar Pradesh,2017,PG Diploma Male,9419.0
+Uttar Pradesh,2016,PG Diploma Male,10193.0
+Uttarakhand,2020,PG Diploma Male,772.0
+Uttarakhand,2019,PG Diploma Male,734.0
+Uttarakhand,2018,PG Diploma Male,788.0
+Uttarakhand,2017,PG Diploma Male,660.0
+Uttarakhand,2016,PG Diploma Male,646.0
+West Bengal,2020,PG Diploma Male,2461.0
+West Bengal,2019,PG Diploma Male,2697.0
+West Bengal,2018,PG Diploma Male,2375.0
+West Bengal,2017,PG Diploma Male,2976.0
+West Bengal,2016,PG Diploma Male,2444.0
+India,2020,PG Diploma Female,60147.0
+India,2019,PG Diploma Female,62800.0
+India,2018,PG Diploma Female,60825.0
+India,2017,PG Diploma Female,69989.0
+India,2016,PG Diploma Female,63047.0
+Andhra Pradesh,2020,PG Diploma Female,135.0
+Andhra Pradesh,2019,PG Diploma Female,468.0
+Andhra Pradesh,2018,PG Diploma Female,498.0
+Andhra Pradesh,2017,PG Diploma Female,533.0
+Andhra Pradesh,2016,PG Diploma Female,494.0
+Arunachal Pradesh,2020,PG Diploma Female,68.0
+Arunachal Pradesh,2019,PG Diploma Female,59.0
+Arunachal Pradesh,2018,PG Diploma Female,40.0
+Arunachal Pradesh,2017,PG Diploma Female,30.0
+Arunachal Pradesh,2016,PG Diploma Female,51.0
+Assam,2020,PG Diploma Female,630.0
+Assam,2019,PG Diploma Female,576.0
+Assam,2018,PG Diploma Female,737.0
+Assam,2017,PG Diploma Female,733.0
+Assam,2016,PG Diploma Female,556.0
+Bihar,2020,PG Diploma Female,459.0
+Bihar,2019,PG Diploma Female,401.0
+Bihar,2018,PG Diploma Female,373.0
+Bihar,2017,PG Diploma Female,272.0
+Bihar,2016,PG Diploma Female,231.0
+Chandigarh,2020,PG Diploma Female,419.0
+Chandigarh,2019,PG Diploma Female,437.0
+Chandigarh,2018,PG Diploma Female,428.0
+Chandigarh,2017,PG Diploma Female,350.0
+Chandigarh,2016,PG Diploma Female,359.0
+Chhattisgarh,2020,PG Diploma Female,4591.0
+Chhattisgarh,2019,PG Diploma Female,5099.0
+Chhattisgarh,2018,PG Diploma Female,4916.0
+Chhattisgarh,2017,PG Diploma Female,4377.0
+Chhattisgarh,2016,PG Diploma Female,3575.0
+Delhi,2020,PG Diploma Female,2979.0
+Delhi,2019,PG Diploma Female,2215.0
+Delhi,2018,PG Diploma Female,1797.0
+Delhi,2017,PG Diploma Female,1714.0
+Delhi,2016,PG Diploma Female,1705.0
+Goa,2020,PG Diploma Female,71.0
+Goa,2019,PG Diploma Female,52.0
+Goa,2018,PG Diploma Female,29.0
+Goa,2017,PG Diploma Female,37.0
+Goa,2016,PG Diploma Female,52.0
+Gujarat,2020,PG Diploma Female,2541.0
+Gujarat,2019,PG Diploma Female,3009.0
+Gujarat,2018,PG Diploma Female,2993.0
+Gujarat,2017,PG Diploma Female,3007.0
+Gujarat,2016,PG Diploma Female,3089.0
+Haryana,2020,PG Diploma Female,1109.0
+Haryana,2019,PG Diploma Female,1360.0
+Haryana,2018,PG Diploma Female,1097.0
+Haryana,2017,PG Diploma Female,896.0
+Haryana,2016,PG Diploma Female,971.0
+Himachal Pradesh,2020,PG Diploma Female,572.0
+Himachal Pradesh,2019,PG Diploma Female,682.0
+Himachal Pradesh,2018,PG Diploma Female,645.0
+Himachal Pradesh,2017,PG Diploma Female,742.0
+Himachal Pradesh,2016,PG Diploma Female,536.0
+Jammu and Kashmir,2020,PG Diploma Female,98.0
+Jammu and Kashmir,2019,PG Diploma Female,145.0
+Jammu and Kashmir,2018,PG Diploma Female,207.0
+Jammu and Kashmir,2017,PG Diploma Female,128.0
+Jammu and Kashmir,2016,PG Diploma Female,235.0
+Jharkhand,2020,PG Diploma Female,519.0
+Jharkhand,2019,PG Diploma Female,869.0
+Jharkhand,2018,PG Diploma Female,738.0
+Jharkhand,2017,PG Diploma Female,895.0
+Jharkhand,2016,PG Diploma Female,839.0
+Karnataka,2020,PG Diploma Female,2455.0
+Karnataka,2019,PG Diploma Female,2790.0
+Karnataka,2018,PG Diploma Female,2251.0
+Karnataka,2017,PG Diploma Female,2062.0
+Karnataka,2016,PG Diploma Female,1884.0
+Kerala,2020,PG Diploma Female,641.0
+Kerala,2019,PG Diploma Female,467.0
+Kerala,2018,PG Diploma Female,462.0
+Kerala,2017,PG Diploma Female,422.0
+Kerala,2016,PG Diploma Female,263.0
+Madhya Pradesh,2020,PG Diploma Female,19119.0
+Madhya Pradesh,2019,PG Diploma Female,19014.0
+Madhya Pradesh,2018,PG Diploma Female,20074.0
+Madhya Pradesh,2017,PG Diploma Female,29328.0
+Madhya Pradesh,2016,PG Diploma Female,26292.0
+Maharashtra,2020,PG Diploma Female,6625.0
+Maharashtra,2019,PG Diploma Female,7369.0
+Maharashtra,2018,PG Diploma Female,6404.0
+Maharashtra,2017,PG Diploma Female,6051.0
+Maharashtra,2016,PG Diploma Female,5593.0
+Manipur,2020,PG Diploma Female,222.0
+Manipur,2019,PG Diploma Female,79.0
+Manipur,2018,PG Diploma Female,77.0
+Manipur,2017,PG Diploma Female,40.0
+Manipur,2016,PG Diploma Female,57.0
+Meghalaya,2020,PG Diploma Female,37.0
+Meghalaya,2019,PG Diploma Female,37.0
+Meghalaya,2018,PG Diploma Female,11.0
+Meghalaya,2017,PG Diploma Female,32.0
+Meghalaya,2016,PG Diploma Female,33.0
+Nagaland,2020,PG Diploma Female,19.0
+Nagaland,2019,PG Diploma Female,95.0
+Nagaland,2018,PG Diploma Female,67.0
+Nagaland,2017,PG Diploma Female,52.0
+Nagaland,2016,PG Diploma Female,57.0
+Odisha,2020,PG Diploma Female,866.0
+Odisha,2019,PG Diploma Female,435.0
+Odisha,2018,PG Diploma Female,367.0
+Odisha,2017,PG Diploma Female,341.0
+Odisha,2016,PG Diploma Female,160.0
+Puducherry,2020,PG Diploma Female,16.0
+Puducherry,2019,PG Diploma Female,54.0
+Puducherry,2018,PG Diploma Female,71.0
+Puducherry,2017,PG Diploma Female,58.0
+Puducherry,2016,PG Diploma Female,89.0
+Punjab,2020,PG Diploma Female,2207.0
+Punjab,2019,PG Diploma Female,3195.0
+Punjab,2018,PG Diploma Female,3478.0
+Punjab,2017,PG Diploma Female,4052.0
+Punjab,2016,PG Diploma Female,3698.0
+Rajasthan,2020,PG Diploma Female,3099.0
+Rajasthan,2019,PG Diploma Female,2578.0
+Rajasthan,2018,PG Diploma Female,2233.0
+Rajasthan,2017,PG Diploma Female,2330.0
+Rajasthan,2016,PG Diploma Female,2030.0
+Tamil Nadu,2020,PG Diploma Female,1292.0
+Tamil Nadu,2019,PG Diploma Female,1751.0
+Tamil Nadu,2018,PG Diploma Female,1873.0
+Tamil Nadu,2017,PG Diploma Female,1913.0
+Tamil Nadu,2016,PG Diploma Female,1686.0
+Telangana,2020,PG Diploma Female,1740.0
+Telangana,2019,PG Diploma Female,1270.0
+Telangana,2018,PG Diploma Female,1012.0
+Telangana,2017,PG Diploma Female,745.0
+Telangana,2016,PG Diploma Female,514.0
+Tripura,2020,PG Diploma Female,107.0
+Tripura,2019,PG Diploma Female,46.0
+Tripura,2018,PG Diploma Female,102.0
+Tripura,2017,PG Diploma Female,66.0
+Tripura,2016,PG Diploma Female,102.0
+Uttar Pradesh,2020,PG Diploma Female,5107.0
+Uttar Pradesh,2019,PG Diploma Female,5898.0
+Uttar Pradesh,2018,PG Diploma Female,5222.0
+Uttar Pradesh,2017,PG Diploma Female,6501.0
+Uttar Pradesh,2016,PG Diploma Female,6419.0
+Uttarakhand,2020,PG Diploma Female,917.0
+Uttarakhand,2019,PG Diploma Female,842.0
+Uttarakhand,2018,PG Diploma Female,908.0
+Uttarakhand,2017,PG Diploma Female,504.0
+Uttarakhand,2016,PG Diploma Female,382.0
+West Bengal,2020,PG Diploma Female,1487.0
+West Bengal,2019,PG Diploma Female,1508.0
+West Bengal,2018,PG Diploma Female,1715.0
+West Bengal,2017,PG Diploma Female,1778.0
+West Bengal,2016,PG Diploma Female,1095.0
+India,2020,PG Diploma Both,129305.0
+India,2019,PG Diploma Both,128283.0
+India,2018,PG Diploma Both,125320.0
+India,2017,PG Diploma Both,145184.0
+India,2016,PG Diploma Both,135269.0
+Andaman and Nicobar Islands,2020,PG Diploma Both,14.0
+Andhra Pradesh,2020,PG Diploma Both,322.0
+Andhra Pradesh,2019,PG Diploma Both,1260.0
+Andhra Pradesh,2018,PG Diploma Both,1335.0
+Andhra Pradesh,2017,PG Diploma Both,1529.0
+Andhra Pradesh,2016,PG Diploma Both,1422.0
+Arunachal Pradesh,2020,PG Diploma Both,155.0
+Arunachal Pradesh,2019,PG Diploma Both,118.0
+Arunachal Pradesh,2018,PG Diploma Both,113.0
+Arunachal Pradesh,2017,PG Diploma Both,75.0
+Arunachal Pradesh,2016,PG Diploma Both,122.0
+Assam,2020,PG Diploma Both,1019.0
+Assam,2019,PG Diploma Both,1049.0
+Assam,2018,PG Diploma Both,1418.0
+Assam,2017,PG Diploma Both,1419.0
+Assam,2016,PG Diploma Both,1252.0
+Bihar,2020,PG Diploma Both,1345.0
+Bihar,2019,PG Diploma Both,1189.0
+Bihar,2018,PG Diploma Both,1122.0
+Bihar,2017,PG Diploma Both,953.0
+Bihar,2016,PG Diploma Both,900.0
+Chandigarh,2020,PG Diploma Both,594.0
+Chandigarh,2019,PG Diploma Both,701.0
+Chandigarh,2018,PG Diploma Both,685.0
+Chandigarh,2017,PG Diploma Both,593.0
+Chandigarh,2016,PG Diploma Both,541.0
+Chhattisgarh,2020,PG Diploma Both,9041.0
+Chhattisgarh,2019,PG Diploma Both,9771.0
+Chhattisgarh,2018,PG Diploma Both,9407.0
+Chhattisgarh,2017,PG Diploma Both,8540.0
+Chhattisgarh,2016,PG Diploma Both,6966.0
+Delhi,2020,PG Diploma Both,7055.0
+Delhi,2019,PG Diploma Both,4907.0
+Delhi,2018,PG Diploma Both,3730.0
+Delhi,2017,PG Diploma Both,4182.0
+Delhi,2016,PG Diploma Both,4481.0
+Goa,2020,PG Diploma Both,95.0
+Goa,2019,PG Diploma Both,91.0
+Goa,2018,PG Diploma Both,66.0
+Goa,2017,PG Diploma Both,80.0
+Goa,2016,PG Diploma Both,116.0
+Gujarat,2020,PG Diploma Both,5186.0
+Gujarat,2019,PG Diploma Both,6064.0
+Gujarat,2018,PG Diploma Both,5884.0
+Gujarat,2017,PG Diploma Both,5866.0
+Gujarat,2016,PG Diploma Both,6134.0
+Haryana,2020,PG Diploma Both,2198.0
+Haryana,2019,PG Diploma Both,2732.0
+Haryana,2018,PG Diploma Both,2159.0
+Haryana,2017,PG Diploma Both,2095.0
+Haryana,2016,PG Diploma Both,2007.0
+Himachal Pradesh,2020,PG Diploma Both,936.0
+Himachal Pradesh,2019,PG Diploma Both,1036.0
+Himachal Pradesh,2018,PG Diploma Both,1392.0
+Himachal Pradesh,2017,PG Diploma Both,1187.0
+Himachal Pradesh,2016,PG Diploma Both,861.0
+Jammu and Kashmir,2020,PG Diploma Both,257.0
+Jammu and Kashmir,2019,PG Diploma Both,365.0
+Jammu and Kashmir,2018,PG Diploma Both,469.0
+Jammu and Kashmir,2017,PG Diploma Both,310.0
+Jammu and Kashmir,2016,PG Diploma Both,531.0
+Jharkhand,2020,PG Diploma Both,1404.0
+Jharkhand,2019,PG Diploma Both,2385.0
+Jharkhand,2018,PG Diploma Both,2154.0
+Jharkhand,2017,PG Diploma Both,2712.0
+Jharkhand,2016,PG Diploma Both,2618.0
+Karnataka,2020,PG Diploma Both,5307.0
+Karnataka,2019,PG Diploma Both,5651.0
+Karnataka,2018,PG Diploma Both,4531.0
+Karnataka,2017,PG Diploma Both,4244.0
+Karnataka,2016,PG Diploma Both,3892.0
+Kerala,2020,PG Diploma Both,1212.0
+Kerala,2019,PG Diploma Both,866.0
+Kerala,2018,PG Diploma Both,938.0
+Kerala,2017,PG Diploma Both,1061.0
+Kerala,2016,PG Diploma Both,507.0
+Madhya Pradesh,2020,PG Diploma Both,39458.0
+Madhya Pradesh,2019,PG Diploma Both,35935.0
+Madhya Pradesh,2018,PG Diploma Both,38277.0
+Madhya Pradesh,2017,PG Diploma Both,54481.0
+Madhya Pradesh,2016,PG Diploma Both,49844.0
+Maharashtra,2020,PG Diploma Both,15359.0
+Maharashtra,2019,PG Diploma Both,16498.0
+Maharashtra,2018,PG Diploma Both,14894.0
+Maharashtra,2017,PG Diploma Both,14637.0
+Maharashtra,2016,PG Diploma Both,14335.0
+Manipur,2020,PG Diploma Both,567.0
+Manipur,2019,PG Diploma Both,223.0
+Manipur,2018,PG Diploma Both,183.0
+Manipur,2017,PG Diploma Both,136.0
+Manipur,2016,PG Diploma Both,171.0
+Meghalaya,2020,PG Diploma Both,79.0
+Meghalaya,2019,PG Diploma Both,69.0
+Meghalaya,2018,PG Diploma Both,37.0
+Meghalaya,2017,PG Diploma Both,49.0
+Meghalaya,2016,PG Diploma Both,67.0
+Nagaland,2020,PG Diploma Both,19.0
+Nagaland,2019,PG Diploma Both,118.0
+Nagaland,2018,PG Diploma Both,88.0
+Nagaland,2017,PG Diploma Both,62.0
+Nagaland,2016,PG Diploma Both,70.0
+Odisha,2020,PG Diploma Both,2346.0
+Odisha,2019,PG Diploma Both,1084.0
+Odisha,2018,PG Diploma Both,923.0
+Odisha,2017,PG Diploma Both,962.0
+Odisha,2016,PG Diploma Both,598.0
+Puducherry,2020,PG Diploma Both,31.0
+Puducherry,2019,PG Diploma Both,106.0
+Puducherry,2018,PG Diploma Both,168.0
+Puducherry,2017,PG Diploma Both,121.0
+Puducherry,2016,PG Diploma Both,229.0
+Punjab,2020,PG Diploma Both,3721.0
+Punjab,2019,PG Diploma Both,5339.0
+Punjab,2018,PG Diploma Both,5861.0
+Punjab,2017,PG Diploma Both,6946.0
+Punjab,2016,PG Diploma Both,6284.0
+Rajasthan,2020,PG Diploma Both,7249.0
+Rajasthan,2019,PG Diploma Both,5590.0
+Rajasthan,2018,PG Diploma Both,4922.0
+Rajasthan,2017,PG Diploma Both,5505.0
+Rajasthan,2016,PG Diploma Both,4856.0
+Tamil Nadu,2020,PG Diploma Both,2524.0
+Tamil Nadu,2019,PG Diploma Both,3116.0
+Tamil Nadu,2018,PG Diploma Both,3388.0
+Tamil Nadu,2017,PG Diploma Both,3518.0
+Tamil Nadu,2016,PG Diploma Both,3734.0
+Telangana,2020,PG Diploma Both,3851.0
+Telangana,2019,PG Diploma Both,2898.0
+Telangana,2018,PG Diploma Both,2292.0
+Telangana,2017,PG Diploma Both,1967.0
+Telangana,2016,PG Diploma Both,1396.0
+Tripura,2020,PG Diploma Both,154.0
+Tripura,2019,PG Diploma Both,63.0
+Tripura,2018,PG Diploma Both,154.0
+Tripura,2017,PG Diploma Both,116.0
+Tripura,2016,PG Diploma Both,156.0
+Uttar Pradesh,2020,PG Diploma Both,12170.0
+Uttar Pradesh,2019,PG Diploma Both,13278.0
+Uttar Pradesh,2018,PG Diploma Both,12944.0
+Uttar Pradesh,2017,PG Diploma Both,15920.0
+Uttar Pradesh,2016,PG Diploma Both,16612.0
+Uttarakhand,2020,PG Diploma Both,1689.0
+Uttarakhand,2019,PG Diploma Both,1576.0
+Uttarakhand,2018,PG Diploma Both,1696.0
+Uttarakhand,2017,PG Diploma Both,1164.0
+Uttarakhand,2016,PG Diploma Both,1028.0
+West Bengal,2020,PG Diploma Both,3948.0
+West Bengal,2019,PG Diploma Both,4205.0
+West Bengal,2018,PG Diploma Both,4090.0
+West Bengal,2017,PG Diploma Both,4754.0
+West Bengal,2016,PG Diploma Both,3539.0
+India,2020,Diploma Male,1797136.0
+India,2019,Diploma Male,1681882.0
+India,2018,Diploma Male,1732260.0
+India,2017,Diploma Male,1765994.0
+India,2016,Diploma Male,1758429.0
+Andaman and Nicobar Islands,2020,Diploma Male,601.0
+Andaman and Nicobar Islands,2019,Diploma Male,293.0
+Andaman and Nicobar Islands,2018,Diploma Male,525.0
+Andaman and Nicobar Islands,2017,Diploma Male,416.0
+Andaman and Nicobar Islands,2016,Diploma Male,452.0
+Andhra Pradesh,2020,Diploma Male,96256.0
+Andhra Pradesh,2019,Diploma Male,92704.0
+Andhra Pradesh,2018,Diploma Male,97199.0
+Andhra Pradesh,2017,Diploma Male,100748.0
+Andhra Pradesh,2016,Diploma Male,98834.0
+Arunachal Pradesh,2020,Diploma Male,1370.0
+Arunachal Pradesh,2019,Diploma Male,1263.0
+Arunachal Pradesh,2018,Diploma Male,814.0
+Arunachal Pradesh,2017,Diploma Male,1188.0
+Arunachal Pradesh,2016,Diploma Male,672.0
+Assam,2020,Diploma Male,12627.0
+Assam,2019,Diploma Male,10655.0
+Assam,2018,Diploma Male,8613.0
+Assam,2017,Diploma Male,6877.0
+Assam,2016,Diploma Male,6971.0
+Bihar,2020,Diploma Male,56644.0
+Bihar,2019,Diploma Male,42497.0
+Bihar,2018,Diploma Male,34380.0
+Bihar,2017,Diploma Male,27280.0
+Bihar,2016,Diploma Male,22034.0
+Chandigarh,2020,Diploma Male,1824.0
+Chandigarh,2019,Diploma Male,2047.0
+Chandigarh,2018,Diploma Male,1391.0
+Chandigarh,2017,Diploma Male,1438.0
+Chandigarh,2016,Diploma Male,1447.0
+Chhattisgarh,2020,Diploma Male,21367.0
+Chhattisgarh,2019,Diploma Male,22197.0
+Chhattisgarh,2018,Diploma Male,23015.0
+Chhattisgarh,2017,Diploma Male,23120.0
+Chhattisgarh,2016,Diploma Male,22196.0
+Delhi,2020,Diploma Male,15220.0
+Delhi,2019,Diploma Male,17816.0
+Delhi,2018,Diploma Male,16697.0
+Delhi,2017,Diploma Male,17060.0
+Delhi,2016,Diploma Male,16604.0
+Goa,2020,Diploma Male,4656.0
+Goa,2019,Diploma Male,4412.0
+Goa,2018,Diploma Male,5566.0
+Goa,2017,Diploma Male,5924.0
+Goa,2016,Diploma Male,5844.0
+Gujarat,2020,Diploma Male,100057.0
+Gujarat,2019,Diploma Male,94354.0
+Gujarat,2018,Diploma Male,97310.0
+Gujarat,2017,Diploma Male,102583.0
+Gujarat,2016,Diploma Male,105649.0
+Haryana,2020,Diploma Male,59805.0
+Haryana,2019,Diploma Male,49268.0
+Haryana,2018,Diploma Male,49547.0
+Haryana,2017,Diploma Male,45327.0
+Haryana,2016,Diploma Male,49077.0
+Himachal Pradesh,2020,Diploma Male,8096.0
+Himachal Pradesh,2019,Diploma Male,8449.0
+Himachal Pradesh,2018,Diploma Male,8284.0
+Himachal Pradesh,2017,Diploma Male,7925.0
+Himachal Pradesh,2016,Diploma Male,7896.0
+Jammu and Kashmir,2020,Diploma Male,12399.0
+Jammu and Kashmir,2019,Diploma Male,8637.0
+Jammu and Kashmir,2018,Diploma Male,8256.0
+Jammu and Kashmir,2017,Diploma Male,7515.0
+Jammu and Kashmir,2016,Diploma Male,7231.0
+Jharkhand,2020,Diploma Male,27901.0
+Jharkhand,2019,Diploma Male,26778.0
+Jharkhand,2018,Diploma Male,23712.0
+Jharkhand,2017,Diploma Male,21144.0
+Jharkhand,2016,Diploma Male,18505.0
+Karnataka,2020,Diploma Male,137320.0
+Karnataka,2019,Diploma Male,113133.0
+Karnataka,2018,Diploma Male,113266.0
+Karnataka,2017,Diploma Male,121254.0
+Karnataka,2016,Diploma Male,129732.0
+Kerala,2020,Diploma Male,48832.0
+Kerala,2019,Diploma Male,41458.0
+Kerala,2018,Diploma Male,36948.0
+Kerala,2017,Diploma Male,36183.0
+Kerala,2016,Diploma Male,34801.0
+Jammu and Kashmir,2020,Diploma Male,245.0
+Jammu and Kashmir,2019,Diploma Male,112.0
+Madhya Pradesh,2020,Diploma Male,102146.0
+Madhya Pradesh,2019,Diploma Male,74612.0
+Madhya Pradesh,2018,Diploma Male,72142.0
+Madhya Pradesh,2017,Diploma Male,93594.0
+Madhya Pradesh,2016,Diploma Male,90285.0
+Maharashtra,2020,Diploma Male,215795.0
+Maharashtra,2019,Diploma Male,165508.0
+Maharashtra,2018,Diploma Male,198942.0
+Maharashtra,2017,Diploma Male,189102.0
+Maharashtra,2016,Diploma Male,198783.0
+Manipur,2020,Diploma Male,1615.0
+Manipur,2019,Diploma Male,1376.0
+Manipur,2018,Diploma Male,1261.0
+Manipur,2017,Diploma Male,949.0
+Manipur,2016,Diploma Male,1020.0
+Meghalaya,2020,Diploma Male,1300.0
+Meghalaya,2019,Diploma Male,1076.0
+Meghalaya,2018,Diploma Male,1083.0
+Meghalaya,2017,Diploma Male,873.0
+Meghalaya,2016,Diploma Male,819.0
+Mizoram,2020,Diploma Male,698.0
+Mizoram,2019,Diploma Male,649.0
+Mizoram,2018,Diploma Male,666.0
+Mizoram,2017,Diploma Male,609.0
+Mizoram,2016,Diploma Male,619.0
+Nagaland,2020,Diploma Male,841.0
+Nagaland,2019,Diploma Male,827.0
+Nagaland,2018,Diploma Male,914.0
+Nagaland,2017,Diploma Male,691.0
+Nagaland,2016,Diploma Male,785.0
+Odisha,2020,Diploma Male,92556.0
+Odisha,2019,Diploma Male,88758.0
+Odisha,2018,Diploma Male,93290.0
+Odisha,2017,Diploma Male,89685.0
+Odisha,2016,Diploma Male,89698.0
+Puducherry,2020,Diploma Male,2806.0
+Puducherry,2019,Diploma Male,2866.0
+Puducherry,2018,Diploma Male,2803.0
+Puducherry,2017,Diploma Male,3121.0
+Puducherry,2016,Diploma Male,3110.0
+Punjab,2020,Diploma Male,48748.0
+Punjab,2019,Diploma Male,59507.0
+Punjab,2018,Diploma Male,64683.0
+Punjab,2017,Diploma Male,81331.0
+Punjab,2016,Diploma Male,87281.0
+Rajasthan,2020,Diploma Male,76632.0
+Rajasthan,2019,Diploma Male,73593.0
+Rajasthan,2018,Diploma Male,73456.0
+Rajasthan,2017,Diploma Male,84152.0
+Rajasthan,2016,Diploma Male,76549.0
+Sikkim,2020,Diploma Male,1072.0
+Sikkim,2019,Diploma Male,1015.0
+Sikkim,2018,Diploma Male,1016.0
+Sikkim,2017,Diploma Male,900.0
+Sikkim,2016,Diploma Male,816.0
+Tamil Nadu,2020,Diploma Male,238219.0
+Tamil Nadu,2019,Diploma Male,279043.0
+Tamil Nadu,2018,Diploma Male,308429.0
+Tamil Nadu,2017,Diploma Male,313156.0
+Tamil Nadu,2016,Diploma Male,323116.0
+Telangana,2020,Diploma Male,55384.0
+Telangana,2019,Diploma Male,60259.0
+Telangana,2018,Diploma Male,70370.0
+Telangana,2017,Diploma Male,77559.0
+Telangana,2016,Diploma Male,79588.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Diploma Male,1647.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Diploma Male,1685.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Diploma Male,1686.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Diploma Male,1821.0
+The Dadra and Nagar Haveli and Daman and Diu,2016,Diploma Male,1938.0
+Tripura,2020,Diploma Male,2225.0
+Tripura,2019,Diploma Male,2256.0
+Tripura,2018,Diploma Male,2312.0
+Tripura,2017,Diploma Male,2159.0
+Tripura,2016,Diploma Male,2183.0
+Uttar Pradesh,2020,Diploma Male,213233.0
+Uttar Pradesh,2019,Diploma Male,196971.0
+Uttar Pradesh,2018,Diploma Male,177313.0
+Uttar Pradesh,2017,Diploma Male,177103.0
+Uttar Pradesh,2016,Diploma Male,162409.0
+Uttarakhand,2020,Diploma Male,20453.0
+Uttarakhand,2019,Diploma Male,21397.0
+Uttarakhand,2018,Diploma Male,23470.0
+Uttarakhand,2017,Diploma Male,23891.0
+Uttarakhand,2016,Diploma Male,24165.0
+West Bengal,2020,Diploma Male,116546.0
+West Bengal,2019,Diploma Male,114411.0
+West Bengal,2018,Diploma Male,112901.0
+West Bengal,2017,Diploma Male,99316.0
+West Bengal,2016,Diploma Male,87320.0
+India,2020,Diploma Female,1021519.0
+India,2019,Diploma Female,870620.0
+India,2018,Diploma Female,836941.0
+India,2017,Diploma Female,819196.0
+India,2016,Diploma Female,754664.0
+Andaman and Nicobar Islands,2020,Diploma Female,414.0
+Andaman and Nicobar Islands,2019,Diploma Female,231.0
+Andaman and Nicobar Islands,2018,Diploma Female,325.0
+Andaman and Nicobar Islands,2017,Diploma Female,257.0
+Andaman and Nicobar Islands,2016,Diploma Female,238.0
+Andhra Pradesh,2020,Diploma Female,66003.0
+Andhra Pradesh,2019,Diploma Female,59683.0
+Andhra Pradesh,2018,Diploma Female,63905.0
+Andhra Pradesh,2017,Diploma Female,66008.0
+Andhra Pradesh,2016,Diploma Female,64531.0
+Arunachal Pradesh,2020,Diploma Female,1081.0
+Arunachal Pradesh,2019,Diploma Female,583.0
+Arunachal Pradesh,2018,Diploma Female,554.0
+Arunachal Pradesh,2017,Diploma Female,648.0
+Arunachal Pradesh,2016,Diploma Female,431.0
+Assam,2020,Diploma Female,9364.0
+Assam,2019,Diploma Female,7374.0
+Assam,2018,Diploma Female,5531.0
+Assam,2017,Diploma Female,4815.0
+Assam,2016,Diploma Female,4648.0
+Bihar,2020,Diploma Female,48657.0
+Bihar,2019,Diploma Female,25277.0
+Bihar,2018,Diploma Female,17715.0
+Bihar,2017,Diploma Female,11228.0
+Bihar,2016,Diploma Female,6985.0
+Chandigarh,2020,Diploma Female,1260.0
+Chandigarh,2019,Diploma Female,1223.0
+Chandigarh,2018,Diploma Female,1214.0
+Chandigarh,2017,Diploma Female,1201.0
+Chandigarh,2016,Diploma Female,1230.0
+Chhattisgarh,2020,Diploma Female,15337.0
+Chhattisgarh,2019,Diploma Female,15478.0
+Chhattisgarh,2018,Diploma Female,15902.0
+Chhattisgarh,2017,Diploma Female,16310.0
+Chhattisgarh,2016,Diploma Female,15176.0
+Delhi,2020,Diploma Female,12709.0
+Delhi,2019,Diploma Female,12949.0
+Delhi,2018,Diploma Female,12316.0
+Delhi,2017,Diploma Female,11596.0
+Delhi,2016,Diploma Female,11471.0
+Goa,2020,Diploma Female,1534.0
+Goa,2019,Diploma Female,872.0
+Goa,2018,Diploma Female,751.0
+Goa,2017,Diploma Female,782.0
+Goa,2016,Diploma Female,800.0
+Gujarat,2020,Diploma Female,49305.0
+Gujarat,2019,Diploma Female,44466.0
+Gujarat,2018,Diploma Female,40022.0
+Gujarat,2017,Diploma Female,37803.0
+Gujarat,2016,Diploma Female,34552.0
+Haryana,2020,Diploma Female,26628.0
+Haryana,2019,Diploma Female,21295.0
+Haryana,2018,Diploma Female,21885.0
+Haryana,2017,Diploma Female,20664.0
+Haryana,2016,Diploma Female,19177.0
+Himachal Pradesh,2020,Diploma Female,7505.0
+Himachal Pradesh,2019,Diploma Female,7753.0
+Himachal Pradesh,2018,Diploma Female,7872.0
+Himachal Pradesh,2017,Diploma Female,8091.0
+Himachal Pradesh,2016,Diploma Female,7376.0
+Jammu and Kashmir,2020,Diploma Female,11890.0
+Jammu and Kashmir,2019,Diploma Female,6219.0
+Jammu and Kashmir,2018,Diploma Female,3914.0
+Jammu and Kashmir,2017,Diploma Female,3186.0
+Jammu and Kashmir,2016,Diploma Female,2745.0
+Jharkhand,2020,Diploma Female,14312.0
+Jharkhand,2019,Diploma Female,10714.0
+Jharkhand,2018,Diploma Female,8747.0
+Jharkhand,2017,Diploma Female,7797.0
+Jharkhand,2016,Diploma Female,4947.0
+Karnataka,2020,Diploma Female,113894.0
+Karnataka,2019,Diploma Female,80208.0
+Karnataka,2018,Diploma Female,72897.0
+Karnataka,2017,Diploma Female,77215.0
+Karnataka,2016,Diploma Female,75159.0
+Kerala,2020,Diploma Female,33114.0
+Kerala,2019,Diploma Female,30502.0
+Kerala,2018,Diploma Female,29262.0
+Kerala,2017,Diploma Female,30690.0
+Kerala,2016,Diploma Female,28389.0
+Jammu and Kashmir,2020,Diploma Female,185.0
+Jammu and Kashmir,2019,Diploma Female,24.0
+Madhya Pradesh,2020,Diploma Female,54906.0
+Madhya Pradesh,2019,Diploma Female,42157.0
+Madhya Pradesh,2018,Diploma Female,43251.0
+Madhya Pradesh,2017,Diploma Female,53399.0
+Madhya Pradesh,2016,Diploma Female,48774.0
+Maharashtra,2020,Diploma Female,145439.0
+Maharashtra,2019,Diploma Female,129520.0
+Maharashtra,2018,Diploma Female,130061.0
+Maharashtra,2017,Diploma Female,117068.0
+Maharashtra,2016,Diploma Female,112369.0
+Manipur,2020,Diploma Female,2575.0
+Manipur,2019,Diploma Female,2561.0
+Manipur,2018,Diploma Female,1768.0
+Manipur,2017,Diploma Female,794.0
+Manipur,2016,Diploma Female,764.0
+Meghalaya,2020,Diploma Female,2194.0
+Meghalaya,2019,Diploma Female,1637.0
+Meghalaya,2018,Diploma Female,1719.0
+Meghalaya,2017,Diploma Female,1436.0
+Meghalaya,2016,Diploma Female,1147.0
+Mizoram,2020,Diploma Female,1435.0
+Mizoram,2019,Diploma Female,1213.0
+Mizoram,2018,Diploma Female,1138.0
+Mizoram,2017,Diploma Female,1124.0
+Mizoram,2016,Diploma Female,1151.0
+Nagaland,2020,Diploma Female,1172.0
+Nagaland,2019,Diploma Female,963.0
+Nagaland,2018,Diploma Female,769.0
+Nagaland,2017,Diploma Female,637.0
+Nagaland,2016,Diploma Female,865.0
+Odisha,2020,Diploma Female,40654.0
+Odisha,2019,Diploma Female,34198.0
+Odisha,2018,Diploma Female,32225.0
+Odisha,2017,Diploma Female,30068.0
+Odisha,2016,Diploma Female,29650.0
+Puducherry,2020,Diploma Female,1056.0
+Puducherry,2019,Diploma Female,1122.0
+Puducherry,2018,Diploma Female,1239.0
+Puducherry,2017,Diploma Female,1355.0
+Puducherry,2016,Diploma Female,1194.0
+Punjab,2020,Diploma Female,37553.0
+Punjab,2019,Diploma Female,35448.0
+Punjab,2018,Diploma Female,37704.0
+Punjab,2017,Diploma Female,44775.0
+Punjab,2016,Diploma Female,41331.0
+Rajasthan,2020,Diploma Female,31699.0
+Rajasthan,2019,Diploma Female,26205.0
+Rajasthan,2018,Diploma Female,21307.0
+Rajasthan,2017,Diploma Female,21093.0
+Rajasthan,2016,Diploma Female,15578.0
+Sikkim,2020,Diploma Female,1141.0
+Sikkim,2019,Diploma Female,1053.0
+Sikkim,2018,Diploma Female,1024.0
+Sikkim,2017,Diploma Female,952.0
+Sikkim,2016,Diploma Female,675.0
+Tamil Nadu,2020,Diploma Female,50394.0
+Tamil Nadu,2019,Diploma Female,55406.0
+Tamil Nadu,2018,Diploma Female,58445.0
+Tamil Nadu,2017,Diploma Female,62768.0
+Tamil Nadu,2016,Diploma Female,66461.0
+Telangana,2020,Diploma Female,42988.0
+Telangana,2019,Diploma Female,45165.0
+Telangana,2018,Diploma Female,47463.0
+Telangana,2017,Diploma Female,49160.0
+Telangana,2016,Diploma Female,47316.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Diploma Female,397.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Diploma Female,381.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Diploma Female,355.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Diploma Female,319.0
+The Dadra and Nagar Haveli and Daman and Diu,2016,Diploma Female,285.0
+Tripura,2020,Diploma Female,2603.0
+Tripura,2019,Diploma Female,2109.0
+Tripura,2018,Diploma Female,1940.0
+Tripura,2017,Diploma Female,1781.0
+Tripura,2016,Diploma Female,1661.0
+Uttar Pradesh,2020,Diploma Female,110525.0
+Uttar Pradesh,2019,Diploma Female,101043.0
+Uttar Pradesh,2018,Diploma Female,90672.0
+Uttar Pradesh,2017,Diploma Female,80266.0
+Uttar Pradesh,2016,Diploma Female,69093.0
+Uttarakhand,2020,Diploma Female,7620.0
+Uttarakhand,2019,Diploma Female,7576.0
+Uttarakhand,2018,Diploma Female,8387.0
+Uttarakhand,2017,Diploma Female,8362.0
+Uttarakhand,2016,Diploma Female,7700.0
+West Bengal,2020,Diploma Female,73976.0
+West Bengal,2019,Diploma Female,58012.0
+West Bengal,2018,Diploma Female,54662.0
+West Bengal,2017,Diploma Female,45548.0
+West Bengal,2016,Diploma Female,30795.0
+India,2020,Diploma Both,2818655.0
+India,2019,Diploma Both,2552502.0
+India,2018,Diploma Both,2569201.0
+India,2017,Diploma Both,2585190.0
+India,2016,Diploma Both,2513093.0
+Andaman and Nicobar Islands,2020,Diploma Both,1015.0
+Andaman and Nicobar Islands,2019,Diploma Both,524.0
+Andaman and Nicobar Islands,2018,Diploma Both,850.0
+Andaman and Nicobar Islands,2017,Diploma Both,673.0
+Andaman and Nicobar Islands,2016,Diploma Both,690.0
+Andhra Pradesh,2020,Diploma Both,162259.0
+Andhra Pradesh,2019,Diploma Both,152387.0
+Andhra Pradesh,2018,Diploma Both,161104.0
+Andhra Pradesh,2017,Diploma Both,166756.0
+Andhra Pradesh,2016,Diploma Both,163365.0
+Arunachal Pradesh,2020,Diploma Both,2451.0
+Arunachal Pradesh,2019,Diploma Both,1846.0
+Arunachal Pradesh,2018,Diploma Both,1368.0
+Arunachal Pradesh,2017,Diploma Both,1836.0
+Arunachal Pradesh,2016,Diploma Both,1103.0
+Assam,2020,Diploma Both,21991.0
+Assam,2019,Diploma Both,18029.0
+Assam,2018,Diploma Both,14144.0
+Assam,2017,Diploma Both,11692.0
+Assam,2016,Diploma Both,11619.0
+Bihar,2020,Diploma Both,105301.0
+Bihar,2019,Diploma Both,67774.0
+Bihar,2018,Diploma Both,52095.0
+Bihar,2017,Diploma Both,38508.0
+Bihar,2016,Diploma Both,29019.0
+Chandigarh,2020,Diploma Both,3084.0
+Chandigarh,2019,Diploma Both,3270.0
+Chandigarh,2018,Diploma Both,2605.0
+Chandigarh,2017,Diploma Both,2639.0
+Chandigarh,2016,Diploma Both,2677.0
+Chhattisgarh,2020,Diploma Both,36704.0
+Chhattisgarh,2019,Diploma Both,37675.0
+Chhattisgarh,2018,Diploma Both,38917.0
+Chhattisgarh,2017,Diploma Both,39430.0
+Chhattisgarh,2016,Diploma Both,37372.0
+Delhi,2020,Diploma Both,27929.0
+Delhi,2019,Diploma Both,30765.0
+Delhi,2018,Diploma Both,29013.0
+Delhi,2017,Diploma Both,28656.0
+Delhi,2016,Diploma Both,28075.0
+Goa,2020,Diploma Both,6190.0
+Goa,2019,Diploma Both,5284.0
+Goa,2018,Diploma Both,6317.0
+Goa,2017,Diploma Both,6706.0
+Goa,2016,Diploma Both,6644.0
+Gujarat,2020,Diploma Both,149362.0
+Gujarat,2019,Diploma Both,138820.0
+Gujarat,2018,Diploma Both,137332.0
+Gujarat,2017,Diploma Both,140386.0
+Gujarat,2016,Diploma Both,140201.0
+Haryana,2020,Diploma Both,86433.0
+Haryana,2019,Diploma Both,70563.0
+Haryana,2018,Diploma Both,71432.0
+Haryana,2017,Diploma Both,65991.0
+Haryana,2016,Diploma Both,68254.0
+Himachal Pradesh,2020,Diploma Both,15601.0
+Himachal Pradesh,2019,Diploma Both,16202.0
+Himachal Pradesh,2018,Diploma Both,16156.0
+Himachal Pradesh,2017,Diploma Both,16016.0
+Himachal Pradesh,2016,Diploma Both,15272.0
+Jammu and Kashmir,2020,Diploma Both,24289.0
+Jammu and Kashmir,2019,Diploma Both,14856.0
+Jammu and Kashmir,2018,Diploma Both,12170.0
+Jammu and Kashmir,2017,Diploma Both,10701.0
+Jammu and Kashmir,2016,Diploma Both,9976.0
+Jharkhand,2020,Diploma Both,42213.0
+Jharkhand,2019,Diploma Both,37492.0
+Jharkhand,2018,Diploma Both,32459.0
+Jharkhand,2017,Diploma Both,28941.0
+Jharkhand,2016,Diploma Both,23452.0
+Karnataka,2020,Diploma Both,251214.0
+Karnataka,2019,Diploma Both,193341.0
+Karnataka,2018,Diploma Both,186163.0
+Karnataka,2017,Diploma Both,198469.0
+Karnataka,2016,Diploma Both,204891.0
+Kerala,2020,Diploma Both,81946.0
+Kerala,2019,Diploma Both,71960.0
+Kerala,2018,Diploma Both,66210.0
+Kerala,2017,Diploma Both,66873.0
+Kerala,2016,Diploma Both,63190.0
+Jammu and Kashmir,2020,Diploma Both,430.0
+Jammu and Kashmir,2019,Diploma Both,136.0
+Madhya Pradesh,2020,Diploma Both,157052.0
+Madhya Pradesh,2019,Diploma Both,116769.0
+Madhya Pradesh,2018,Diploma Both,115393.0
+Madhya Pradesh,2017,Diploma Both,146993.0
+Madhya Pradesh,2016,Diploma Both,139059.0
+Maharashtra,2020,Diploma Both,361234.0
+Maharashtra,2019,Diploma Both,295028.0
+Maharashtra,2018,Diploma Both,329003.0
+Maharashtra,2017,Diploma Both,306170.0
+Maharashtra,2016,Diploma Both,311152.0
+Manipur,2020,Diploma Both,4190.0
+Manipur,2019,Diploma Both,3937.0
+Manipur,2018,Diploma Both,3029.0
+Manipur,2017,Diploma Both,1743.0
+Manipur,2016,Diploma Both,1784.0
+Meghalaya,2020,Diploma Both,3494.0
+Meghalaya,2019,Diploma Both,2713.0
+Meghalaya,2018,Diploma Both,2802.0
+Meghalaya,2017,Diploma Both,2309.0
+Meghalaya,2016,Diploma Both,1966.0
+Mizoram,2020,Diploma Both,2133.0
+Mizoram,2019,Diploma Both,1862.0
+Mizoram,2018,Diploma Both,1804.0
+Mizoram,2017,Diploma Both,1733.0
+Mizoram,2016,Diploma Both,1770.0
+Nagaland,2020,Diploma Both,2013.0
+Nagaland,2019,Diploma Both,1790.0
+Nagaland,2018,Diploma Both,1683.0
+Nagaland,2017,Diploma Both,1328.0
+Nagaland,2016,Diploma Both,1650.0
+Odisha,2020,Diploma Both,133210.0
+Odisha,2019,Diploma Both,122956.0
+Odisha,2018,Diploma Both,125515.0
+Odisha,2017,Diploma Both,119753.0
+Odisha,2016,Diploma Both,119348.0
+Puducherry,2020,Diploma Both,3862.0
+Puducherry,2019,Diploma Both,3988.0
+Puducherry,2018,Diploma Both,4042.0
+Puducherry,2017,Diploma Both,4476.0
+Puducherry,2016,Diploma Both,4304.0
+Punjab,2020,Diploma Both,86301.0
+Punjab,2019,Diploma Both,94955.0
+Punjab,2018,Diploma Both,102387.0
+Punjab,2017,Diploma Both,126106.0
+Punjab,2016,Diploma Both,128612.0
+Rajasthan,2020,Diploma Both,108331.0
+Rajasthan,2019,Diploma Both,99798.0
+Rajasthan,2018,Diploma Both,94763.0
+Rajasthan,2017,Diploma Both,105245.0
+Rajasthan,2016,Diploma Both,92127.0
+Sikkim,2020,Diploma Both,2213.0
+Sikkim,2019,Diploma Both,2068.0
+Sikkim,2018,Diploma Both,2040.0
+Sikkim,2017,Diploma Both,1852.0
+Sikkim,2016,Diploma Both,1491.0
+Tamil Nadu,2020,Diploma Both,288613.0
+Tamil Nadu,2019,Diploma Both,334449.0
+Tamil Nadu,2018,Diploma Both,366874.0
+Tamil Nadu,2017,Diploma Both,375924.0
+Tamil Nadu,2016,Diploma Both,389577.0
+Telangana,2020,Diploma Both,98372.0
+Telangana,2019,Diploma Both,105424.0
+Telangana,2018,Diploma Both,117833.0
+Telangana,2017,Diploma Both,126719.0
+Telangana,2016,Diploma Both,126904.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Diploma Both,2044.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Diploma Both,2066.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Diploma Both,2041.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Diploma Both,2140.0
+The Dadra and Nagar Haveli and Daman and Diu,2016,Diploma Both,2223.0
+Tripura,2020,Diploma Both,4828.0
+Tripura,2019,Diploma Both,4365.0
+Tripura,2018,Diploma Both,4252.0
+Tripura,2017,Diploma Both,3940.0
+Tripura,2016,Diploma Both,3844.0
+Uttar Pradesh,2020,Diploma Both,323758.0
+Uttar Pradesh,2019,Diploma Both,298014.0
+Uttar Pradesh,2018,Diploma Both,267985.0
+Uttar Pradesh,2017,Diploma Both,257369.0
+Uttar Pradesh,2016,Diploma Both,231502.0
+Uttarakhand,2020,Diploma Both,28073.0
+Uttarakhand,2019,Diploma Both,28973.0
+Uttarakhand,2018,Diploma Both,31857.0
+Uttarakhand,2017,Diploma Both,32253.0
+Uttarakhand,2016,Diploma Both,31865.0
+West Bengal,2020,Diploma Both,190522.0
+West Bengal,2019,Diploma Both,172423.0
+West Bengal,2018,Diploma Both,167563.0
+West Bengal,2017,Diploma Both,144864.0
+West Bengal,2016,Diploma Both,118115.0
+India,2020,Certificate Male,52362.0
+India,2019,Certificate Male,55369.0
+India,2018,Certificate Male,55074.0
+India,2017,Certificate Male,40649.0
+India,2016,Certificate Male,49518.0
+Andaman and Nicobar Islands,2020,Certificate Male,39.0
+Andaman and Nicobar Islands,2019,Certificate Male,46.0
+Andhra Pradesh,2020,Certificate Male,356.0
+Andhra Pradesh,2019,Certificate Male,3921.0
+Andhra Pradesh,2018,Certificate Male,327.0
+Andhra Pradesh,2017,Certificate Male,258.0
+Andhra Pradesh,2016,Certificate Male,142.0
+Arunachal Pradesh,2020,Certificate Male,310.0
+Arunachal Pradesh,2019,Certificate Male,299.0
+Arunachal Pradesh,2018,Certificate Male,265.0
+Arunachal Pradesh,2017,Certificate Male,246.0
+Arunachal Pradesh,2016,Certificate Male,266.0
+Assam,2020,Certificate Male,387.0
+Assam,2019,Certificate Male,739.0
+Assam,2018,Certificate Male,753.0
+Assam,2017,Certificate Male,1077.0
+Assam,2016,Certificate Male,963.0
+Bihar,2020,Certificate Male,3264.0
+Bihar,2019,Certificate Male,4024.0
+Bihar,2018,Certificate Male,2705.0
+Bihar,2017,Certificate Male,2336.0
+Bihar,2016,Certificate Male,2865.0
+Chandigarh,2020,Certificate Male,222.0
+Chandigarh,2019,Certificate Male,409.0
+Chandigarh,2018,Certificate Male,549.0
+Chandigarh,2017,Certificate Male,456.0
+Chandigarh,2016,Certificate Male,363.0
+Chhattisgarh,2020,Certificate Male,269.0
+Chhattisgarh,2019,Certificate Male,210.0
+Chhattisgarh,2018,Certificate Male,190.0
+Chhattisgarh,2017,Certificate Male,211.0
+Chhattisgarh,2016,Certificate Male,220.0
+Delhi,2020,Certificate Male,1415.0
+Delhi,2019,Certificate Male,2340.0
+Delhi,2018,Certificate Male,2348.0
+Delhi,2017,Certificate Male,2257.0
+Delhi,2016,Certificate Male,1895.0
+Goa,2020,Certificate Male,17.0
+Goa,2019,Certificate Male,20.0
+Goa,2018,Certificate Male,11.0
+Goa,2017,Certificate Male,12.0
+Goa,2016,Certificate Male,13.0
+Gujarat,2020,Certificate Male,13273.0
+Gujarat,2019,Certificate Male,3719.0
+Gujarat,2018,Certificate Male,3217.0
+Gujarat,2017,Certificate Male,3288.0
+Gujarat,2016,Certificate Male,2712.0
+Haryana,2020,Certificate Male,659.0
+Haryana,2019,Certificate Male,1621.0
+Haryana,2018,Certificate Male,1175.0
+Haryana,2017,Certificate Male,1241.0
+Haryana,2016,Certificate Male,1007.0
+Himachal Pradesh,2020,Certificate Male,324.0
+Himachal Pradesh,2019,Certificate Male,590.0
+Himachal Pradesh,2018,Certificate Male,899.0
+Himachal Pradesh,2017,Certificate Male,572.0
+Himachal Pradesh,2016,Certificate Male,425.0
+Jammu and Kashmir,2020,Certificate Male,805.0
+Jammu and Kashmir,2019,Certificate Male,988.0
+Jammu and Kashmir,2018,Certificate Male,124.0
+Jammu and Kashmir,2017,Certificate Male,8.0
+Jammu and Kashmir,2016,Certificate Male,14.0
+Jharkhand,2020,Certificate Male,1160.0
+Jharkhand,2019,Certificate Male,672.0
+Jharkhand,2018,Certificate Male,656.0
+Jharkhand,2017,Certificate Male,471.0
+Jharkhand,2016,Certificate Male,272.0
+Karnataka,2020,Certificate Male,2362.0
+Karnataka,2019,Certificate Male,1148.0
+Karnataka,2018,Certificate Male,1281.0
+Karnataka,2017,Certificate Male,2049.0
+Karnataka,2016,Certificate Male,1953.0
+Kerala,2020,Certificate Male,1226.0
+Kerala,2019,Certificate Male,780.0
+Kerala,2018,Certificate Male,857.0
+Kerala,2017,Certificate Male,740.0
+Kerala,2016,Certificate Male,726.0
+Madhya Pradesh,2020,Certificate Male,2269.0
+Madhya Pradesh,2019,Certificate Male,845.0
+Madhya Pradesh,2018,Certificate Male,1253.0
+Madhya Pradesh,2017,Certificate Male,1224.0
+Madhya Pradesh,2016,Certificate Male,1306.0
+Maharashtra,2020,Certificate Male,4706.0
+Maharashtra,2019,Certificate Male,6100.0
+Maharashtra,2018,Certificate Male,6034.0
+Maharashtra,2017,Certificate Male,5385.0
+Maharashtra,2016,Certificate Male,5096.0
+Manipur,2020,Certificate Male,160.0
+Manipur,2019,Certificate Male,55.0
+Manipur,2018,Certificate Male,46.0
+Meghalaya,2020,Certificate Male,172.0
+Meghalaya,2019,Certificate Male,47.0
+Meghalaya,2017,Certificate Male,5.0
+Mizoram,2019,Certificate Male,304.0
+Mizoram,2018,Certificate Male,285.0
+Mizoram,2017,Certificate Male,190.0
+Nagaland,2020,Certificate Male,98.0
+Nagaland,2019,Certificate Male,17.0
+Nagaland,2018,Certificate Male,69.0
+Nagaland,2017,Certificate Male,55.0
+Nagaland,2016,Certificate Male,43.0
+Odisha,2020,Certificate Male,1321.0
+Odisha,2019,Certificate Male,3383.0
+Odisha,2018,Certificate Male,4284.0
+Odisha,2017,Certificate Male,2975.0
+Odisha,2016,Certificate Male,3773.0
+Puducherry,2020,Certificate Male,1.0
+Puducherry,2018,Certificate Male,7.0
+Puducherry,2017,Certificate Male,15.0
+Punjab,2020,Certificate Male,603.0
+Punjab,2019,Certificate Male,571.0
+Punjab,2018,Certificate Male,577.0
+Punjab,2017,Certificate Male,391.0
+Punjab,2016,Certificate Male,692.0
+Rajasthan,2020,Certificate Male,3930.0
+Rajasthan,2019,Certificate Male,4678.0
+Rajasthan,2018,Certificate Male,3401.0
+Rajasthan,2017,Certificate Male,3014.0
+Rajasthan,2016,Certificate Male,2725.0
+Sikkim,2020,Certificate Male,61.0
+Sikkim,2019,Certificate Male,34.0
+Sikkim,2018,Certificate Male,37.0
+Sikkim,2017,Certificate Male,6.0
+Sikkim,2016,Certificate Male,9.0
+Tamil Nadu,2020,Certificate Male,2574.0
+Tamil Nadu,2019,Certificate Male,3921.0
+Tamil Nadu,2018,Certificate Male,3496.0
+Tamil Nadu,2017,Certificate Male,2736.0
+Tamil Nadu,2016,Certificate Male,2401.0
+Telangana,2020,Certificate Male,858.0
+Telangana,2019,Certificate Male,686.0
+Telangana,2018,Certificate Male,696.0
+Telangana,2017,Certificate Male,73.0
+Telangana,2016,Certificate Male,226.0
+Tripura,2020,Certificate Male,15.0
+Tripura,2019,Certificate Male,149.0
+Tripura,2018,Certificate Male,68.0
+Tripura,2017,Certificate Male,114.0
+Tripura,2016,Certificate Male,142.0
+Uttar Pradesh,2020,Certificate Male,7153.0
+Uttar Pradesh,2019,Certificate Male,9178.0
+Uttar Pradesh,2018,Certificate Male,16241.0
+Uttar Pradesh,2017,Certificate Male,7190.0
+Uttar Pradesh,2016,Certificate Male,16492.0
+Uttarakhand,2020,Certificate Male,303.0
+Uttarakhand,2019,Certificate Male,292.0
+Uttarakhand,2018,Certificate Male,214.0
+Uttarakhand,2017,Certificate Male,232.0
+Uttarakhand,2016,Certificate Male,198.0
+West Bengal,2020,Certificate Male,2050.0
+West Bengal,2019,Certificate Male,3583.0
+West Bengal,2018,Certificate Male,3009.0
+West Bengal,2017,Certificate Male,1852.0
+West Bengal,2016,Certificate Male,2579.0
+India,2020,Certificate Female,47042.0
+India,2019,Certificate Female,69754.0
+India,2018,Certificate Female,64805.0
+India,2017,Certificate Female,50972.0
+India,2016,Certificate Female,59531.0
+Andaman and Nicobar Islands,2020,Certificate Female,33.0
+Andaman and Nicobar Islands,2019,Certificate Female,36.0
+Andhra Pradesh,2020,Certificate Female,442.0
+Andhra Pradesh,2019,Certificate Female,6903.0
+Andhra Pradesh,2018,Certificate Female,636.0
+Andhra Pradesh,2017,Certificate Female,529.0
+Andhra Pradesh,2016,Certificate Female,479.0
+Arunachal Pradesh,2020,Certificate Female,162.0
+Arunachal Pradesh,2019,Certificate Female,119.0
+Arunachal Pradesh,2018,Certificate Female,84.0
+Arunachal Pradesh,2017,Certificate Female,79.0
+Arunachal Pradesh,2016,Certificate Female,74.0
+Assam,2020,Certificate Female,785.0
+Assam,2019,Certificate Female,1165.0
+Assam,2018,Certificate Female,1025.0
+Assam,2017,Certificate Female,1352.0
+Assam,2016,Certificate Female,1322.0
+Bihar,2020,Certificate Female,2885.0
+Bihar,2019,Certificate Female,2562.0
+Bihar,2018,Certificate Female,1439.0
+Bihar,2017,Certificate Female,1075.0
+Bihar,2016,Certificate Female,1539.0
+Chandigarh,2020,Certificate Female,222.0
+Chandigarh,2019,Certificate Female,259.0
+Chandigarh,2018,Certificate Female,204.0
+Chandigarh,2017,Certificate Female,244.0
+Chandigarh,2016,Certificate Female,195.0
+Chhattisgarh,2020,Certificate Female,424.0
+Chhattisgarh,2019,Certificate Female,335.0
+Chhattisgarh,2018,Certificate Female,365.0
+Chhattisgarh,2017,Certificate Female,313.0
+Chhattisgarh,2016,Certificate Female,384.0
+Delhi,2020,Certificate Female,1143.0
+Delhi,2019,Certificate Female,1627.0
+Delhi,2018,Certificate Female,1656.0
+Delhi,2017,Certificate Female,1471.0
+Delhi,2016,Certificate Female,1283.0
+Goa,2020,Certificate Female,14.0
+Goa,2019,Certificate Female,4.0
+Gujarat,2020,Certificate Female,2943.0
+Gujarat,2019,Certificate Female,4424.0
+Gujarat,2018,Certificate Female,4378.0
+Gujarat,2017,Certificate Female,4239.0
+Gujarat,2016,Certificate Female,3481.0
+Haryana,2020,Certificate Female,984.0
+Haryana,2019,Certificate Female,1778.0
+Haryana,2018,Certificate Female,1577.0
+Haryana,2017,Certificate Female,1831.0
+Haryana,2016,Certificate Female,1834.0
+Himachal Pradesh,2020,Certificate Female,236.0
+Himachal Pradesh,2019,Certificate Female,677.0
+Himachal Pradesh,2018,Certificate Female,1050.0
+Himachal Pradesh,2017,Certificate Female,851.0
+Himachal Pradesh,2016,Certificate Female,517.0
+Jammu and Kashmir,2020,Certificate Female,746.0
+Jammu and Kashmir,2019,Certificate Female,1119.0
+Jammu and Kashmir,2018,Certificate Female,116.0
+Jammu and Kashmir,2017,Certificate Female,3.0
+Jammu and Kashmir,2016,Certificate Female,1.0
+Jharkhand,2020,Certificate Female,800.0
+Jharkhand,2019,Certificate Female,1256.0
+Jharkhand,2018,Certificate Female,1280.0
+Jharkhand,2017,Certificate Female,1070.0
+Jharkhand,2016,Certificate Female,832.0
+Karnataka,2020,Certificate Female,2132.0
+Karnataka,2019,Certificate Female,1495.0
+Karnataka,2018,Certificate Female,1793.0
+Karnataka,2017,Certificate Female,1637.0
+Karnataka,2016,Certificate Female,1759.0
+Kerala,2020,Certificate Female,3429.0
+Kerala,2019,Certificate Female,2510.0
+Kerala,2018,Certificate Female,2626.0
+Kerala,2017,Certificate Female,2918.0
+Kerala,2016,Certificate Female,2186.0
+Madhya Pradesh,2020,Certificate Female,1258.0
+Madhya Pradesh,2019,Certificate Female,837.0
+Madhya Pradesh,2018,Certificate Female,673.0
+Madhya Pradesh,2017,Certificate Female,819.0
+Madhya Pradesh,2016,Certificate Female,889.0
+Maharashtra,2020,Certificate Female,4266.0
+Maharashtra,2019,Certificate Female,6516.0
+Maharashtra,2018,Certificate Female,5978.0
+Maharashtra,2017,Certificate Female,4725.0
+Maharashtra,2016,Certificate Female,4411.0
+Manipur,2020,Certificate Female,186.0
+Manipur,2019,Certificate Female,90.0
+Manipur,2018,Certificate Female,72.0
+Manipur,2017,Certificate Female,30.0
+Manipur,2016,Certificate Female,70.0
+Meghalaya,2020,Certificate Female,214.0
+Meghalaya,2019,Certificate Female,47.0
+Meghalaya,2017,Certificate Female,73.0
+Mizoram,2020,Certificate Female,20.0
+Mizoram,2019,Certificate Female,159.0
+Mizoram,2018,Certificate Female,171.0
+Mizoram,2017,Certificate Female,143.0
+Nagaland,2020,Certificate Female,99.0
+Nagaland,2019,Certificate Female,21.0
+Nagaland,2018,Certificate Female,59.0
+Nagaland,2017,Certificate Female,45.0
+Nagaland,2016,Certificate Female,35.0
+Odisha,2020,Certificate Female,2268.0
+Odisha,2019,Certificate Female,5735.0
+Odisha,2018,Certificate Female,5775.0
+Odisha,2017,Certificate Female,4498.0
+Odisha,2016,Certificate Female,5598.0
+Puducherry,2020,Certificate Female,6.0
+Puducherry,2018,Certificate Female,6.0
+Puducherry,2017,Certificate Female,1.0
+Puducherry,2016,Certificate Female,2.0
+Punjab,2020,Certificate Female,691.0
+Punjab,2019,Certificate Female,897.0
+Punjab,2018,Certificate Female,986.0
+Punjab,2017,Certificate Female,893.0
+Punjab,2016,Certificate Female,1184.0
+Rajasthan,2020,Certificate Female,3916.0
+Rajasthan,2019,Certificate Female,5390.0
+Rajasthan,2018,Certificate Female,4632.0
+Rajasthan,2017,Certificate Female,4291.0
+Rajasthan,2016,Certificate Female,4118.0
+Sikkim,2020,Certificate Female,11.0
+Sikkim,2019,Certificate Female,6.0
+Sikkim,2018,Certificate Female,10.0
+Sikkim,2017,Certificate Female,14.0
+Sikkim,2016,Certificate Female,37.0
+Tamil Nadu,2020,Certificate Female,4848.0
+Tamil Nadu,2019,Certificate Female,6572.0
+Tamil Nadu,2018,Certificate Female,6747.0
+Tamil Nadu,2017,Certificate Female,7326.0
+Tamil Nadu,2016,Certificate Female,9088.0
+Telangana,2020,Certificate Female,1017.0
+Telangana,2019,Certificate Female,825.0
+Telangana,2018,Certificate Female,533.0
+Telangana,2017,Certificate Female,455.0
+Telangana,2016,Certificate Female,627.0
+Tripura,2020,Certificate Female,13.0
+Tripura,2019,Certificate Female,221.0
+Tripura,2018,Certificate Female,112.0
+Tripura,2017,Certificate Female,108.0
+Tripura,2016,Certificate Female,80.0
+Uttar Pradesh,2020,Certificate Female,8143.0
+Uttar Pradesh,2019,Certificate Female,12891.0
+Uttar Pradesh,2018,Certificate Female,17756.0
+Uttar Pradesh,2017,Certificate Female,7525.0
+Uttar Pradesh,2016,Certificate Female,15338.0
+Uttarakhand,2020,Certificate Female,75.0
+Uttarakhand,2019,Certificate Female,55.0
+Uttarakhand,2018,Certificate Female,61.0
+Uttarakhand,2017,Certificate Female,85.0
+Uttarakhand,2016,Certificate Female,59.0
+West Bengal,2020,Certificate Female,2631.0
+West Bengal,2019,Certificate Female,3223.0
+West Bengal,2018,Certificate Female,3005.0
+West Bengal,2017,Certificate Female,2329.0
+West Bengal,2016,Certificate Female,2109.0
+India,2020,Certificate Both,99404.0
+India,2019,Certificate Both,125123.0
+India,2018,Certificate Both,119879.0
+India,2017,Certificate Both,91621.0
+India,2016,Certificate Both,109049.0
+Andaman and Nicobar Islands,2020,Certificate Both,72.0
+Andaman and Nicobar Islands,2019,Certificate Both,82.0
+Andhra Pradesh,2020,Certificate Both,798.0
+Andhra Pradesh,2019,Certificate Both,10824.0
+Andhra Pradesh,2018,Certificate Both,963.0
+Andhra Pradesh,2017,Certificate Both,787.0
+Andhra Pradesh,2016,Certificate Both,621.0
+Arunachal Pradesh,2020,Certificate Both,472.0
+Arunachal Pradesh,2019,Certificate Both,418.0
+Arunachal Pradesh,2018,Certificate Both,349.0
+Arunachal Pradesh,2017,Certificate Both,325.0
+Arunachal Pradesh,2016,Certificate Both,340.0
+Assam,2020,Certificate Both,1172.0
+Assam,2019,Certificate Both,1904.0
+Assam,2018,Certificate Both,1778.0
+Assam,2017,Certificate Both,2429.0
+Assam,2016,Certificate Both,2285.0
+Bihar,2020,Certificate Both,6149.0
+Bihar,2019,Certificate Both,6586.0
+Bihar,2018,Certificate Both,4144.0
+Bihar,2017,Certificate Both,3411.0
+Bihar,2016,Certificate Both,4404.0
+Chandigarh,2020,Certificate Both,444.0
+Chandigarh,2019,Certificate Both,668.0
+Chandigarh,2018,Certificate Both,753.0
+Chandigarh,2017,Certificate Both,700.0
+Chandigarh,2016,Certificate Both,558.0
+Chhattisgarh,2020,Certificate Both,693.0
+Chhattisgarh,2019,Certificate Both,545.0
+Chhattisgarh,2018,Certificate Both,555.0
+Chhattisgarh,2017,Certificate Both,524.0
+Chhattisgarh,2016,Certificate Both,604.0
+Delhi,2020,Certificate Both,2558.0
+Delhi,2019,Certificate Both,3967.0
+Delhi,2018,Certificate Both,4004.0
+Delhi,2017,Certificate Both,3728.0
+Delhi,2016,Certificate Both,3178.0
+Goa,2020,Certificate Both,31.0
+Goa,2019,Certificate Both,24.0
+Goa,2018,Certificate Both,11.0
+Goa,2017,Certificate Both,12.0
+Goa,2016,Certificate Both,13.0
+Gujarat,2020,Certificate Both,16216.0
+Gujarat,2019,Certificate Both,8143.0
+Gujarat,2018,Certificate Both,7595.0
+Gujarat,2017,Certificate Both,7527.0
+Gujarat,2016,Certificate Both,6193.0
+Haryana,2020,Certificate Both,1643.0
+Haryana,2019,Certificate Both,3399.0
+Haryana,2018,Certificate Both,2752.0
+Haryana,2017,Certificate Both,3072.0
+Haryana,2016,Certificate Both,2841.0
+Himachal Pradesh,2020,Certificate Both,560.0
+Himachal Pradesh,2019,Certificate Both,1267.0
+Himachal Pradesh,2018,Certificate Both,1949.0
+Himachal Pradesh,2017,Certificate Both,1423.0
+Himachal Pradesh,2016,Certificate Both,942.0
+Jammu and Kashmir,2020,Certificate Both,1551.0
+Jammu and Kashmir,2019,Certificate Both,2107.0
+Jammu and Kashmir,2018,Certificate Both,240.0
+Jammu and Kashmir,2017,Certificate Both,11.0
+Jammu and Kashmir,2016,Certificate Both,15.0
+Jharkhand,2020,Certificate Both,1960.0
+Jharkhand,2019,Certificate Both,1928.0
+Jharkhand,2018,Certificate Both,1936.0
+Jharkhand,2017,Certificate Both,1541.0
+Jharkhand,2016,Certificate Both,1104.0
+Karnataka,2020,Certificate Both,4494.0
+Karnataka,2019,Certificate Both,2643.0
+Karnataka,2018,Certificate Both,3074.0
+Karnataka,2017,Certificate Both,3686.0
+Karnataka,2016,Certificate Both,3712.0
+Kerala,2020,Certificate Both,4655.0
+Kerala,2019,Certificate Both,3290.0
+Kerala,2018,Certificate Both,3483.0
+Kerala,2017,Certificate Both,3658.0
+Kerala,2016,Certificate Both,2912.0
+Madhya Pradesh,2020,Certificate Both,3527.0
+Madhya Pradesh,2019,Certificate Both,1682.0
+Madhya Pradesh,2018,Certificate Both,1926.0
+Madhya Pradesh,2017,Certificate Both,2043.0
+Madhya Pradesh,2016,Certificate Both,2195.0
+Maharashtra,2020,Certificate Both,8972.0
+Maharashtra,2019,Certificate Both,12616.0
+Maharashtra,2018,Certificate Both,12012.0
+Maharashtra,2017,Certificate Both,10110.0
+Maharashtra,2016,Certificate Both,9507.0
+Manipur,2020,Certificate Both,346.0
+Manipur,2019,Certificate Both,145.0
+Manipur,2018,Certificate Both,118.0
+Manipur,2017,Certificate Both,30.0
+Manipur,2016,Certificate Both,70.0
+Meghalaya,2020,Certificate Both,386.0
+Meghalaya,2019,Certificate Both,94.0
+Meghalaya,2017,Certificate Both,78.0
+Mizoram,2020,Certificate Both,20.0
+Mizoram,2019,Certificate Both,463.0
+Mizoram,2018,Certificate Both,456.0
+Mizoram,2017,Certificate Both,333.0
+Nagaland,2020,Certificate Both,197.0
+Nagaland,2019,Certificate Both,38.0
+Nagaland,2018,Certificate Both,128.0
+Nagaland,2017,Certificate Both,100.0
+Nagaland,2016,Certificate Both,78.0
+Odisha,2020,Certificate Both,3589.0
+Odisha,2019,Certificate Both,9118.0
+Odisha,2018,Certificate Both,10059.0
+Odisha,2017,Certificate Both,7473.0
+Odisha,2016,Certificate Both,9371.0
+Puducherry,2020,Certificate Both,7.0
+Puducherry,2018,Certificate Both,13.0
+Puducherry,2017,Certificate Both,16.0
+Puducherry,2016,Certificate Both,2.0
+Punjab,2020,Certificate Both,1294.0
+Punjab,2019,Certificate Both,1468.0
+Punjab,2018,Certificate Both,1563.0
+Punjab,2017,Certificate Both,1284.0
+Punjab,2016,Certificate Both,1876.0
+Rajasthan,2020,Certificate Both,7846.0
+Rajasthan,2019,Certificate Both,10068.0
+Rajasthan,2018,Certificate Both,8033.0
+Rajasthan,2017,Certificate Both,7305.0
+Rajasthan,2016,Certificate Both,6843.0
+Sikkim,2020,Certificate Both,72.0
+Sikkim,2019,Certificate Both,40.0
+Sikkim,2018,Certificate Both,47.0
+Sikkim,2017,Certificate Both,20.0
+Sikkim,2016,Certificate Both,46.0
+Tamil Nadu,2020,Certificate Both,7422.0
+Tamil Nadu,2019,Certificate Both,10493.0
+Tamil Nadu,2018,Certificate Both,10243.0
+Tamil Nadu,2017,Certificate Both,10062.0
+Tamil Nadu,2016,Certificate Both,11489.0
+Telangana,2020,Certificate Both,1875.0
+Telangana,2019,Certificate Both,1511.0
+Telangana,2018,Certificate Both,1229.0
+Telangana,2017,Certificate Both,528.0
+Telangana,2016,Certificate Both,853.0
+Tripura,2020,Certificate Both,28.0
+Tripura,2019,Certificate Both,370.0
+Tripura,2018,Certificate Both,180.0
+Tripura,2017,Certificate Both,222.0
+Tripura,2016,Certificate Both,222.0
+Uttar Pradesh,2020,Certificate Both,15296.0
+Uttar Pradesh,2019,Certificate Both,22069.0
+Uttar Pradesh,2018,Certificate Both,33997.0
+Uttar Pradesh,2017,Certificate Both,14715.0
+Uttar Pradesh,2016,Certificate Both,31830.0
+Uttarakhand,2020,Certificate Both,378.0
+Uttarakhand,2019,Certificate Both,347.0
+Uttarakhand,2018,Certificate Both,275.0
+Uttarakhand,2017,Certificate Both,317.0
+Uttarakhand,2016,Certificate Both,257.0
+West Bengal,2020,Certificate Both,4681.0
+West Bengal,2019,Certificate Both,6806.0
+West Bengal,2018,Certificate Both,6014.0
+West Bengal,2017,Certificate Both,4181.0
+West Bengal,2016,Certificate Both,4688.0
+India,2020,Integrated Male,211932.0
+India,2019,Integrated Male,167938.0
+India,2018,Integrated Male,138422.0
+India,2017,Integrated Male,114233.0
+India,2016,Integrated Male,102267.0
+Andaman and Nicobar Islands,2020,Integrated Male,145.0
+Andaman and Nicobar Islands,2019,Integrated Male,145.0
+Andaman and Nicobar Islands,2018,Integrated Male,46.0
+Andaman and Nicobar Islands,2017,Integrated Male,26.0
+Andaman and Nicobar Islands,2016,Integrated Male,24.0
+Andhra Pradesh,2020,Integrated Male,8429.0
+Andhra Pradesh,2019,Integrated Male,8650.0
+Andhra Pradesh,2018,Integrated Male,7389.0
+Andhra Pradesh,2017,Integrated Male,7132.0
+Andhra Pradesh,2016,Integrated Male,6378.0
+Arunachal Pradesh,2020,Integrated Male,1196.0
+Arunachal Pradesh,2019,Integrated Male,1015.0
+Arunachal Pradesh,2018,Integrated Male,308.0
+Arunachal Pradesh,2017,Integrated Male,177.0
+Arunachal Pradesh,2016,Integrated Male,59.0
+Assam,2020,Integrated Male,2459.0
+Assam,2019,Integrated Male,2446.0
+Assam,2018,Integrated Male,2377.0
+Assam,2017,Integrated Male,2630.0
+Assam,2016,Integrated Male,2472.0
+Bihar,2020,Integrated Male,2592.0
+Bihar,2019,Integrated Male,2258.0
+Bihar,2018,Integrated Male,1952.0
+Bihar,2017,Integrated Male,1512.0
+Bihar,2016,Integrated Male,1212.0
+Chandigarh,2020,Integrated Male,883.0
+Chandigarh,2019,Integrated Male,1139.0
+Chandigarh,2018,Integrated Male,1111.0
+Chandigarh,2017,Integrated Male,1058.0
+Chandigarh,2016,Integrated Male,1100.0
+Chhattisgarh,2020,Integrated Male,1542.0
+Chhattisgarh,2019,Integrated Male,1882.0
+Chhattisgarh,2018,Integrated Male,1357.0
+Chhattisgarh,2017,Integrated Male,1014.0
+Chhattisgarh,2016,Integrated Male,938.0
+Delhi,2020,Integrated Male,3735.0
+Delhi,2019,Integrated Male,2999.0
+Delhi,2018,Integrated Male,3189.0
+Delhi,2017,Integrated Male,2126.0
+Delhi,2016,Integrated Male,2020.0
+Goa,2020,Integrated Male,422.0
+Goa,2019,Integrated Male,196.0
+Goa,2018,Integrated Male,213.0
+Goa,2017,Integrated Male,198.0
+Goa,2016,Integrated Male,131.0
+Gujarat,2020,Integrated Male,9405.0
+Gujarat,2019,Integrated Male,7635.0
+Gujarat,2018,Integrated Male,7727.0
+Gujarat,2017,Integrated Male,7115.0
+Gujarat,2016,Integrated Male,5886.0
+Haryana,2020,Integrated Male,9775.0
+Haryana,2019,Integrated Male,8715.0
+Haryana,2018,Integrated Male,8489.0
+Haryana,2017,Integrated Male,8294.0
+Haryana,2016,Integrated Male,6428.0
+Himachal Pradesh,2020,Integrated Male,1504.0
+Himachal Pradesh,2019,Integrated Male,990.0
+Himachal Pradesh,2018,Integrated Male,913.0
+Himachal Pradesh,2017,Integrated Male,762.0
+Himachal Pradesh,2016,Integrated Male,647.0
+Jammu and Kashmir,2020,Integrated Male,4509.0
+Jammu and Kashmir,2019,Integrated Male,2846.0
+Jammu and Kashmir,2018,Integrated Male,2618.0
+Jammu and Kashmir,2017,Integrated Male,1532.0
+Jammu and Kashmir,2016,Integrated Male,1021.0
+Jharkhand,2020,Integrated Male,1815.0
+Jharkhand,2019,Integrated Male,2095.0
+Jharkhand,2018,Integrated Male,2252.0
+Jharkhand,2017,Integrated Male,2316.0
+Jharkhand,2016,Integrated Male,2378.0
+Karnataka,2020,Integrated Male,7274.0
+Karnataka,2019,Integrated Male,6382.0
+Karnataka,2018,Integrated Male,4495.0
+Karnataka,2017,Integrated Male,3879.0
+Karnataka,2016,Integrated Male,4406.0
+Kerala,2020,Integrated Male,4226.0
+Kerala,2019,Integrated Male,3701.0
+Kerala,2018,Integrated Male,2828.0
+Kerala,2017,Integrated Male,2252.0
+Kerala,2016,Integrated Male,2488.0
+Jammu and Kashmir,2020,Integrated Male,47.0
+Jammu and Kashmir,2019,Integrated Male,57.0
+Madhya Pradesh,2020,Integrated Male,16402.0
+Madhya Pradesh,2019,Integrated Male,10498.0
+Madhya Pradesh,2018,Integrated Male,8300.0
+Madhya Pradesh,2017,Integrated Male,6118.0
+Madhya Pradesh,2016,Integrated Male,4732.0
+Maharashtra,2020,Integrated Male,8314.0
+Maharashtra,2019,Integrated Male,8085.0
+Maharashtra,2018,Integrated Male,7053.0
+Maharashtra,2017,Integrated Male,6076.0
+Maharashtra,2016,Integrated Male,5555.0
+Meghalaya,2020,Integrated Male,73.0
+Meghalaya,2019,Integrated Male,70.0
+Meghalaya,2018,Integrated Male,52.0
+Meghalaya,2017,Integrated Male,40.0
+Meghalaya,2016,Integrated Male,21.0
+Mizoram,2020,Integrated Male,29.0
+Mizoram,2019,Integrated Male,47.0
+Mizoram,2018,Integrated Male,66.0
+Mizoram,2017,Integrated Male,66.0
+Mizoram,2016,Integrated Male,56.0
+Nagaland,2020,Integrated Male,6.0
+Nagaland,2019,Integrated Male,6.0
+Nagaland,2018,Integrated Male,15.0
+Nagaland,2017,Integrated Male,15.0
+Nagaland,2016,Integrated Male,15.0
+Odisha,2020,Integrated Male,5929.0
+Odisha,2019,Integrated Male,4452.0
+Odisha,2018,Integrated Male,3805.0
+Odisha,2017,Integrated Male,3459.0
+Odisha,2016,Integrated Male,2835.0
+Puducherry,2020,Integrated Male,354.0
+Puducherry,2019,Integrated Male,532.0
+Puducherry,2018,Integrated Male,505.0
+Puducherry,2017,Integrated Male,656.0
+Puducherry,2016,Integrated Male,614.0
+Punjab,2020,Integrated Male,8499.0
+Punjab,2019,Integrated Male,6459.0
+Punjab,2018,Integrated Male,6354.0
+Punjab,2017,Integrated Male,5416.0
+Punjab,2016,Integrated Male,4489.0
+Rajasthan,2020,Integrated Male,49141.0
+Rajasthan,2019,Integrated Male,29964.0
+Rajasthan,2018,Integrated Male,16104.0
+Rajasthan,2017,Integrated Male,7478.0
+Rajasthan,2016,Integrated Male,5875.0
+Sikkim,2020,Integrated Male,153.0
+Sikkim,2019,Integrated Male,120.0
+Sikkim,2018,Integrated Male,110.0
+Sikkim,2017,Integrated Male,117.0
+Sikkim,2016,Integrated Male,153.0
+Tamil Nadu,2020,Integrated Male,11859.0
+Tamil Nadu,2019,Integrated Male,11312.0
+Tamil Nadu,2018,Integrated Male,10871.0
+Tamil Nadu,2017,Integrated Male,9199.0
+Tamil Nadu,2016,Integrated Male,8115.0
+Telangana,2020,Integrated Male,3866.0
+Telangana,2019,Integrated Male,3629.0
+Telangana,2018,Integrated Male,3113.0
+Telangana,2017,Integrated Male,2945.0
+Telangana,2016,Integrated Male,2589.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Integrated Male,22.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Integrated Male,11.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Integrated Male,6.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Integrated Male,4.0
+Tripura,2020,Integrated Male,871.0
+Tripura,2019,Integrated Male,396.0
+Tripura,2018,Integrated Male,701.0
+Tripura,2017,Integrated Male,563.0
+Tripura,2016,Integrated Male,272.0
+Uttar Pradesh,2020,Integrated Male,32566.0
+Uttar Pradesh,2019,Integrated Male,26504.0
+Uttar Pradesh,2018,Integrated Male,21867.0
+Uttar Pradesh,2017,Integrated Male,20331.0
+Uttar Pradesh,2016,Integrated Male,20006.0
+Uttarakhand,2020,Integrated Male,3951.0
+Uttarakhand,2019,Integrated Male,3366.0
+Uttarakhand,2018,Integrated Male,3092.0
+Uttarakhand,2017,Integrated Male,2638.0
+Uttarakhand,2016,Integrated Male,2560.0
+West Bengal,2020,Integrated Male,9939.0
+West Bengal,2019,Integrated Male,9336.0
+West Bengal,2018,Integrated Male,9144.0
+West Bengal,2017,Integrated Male,7089.0
+West Bengal,2016,Integrated Male,6792.0
+India,2020,Integrated Female,173256.0
+India,2019,Integrated Female,128748.0
+India,2018,Integrated Female,102391.0
+India,2017,Integrated Female,81293.0
+India,2016,Integrated Female,71448.0
+Andaman and Nicobar Islands,2020,Integrated Female,224.0
+Andaman and Nicobar Islands,2019,Integrated Female,224.0
+Andaman and Nicobar Islands,2018,Integrated Female,142.0
+Andaman and Nicobar Islands,2017,Integrated Female,91.0
+Andaman and Nicobar Islands,2016,Integrated Female,91.0
+Andhra Pradesh,2020,Integrated Female,4528.0
+Andhra Pradesh,2019,Integrated Female,4362.0
+Andhra Pradesh,2018,Integrated Female,3578.0
+Andhra Pradesh,2017,Integrated Female,2900.0
+Andhra Pradesh,2016,Integrated Female,2536.0
+Arunachal Pradesh,2020,Integrated Female,726.0
+Arunachal Pradesh,2019,Integrated Female,628.0
+Arunachal Pradesh,2018,Integrated Female,94.0
+Arunachal Pradesh,2017,Integrated Female,49.0
+Arunachal Pradesh,2016,Integrated Female,10.0
+Assam,2020,Integrated Female,2783.0
+Assam,2019,Integrated Female,2247.0
+Assam,2018,Integrated Female,2172.0
+Assam,2017,Integrated Female,2651.0
+Assam,2016,Integrated Female,2476.0
+Bihar,2020,Integrated Female,1333.0
+Bihar,2019,Integrated Female,1026.0
+Bihar,2018,Integrated Female,896.0
+Bihar,2017,Integrated Female,788.0
+Bihar,2016,Integrated Female,640.0
+Chandigarh,2020,Integrated Female,1087.0
+Chandigarh,2019,Integrated Female,1290.0
+Chandigarh,2018,Integrated Female,1091.0
+Chandigarh,2017,Integrated Female,1133.0
+Chandigarh,2016,Integrated Female,1264.0
+Chhattisgarh,2020,Integrated Female,1540.0
+Chhattisgarh,2019,Integrated Female,1848.0
+Chhattisgarh,2018,Integrated Female,1444.0
+Chhattisgarh,2017,Integrated Female,1005.0
+Chhattisgarh,2016,Integrated Female,921.0
+Delhi,2020,Integrated Female,2228.0
+Delhi,2019,Integrated Female,1497.0
+Delhi,2018,Integrated Female,1882.0
+Delhi,2017,Integrated Female,1019.0
+Delhi,2016,Integrated Female,754.0
+Goa,2020,Integrated Female,923.0
+Goa,2019,Integrated Female,528.0
+Goa,2018,Integrated Female,479.0
+Goa,2017,Integrated Female,376.0
+Goa,2016,Integrated Female,169.0
+Gujarat,2020,Integrated Female,7575.0
+Gujarat,2019,Integrated Female,6880.0
+Gujarat,2018,Integrated Female,7389.0
+Gujarat,2017,Integrated Female,7290.0
+Gujarat,2016,Integrated Female,6383.0
+Haryana,2020,Integrated Female,7662.0
+Haryana,2019,Integrated Female,4334.0
+Haryana,2018,Integrated Female,5960.0
+Haryana,2017,Integrated Female,4858.0
+Haryana,2016,Integrated Female,3988.0
+Himachal Pradesh,2020,Integrated Female,965.0
+Himachal Pradesh,2019,Integrated Female,523.0
+Himachal Pradesh,2018,Integrated Female,419.0
+Himachal Pradesh,2017,Integrated Female,397.0
+Himachal Pradesh,2016,Integrated Female,269.0
+Jammu and Kashmir,2020,Integrated Female,5401.0
+Jammu and Kashmir,2019,Integrated Female,3540.0
+Jammu and Kashmir,2018,Integrated Female,2894.0
+Jammu and Kashmir,2017,Integrated Female,1875.0
+Jammu and Kashmir,2016,Integrated Female,1465.0
+Jharkhand,2020,Integrated Female,1030.0
+Jharkhand,2019,Integrated Female,1222.0
+Jharkhand,2018,Integrated Female,1326.0
+Jharkhand,2017,Integrated Female,1329.0
+Jharkhand,2016,Integrated Female,1485.0
+Karnataka,2020,Integrated Female,6681.0
+Karnataka,2019,Integrated Female,5074.0
+Karnataka,2018,Integrated Female,3652.0
+Karnataka,2017,Integrated Female,3112.0
+Karnataka,2016,Integrated Female,3636.0
+Kerala,2020,Integrated Female,5505.0
+Kerala,2019,Integrated Female,4094.0
+Kerala,2018,Integrated Female,2864.0
+Kerala,2017,Integrated Female,2159.0
+Kerala,2016,Integrated Female,2389.0
+Jammu and Kashmir,2020,Integrated Female,91.0
+Jammu and Kashmir,2019,Integrated Female,98.0
+Madhya Pradesh,2020,Integrated Female,13083.0
+Madhya Pradesh,2019,Integrated Female,8326.0
+Madhya Pradesh,2018,Integrated Female,6086.0
+Madhya Pradesh,2017,Integrated Female,3859.0
+Madhya Pradesh,2016,Integrated Female,3163.0
+Maharashtra,2020,Integrated Female,7527.0
+Maharashtra,2019,Integrated Female,7837.0
+Maharashtra,2018,Integrated Female,6470.0
+Maharashtra,2017,Integrated Female,5868.0
+Maharashtra,2016,Integrated Female,5367.0
+Meghalaya,2020,Integrated Female,54.0
+Meghalaya,2019,Integrated Female,52.0
+Meghalaya,2018,Integrated Female,42.0
+Meghalaya,2017,Integrated Female,27.0
+Meghalaya,2016,Integrated Female,17.0
+Mizoram,2020,Integrated Female,23.0
+Mizoram,2019,Integrated Female,26.0
+Mizoram,2018,Integrated Female,44.0
+Mizoram,2017,Integrated Female,37.0
+Mizoram,2016,Integrated Female,36.0
+Odisha,2020,Integrated Female,6369.0
+Odisha,2019,Integrated Female,4458.0
+Odisha,2018,Integrated Female,3945.0
+Odisha,2017,Integrated Female,3128.0
+Odisha,2016,Integrated Female,2491.0
+Puducherry,2020,Integrated Female,381.0
+Puducherry,2019,Integrated Female,492.0
+Puducherry,2018,Integrated Female,458.0
+Puducherry,2017,Integrated Female,581.0
+Puducherry,2016,Integrated Female,532.0
+Punjab,2020,Integrated Female,9348.0
+Punjab,2019,Integrated Female,7025.0
+Punjab,2018,Integrated Female,5603.0
+Punjab,2017,Integrated Female,4495.0
+Punjab,2016,Integrated Female,3822.0
+Rajasthan,2020,Integrated Female,43916.0
+Rajasthan,2019,Integrated Female,24607.0
+Rajasthan,2018,Integrated Female,12310.0
+Rajasthan,2017,Integrated Female,5588.0
+Rajasthan,2016,Integrated Female,4238.0
+Sikkim,2020,Integrated Female,222.0
+Sikkim,2019,Integrated Female,198.0
+Sikkim,2018,Integrated Female,185.0
+Sikkim,2017,Integrated Female,177.0
+Sikkim,2016,Integrated Female,184.0
+Tamil Nadu,2020,Integrated Female,11193.0
+Tamil Nadu,2019,Integrated Female,10429.0
+Tamil Nadu,2018,Integrated Female,9442.0
+Tamil Nadu,2017,Integrated Female,7843.0
+Tamil Nadu,2016,Integrated Female,6655.0
+Telangana,2020,Integrated Female,2792.0
+Telangana,2019,Integrated Female,2601.0
+Telangana,2018,Integrated Female,2067.0
+Telangana,2017,Integrated Female,2005.0
+Telangana,2016,Integrated Female,1760.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Integrated Female,36.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Integrated Female,26.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Integrated Female,14.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Integrated Female,2.0
+Tripura,2020,Integrated Female,723.0
+Tripura,2019,Integrated Female,242.0
+Tripura,2018,Integrated Female,427.0
+Tripura,2017,Integrated Female,322.0
+Tripura,2016,Integrated Female,184.0
+Uttar Pradesh,2020,Integrated Female,19340.0
+Uttar Pradesh,2019,Integrated Female,15133.0
+Uttar Pradesh,2018,Integrated Female,12337.0
+Uttar Pradesh,2017,Integrated Female,11549.0
+Uttar Pradesh,2016,Integrated Female,10264.0
+Uttarakhand,2020,Integrated Female,2549.0
+Uttarakhand,2019,Integrated Female,2286.0
+Uttarakhand,2018,Integrated Female,1923.0
+Uttarakhand,2017,Integrated Female,1655.0
+Uttarakhand,2016,Integrated Female,1577.0
+West Bengal,2020,Integrated Female,5418.0
+West Bengal,2019,Integrated Female,5595.0
+West Bengal,2018,Integrated Female,4756.0
+West Bengal,2017,Integrated Female,3125.0
+West Bengal,2016,Integrated Female,2682.0
+India,2020,Integrated Both,385188.0
+India,2019,Integrated Both,296686.0
+India,2018,Integrated Both,240813.0
+India,2017,Integrated Both,195526.0
+India,2016,Integrated Both,173715.0
+Andaman and Nicobar Islands,2020,Integrated Both,369.0
+Andaman and Nicobar Islands,2019,Integrated Both,369.0
+Andaman and Nicobar Islands,2018,Integrated Both,188.0
+Andaman and Nicobar Islands,2017,Integrated Both,117.0
+Andaman and Nicobar Islands,2016,Integrated Both,115.0
+Andhra Pradesh,2020,Integrated Both,12957.0
+Andhra Pradesh,2019,Integrated Both,13012.0
+Andhra Pradesh,2018,Integrated Both,10967.0
+Andhra Pradesh,2017,Integrated Both,10032.0
+Andhra Pradesh,2016,Integrated Both,8914.0
+Arunachal Pradesh,2020,Integrated Both,1922.0
+Arunachal Pradesh,2019,Integrated Both,1643.0
+Arunachal Pradesh,2018,Integrated Both,402.0
+Arunachal Pradesh,2017,Integrated Both,226.0
+Arunachal Pradesh,2016,Integrated Both,69.0
+Assam,2020,Integrated Both,5242.0
+Assam,2019,Integrated Both,4693.0
+Assam,2018,Integrated Both,4549.0
+Assam,2017,Integrated Both,5281.0
+Assam,2016,Integrated Both,4948.0
+Bihar,2020,Integrated Both,3925.0
+Bihar,2019,Integrated Both,3284.0
+Bihar,2018,Integrated Both,2848.0
+Bihar,2017,Integrated Both,2300.0
+Bihar,2016,Integrated Both,1852.0
+Chandigarh,2020,Integrated Both,1970.0
+Chandigarh,2019,Integrated Both,2429.0
+Chandigarh,2018,Integrated Both,2202.0
+Chandigarh,2017,Integrated Both,2191.0
+Chandigarh,2016,Integrated Both,2364.0
+Chhattisgarh,2020,Integrated Both,3082.0
+Chhattisgarh,2019,Integrated Both,3730.0
+Chhattisgarh,2018,Integrated Both,2801.0
+Chhattisgarh,2017,Integrated Both,2019.0
+Chhattisgarh,2016,Integrated Both,1859.0
+Delhi,2020,Integrated Both,5963.0
+Delhi,2019,Integrated Both,4496.0
+Delhi,2018,Integrated Both,5071.0
+Delhi,2017,Integrated Both,3145.0
+Delhi,2016,Integrated Both,2774.0
+Goa,2020,Integrated Both,1345.0
+Goa,2019,Integrated Both,724.0
+Goa,2018,Integrated Both,692.0
+Goa,2017,Integrated Both,574.0
+Goa,2016,Integrated Both,300.0
+Gujarat,2020,Integrated Both,16980.0
+Gujarat,2019,Integrated Both,14515.0
+Gujarat,2018,Integrated Both,15116.0
+Gujarat,2017,Integrated Both,14405.0
+Gujarat,2016,Integrated Both,12269.0
+Haryana,2020,Integrated Both,17437.0
+Haryana,2019,Integrated Both,13049.0
+Haryana,2018,Integrated Both,14449.0
+Haryana,2017,Integrated Both,13152.0
+Haryana,2016,Integrated Both,10416.0
+Himachal Pradesh,2020,Integrated Both,2469.0
+Himachal Pradesh,2019,Integrated Both,1513.0
+Himachal Pradesh,2018,Integrated Both,1332.0
+Himachal Pradesh,2017,Integrated Both,1159.0
+Himachal Pradesh,2016,Integrated Both,916.0
+Jammu and Kashmir,2020,Integrated Both,9910.0
+Jammu and Kashmir,2019,Integrated Both,6386.0
+Jammu and Kashmir,2018,Integrated Both,5512.0
+Jammu and Kashmir,2017,Integrated Both,3407.0
+Jammu and Kashmir,2016,Integrated Both,2486.0
+Jharkhand,2020,Integrated Both,2845.0
+Jharkhand,2019,Integrated Both,3317.0
+Jharkhand,2018,Integrated Both,3578.0
+Jharkhand,2017,Integrated Both,3645.0
+Jharkhand,2016,Integrated Both,3863.0
+Karnataka,2020,Integrated Both,13955.0
+Karnataka,2019,Integrated Both,11456.0
+Karnataka,2018,Integrated Both,8147.0
+Karnataka,2017,Integrated Both,6991.0
+Karnataka,2016,Integrated Both,8042.0
+Kerala,2020,Integrated Both,9731.0
+Kerala,2019,Integrated Both,7795.0
+Kerala,2018,Integrated Both,5692.0
+Kerala,2017,Integrated Both,4411.0
+Kerala,2016,Integrated Both,4877.0
+Jammu and Kashmir,2020,Integrated Both,138.0
+Jammu and Kashmir,2019,Integrated Both,155.0
+Madhya Pradesh,2020,Integrated Both,29485.0
+Madhya Pradesh,2019,Integrated Both,18824.0
+Madhya Pradesh,2018,Integrated Both,14386.0
+Madhya Pradesh,2017,Integrated Both,9977.0
+Madhya Pradesh,2016,Integrated Both,7895.0
+Maharashtra,2020,Integrated Both,15841.0
+Maharashtra,2019,Integrated Both,15922.0
+Maharashtra,2018,Integrated Both,13523.0
+Maharashtra,2017,Integrated Both,11944.0
+Maharashtra,2016,Integrated Both,10922.0
+Meghalaya,2020,Integrated Both,127.0
+Meghalaya,2019,Integrated Both,122.0
+Meghalaya,2018,Integrated Both,94.0
+Meghalaya,2017,Integrated Both,67.0
+Meghalaya,2016,Integrated Both,38.0
+Mizoram,2020,Integrated Both,52.0
+Mizoram,2019,Integrated Both,73.0
+Mizoram,2018,Integrated Both,110.0
+Mizoram,2017,Integrated Both,103.0
+Mizoram,2016,Integrated Both,92.0
+Nagaland,2020,Integrated Both,6.0
+Nagaland,2019,Integrated Both,6.0
+Nagaland,2018,Integrated Both,15.0
+Nagaland,2017,Integrated Both,15.0
+Nagaland,2016,Integrated Both,15.0
+Odisha,2020,Integrated Both,12298.0
+Odisha,2019,Integrated Both,8910.0
+Odisha,2018,Integrated Both,7750.0
+Odisha,2017,Integrated Both,6587.0
+Odisha,2016,Integrated Both,5326.0
+Puducherry,2020,Integrated Both,735.0
+Puducherry,2019,Integrated Both,1024.0
+Puducherry,2018,Integrated Both,963.0
+Puducherry,2017,Integrated Both,1237.0
+Puducherry,2016,Integrated Both,1146.0
+Punjab,2020,Integrated Both,17847.0
+Punjab,2019,Integrated Both,13484.0
+Punjab,2018,Integrated Both,11957.0
+Punjab,2017,Integrated Both,9911.0
+Punjab,2016,Integrated Both,8311.0
+Rajasthan,2020,Integrated Both,93057.0
+Rajasthan,2019,Integrated Both,54571.0
+Rajasthan,2018,Integrated Both,28414.0
+Rajasthan,2017,Integrated Both,13066.0
+Rajasthan,2016,Integrated Both,10113.0
+Sikkim,2020,Integrated Both,375.0
+Sikkim,2019,Integrated Both,318.0
+Sikkim,2018,Integrated Both,295.0
+Sikkim,2017,Integrated Both,294.0
+Sikkim,2016,Integrated Both,337.0
+Tamil Nadu,2020,Integrated Both,23052.0
+Tamil Nadu,2019,Integrated Both,21741.0
+Tamil Nadu,2018,Integrated Both,20313.0
+Tamil Nadu,2017,Integrated Both,17042.0
+Tamil Nadu,2016,Integrated Both,14770.0
+Telangana,2020,Integrated Both,6658.0
+Telangana,2019,Integrated Both,6230.0
+Telangana,2018,Integrated Both,5180.0
+Telangana,2017,Integrated Both,4950.0
+Telangana,2016,Integrated Both,4349.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Integrated Both,58.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Integrated Both,37.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Integrated Both,20.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Integrated Both,6.0
+Tripura,2020,Integrated Both,1594.0
+Tripura,2019,Integrated Both,638.0
+Tripura,2018,Integrated Both,1128.0
+Tripura,2017,Integrated Both,885.0
+Tripura,2016,Integrated Both,456.0
+Uttar Pradesh,2020,Integrated Both,51906.0
+Uttar Pradesh,2019,Integrated Both,41637.0
+Uttar Pradesh,2018,Integrated Both,34204.0
+Uttar Pradesh,2017,Integrated Both,31880.0
+Uttar Pradesh,2016,Integrated Both,30270.0
+Uttarakhand,2020,Integrated Both,6500.0
+Uttarakhand,2019,Integrated Both,5652.0
+Uttarakhand,2018,Integrated Both,5015.0
+Uttarakhand,2017,Integrated Both,4293.0
+Uttarakhand,2016,Integrated Both,4137.0
+West Bengal,2020,Integrated Both,15357.0
+West Bengal,2019,Integrated Both,14931.0
+West Bengal,2018,Integrated Both,13900.0
+West Bengal,2017,Integrated Both,10214.0
+West Bengal,2016,Integrated Both,9474.0
+India,2020,Grand Total Male,18759158.0
+India,2019,Grand Total Male,17264173.0
+India,2018,Grand Total Male,16990324.0
+India,2017,Grand Total Male,16863859.0
+India,2016,Grand Total Male,16730737.0
+Andaman and Nicobar Islands,2020,Grand Total Male,3348.0
+Andaman and Nicobar Islands,2019,Grand Total Male,2491.0
+Andaman and Nicobar Islands,2018,Grand Total Male,3070.0
+Andaman and Nicobar Islands,2017,Grand Total Male,2787.0
+Andaman and Nicobar Islands,2016,Grand Total Male,2835.0
+Andhra Pradesh,2020,Grand Total Male,965116.0
+Andhra Pradesh,2019,Grand Total Male,870288.0
+Andhra Pradesh,2018,Grand Total Male,856183.0
+Andhra Pradesh,2017,Grand Total Male,877883.0
+Andhra Pradesh,2016,Grand Total Male,840160.0
+Arunachal Pradesh,2020,Grand Total Male,26861.0
+Arunachal Pradesh,2019,Grand Total Male,22190.0
+Arunachal Pradesh,2018,Grand Total Male,18080.0
+Arunachal Pradesh,2017,Grand Total Male,17294.0
+Arunachal Pradesh,2016,Grand Total Male,16059.0
+Assam,2020,Grand Total Male,315817.0
+Assam,2019,Grand Total Male,272009.0
+Assam,2018,Grand Total Male,293785.0
+Assam,2017,Grand Total Male,278056.0
+Assam,2016,Grand Total Male,272949.0
+Bihar,2020,Grand Total Male,1173773.0
+Bihar,2019,Grand Total Male,889852.0
+Bihar,2018,Grand Total Male,851905.0
+Bihar,2017,Grand Total Male,794533.0
+Bihar,2016,Grand Total Male,869150.0
+Chandigarh,2020,Grand Total Male,33934.0
+Chandigarh,2019,Grand Total Male,35507.0
+Chandigarh,2018,Grand Total Male,34396.0
+Chandigarh,2017,Grand Total Male,34965.0
+Chandigarh,2016,Grand Total Male,33981.0
+Chhattisgarh,2020,Grand Total Male,257858.0
+Chhattisgarh,2019,Grand Total Male,226337.0
+Chhattisgarh,2018,Grand Total Male,223752.0
+Chhattisgarh,2017,Grand Total Male,215418.0
+Chhattisgarh,2016,Grand Total Male,210635.0
+Delhi,2020,Grand Total Male,221431.0
+Delhi,2019,Grand Total Male,222442.0
+Delhi,2018,Grand Total Male,215826.0
+Delhi,2017,Grand Total Male,214626.0
+Delhi,2016,Grand Total Male,203477.0
+Goa,2020,Grand Total Male,25287.0
+Goa,2019,Grand Total Male,22325.0
+Goa,2018,Grand Total Male,24176.0
+Goa,2017,Grand Total Male,21062.0
+Goa,2016,Grand Total Male,20750.0
+Gujarat,2020,Grand Total Male,885128.0
+Gujarat,2019,Grand Total Male,828987.0
+Gujarat,2018,Grand Total Male,792694.0
+Gujarat,2017,Grand Total Male,790938.0
+Gujarat,2016,Grand Total Male,793696.0
+Haryana,2020,Grand Total Male,410677.0
+Haryana,2019,Grand Total Male,374120.0
+Haryana,2018,Grand Total Male,387276.0
+Haryana,2017,Grand Total Male,391136.0
+Haryana,2016,Grand Total Male,389397.0
+Himachal Pradesh,2020,Grand Total Male,106045.0
+Himachal Pradesh,2019,Grand Total Male,107987.0
+Himachal Pradesh,2018,Grand Total Male,109199.0
+Himachal Pradesh,2017,Grand Total Male,105463.0
+Himachal Pradesh,2016,Grand Total Male,105123.0
+Jammu and Kashmir,2020,Grand Total Male,139350.0
+Jammu and Kashmir,2019,Grand Total Male,136421.0
+Jammu and Kashmir,2018,Grand Total Male,130788.0
+Jammu and Kashmir,2017,Grand Total Male,117388.0
+Jammu and Kashmir,2016,Grand Total Male,113926.0
+Jharkhand,2020,Grand Total Male,352445.0
+Jharkhand,2019,Grand Total Male,366212.0
+Jharkhand,2018,Grand Total Male,335897.0
+Jharkhand,2017,Grand Total Male,326441.0
+Jharkhand,2016,Grand Total Male,319515.0
+Karnataka,2020,Grand Total Male,1161297.0
+Karnataka,2019,Grand Total Male,1046621.0
+Karnataka,2018,Grand Total Male,964640.0
+Karnataka,2017,Grand Total Male,939524.0
+Karnataka,2016,Grand Total Male,924928.0
+Kerala,2020,Grand Total Male,412322.0
+Kerala,2019,Grand Total Male,358811.0
+Kerala,2018,Grand Total Male,346232.0
+Kerala,2017,Grand Total Male,338971.0
+Kerala,2016,Grand Total Male,335098.0
+Jammu and Kashmir,2020,Grand Total Male,1108.0
+Jammu and Kashmir,2019,Grand Total Male,999.0
+Lakshadweep,2020,Grand Total Male,133.0
+Lakshadweep,2019,Grand Total Male,133.0
+Lakshadweep,2018,Grand Total Male,127.0
+Lakshadweep,2017,Grand Total Male,116.0
+Lakshadweep,2016,Grand Total Male,149.0
+Madhya Pradesh,2020,Grand Total Male,1292550.0
+Madhya Pradesh,2019,Grand Total Male,1048111.0
+Madhya Pradesh,2018,Grand Total Male,912258.0
+Madhya Pradesh,2017,Grand Total Male,911930.0
+Madhya Pradesh,2016,Grand Total Male,879731.0
+Maharashtra,2020,Grand Total Male,2017738.0
+Maharashtra,2019,Grand Total Male,1885407.0
+Maharashtra,2018,Grand Total Male,1908512.0
+Maharashtra,2017,Grand Total Male,1818692.0
+Maharashtra,2016,Grand Total Male,1814003.0
+Manipur,2020,Grand Total Male,66082.0
+Manipur,2019,Grand Total Male,57618.0
+Manipur,2018,Grand Total Male,51369.0
+Manipur,2017,Grand Total Male,46944.0
+Manipur,2016,Grand Total Male,46414.0
+Meghalaya,2020,Grand Total Male,40497.0
+Meghalaya,2019,Grand Total Male,36841.0
+Meghalaya,2018,Grand Total Male,36119.0
+Meghalaya,2017,Grand Total Male,35453.0
+Meghalaya,2016,Grand Total Male,34898.0
+Mizoram,2020,Grand Total Male,16184.0
+Mizoram,2019,Grand Total Male,13635.0
+Mizoram,2018,Grand Total Male,13520.0
+Mizoram,2017,Grand Total Male,12714.0
+Mizoram,2016,Grand Total Male,13225.0
+Nagaland,2020,Grand Total Male,20418.0
+Nagaland,2019,Grand Total Male,18941.0
+Nagaland,2018,Grand Total Male,18764.0
+Nagaland,2017,Grand Total Male,17661.0
+Nagaland,2016,Grand Total Male,16803.0
+Odisha,2020,Grand Total Male,495779.0
+Odisha,2019,Grand Total Male,499353.0
+Odisha,2018,Grand Total Male,529646.0
+Odisha,2017,Grand Total Male,516083.0
+Odisha,2016,Grand Total Male,509992.0
+Puducherry,2020,Grand Total Male,35330.0
+Puducherry,2019,Grand Total Male,30759.0
+Puducherry,2018,Grand Total Male,31307.0
+Puducherry,2017,Grand Total Male,28480.0
+Puducherry,2016,Grand Total Male,27821.0
+Punjab,2020,Grand Total Male,373387.0
+Punjab,2019,Grand Total Male,393382.0
+Punjab,2018,Grand Total Male,413350.0
+Punjab,2017,Grand Total Male,463664.0
+Punjab,2016,Grand Total Male,441526.0
+Rajasthan,2020,Grand Total Male,1129177.0
+Rajasthan,2019,Grand Total Male,1034676.0
+Rajasthan,2018,Grand Total Male,990604.0
+Rajasthan,2017,Grand Total Male,944154.0
+Rajasthan,2016,Grand Total Male,896847.0
+Sikkim,2020,Grand Total Male,13415.0
+Sikkim,2019,Grand Total Male,11029.0
+Sikkim,2018,Grand Total Male,10628.0
+Sikkim,2017,Grand Total Male,9240.0
+Sikkim,2016,Grand Total Male,8630.0
+Tamil Nadu,2020,Grand Total Male,1470915.0
+Tamil Nadu,2019,Grand Total Male,1510563.0
+Tamil Nadu,2018,Grand Total Male,1537416.0
+Tamil Nadu,2017,Grand Total Male,1517867.0
+Tamil Nadu,2016,Grand Total Male,1499595.0
+Telangana,2020,Grand Total Male,696486.0
+Telangana,2019,Grand Total Male,646778.0
+Telangana,2018,Grand Total Male,676259.0
+Telangana,2017,Grand Total Male,711536.0
+Telangana,2016,Grand Total Male,737685.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Grand Total Male,5948.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Grand Total Male,5320.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Grand Total Male,4994.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Grand Total Male,4658.0
+The Dadra and Nagar Haveli and Daman and Diu,2016,Grand Total Male,4843.0
+Tripura,2020,Grand Total Male,42034.0
+Tripura,2019,Grand Total Male,40200.0
+Tripura,2018,Grand Total Male,37617.0
+Tripura,2017,Grand Total Male,36492.0
+Tripura,2016,Grand Total Male,38852.0
+Uttar Pradesh,2020,Grand Total Male,3303983.0
+Uttar Pradesh,2019,Grand Total Male,3062630.0
+Uttar Pradesh,2018,Grand Total Male,3064746.0
+Uttar Pradesh,2017,Grand Total Male,3190086.0
+Uttar Pradesh,2016,Grand Total Male,3150928.0
+Uttarakhand,2020,Grand Total Male,255595.0
+Uttarakhand,2019,Grand Total Male,209825.0
+Uttarakhand,2018,Grand Total Male,211119.0
+Uttarakhand,2017,Grand Total Male,196063.0
+Uttarakhand,2016,Grand Total Male,188661.0
+West Bengal,2020,Grand Total Male,991710.0
+West Bengal,2019,Grand Total Male,975373.0
+West Bengal,2018,Grand Total Male,953482.0
+West Bengal,2017,Grand Total Male,935544.0
+West Bengal,2016,Grand Total Male,968455.0
+India,2020,Grand Total Female,18049681.0
+India,2019,Grand Total Female,16985264.0
+India,2018,Grand Total Female,16436996.0
+India,2017,Grand Total Female,15746925.0
+India,2016,Grand Total Female,14885387.0
+Andaman and Nicobar Islands,2020,Grand Total Female,4389.0
+Andaman and Nicobar Islands,2019,Grand Total Female,3540.0
+Andaman and Nicobar Islands,2018,Grand Total Female,4385.0
+Andaman and Nicobar Islands,2017,Grand Total Female,3832.0
+Andaman and Nicobar Islands,2016,Grand Total Female,3642.0
+Andhra Pradesh,2020,Grand Total Female,869532.0
+Andhra Pradesh,2019,Grand Total Female,762221.0
+Andhra Pradesh,2018,Grand Total Female,719998.0
+Andhra Pradesh,2017,Grand Total Female,707671.0
+Andhra Pradesh,2016,Grand Total Female,654378.0
+Arunachal Pradesh,2020,Grand Total Female,21942.0
+Arunachal Pradesh,2019,Grand Total Female,17567.0
+Arunachal Pradesh,2018,Grand Total Female,15718.0
+Arunachal Pradesh,2017,Grand Total Female,15416.0
+Arunachal Pradesh,2016,Grand Total Female,14214.0
+Assam,2020,Grand Total Female,331371.0
+Assam,2019,Grand Total Female,291784.0
+Assam,2018,Grand Total Female,306095.0
+Assam,2017,Grand Total Female,291273.0
+Assam,2016,Grand Total Female,272903.0
+Bihar,2020,Grand Total Female,967682.0
+Bihar,2019,Grand Total Female,713695.0
+Bihar,2018,Grand Total Female,641777.0
+Bihar,2017,Grand Total Female,597143.0
+Bihar,2016,Grand Total Female,641506.0
+Chandigarh,2020,Grand Total Female,40313.0
+Chandigarh,2019,Grand Total Female,40901.0
+Chandigarh,2018,Grand Total Female,40107.0
+Chandigarh,2017,Grand Total Female,40800.0
+Chandigarh,2016,Grand Total Female,39714.0
+Chhattisgarh,2020,Grand Total Female,313767.0
+Chhattisgarh,2019,Grand Total Female,277698.0
+Chhattisgarh,2018,Grand Total Female,258740.0
+Chhattisgarh,2017,Grand Total Female,238529.0
+Chhattisgarh,2016,Grand Total Female,218084.0
+Delhi,2020,Grand Total Female,234080.0
+Delhi,2019,Grand Total Female,229096.0
+Delhi,2018,Grand Total Female,219145.0
+Delhi,2017,Grand Total Female,213568.0
+Delhi,2016,Grand Total Female,195165.0
+Goa,2020,Grand Total Female,28057.0
+Goa,2019,Grand Total Female,25542.0
+Goa,2018,Grand Total Female,25459.0
+Goa,2017,Grand Total Female,22830.0
+Goa,2016,Grand Total Female,21819.0
+Gujarat,2020,Grand Total Female,680749.0
+Gujarat,2019,Grand Total Female,652742.0
+Gujarat,2018,Grand Total Female,613496.0
+Gujarat,2017,Grand Total Female,597016.0
+Gujarat,2016,Grand Total Female,584320.0
+Haryana,2020,Grand Total Female,446655.0
+Haryana,2019,Grand Total Female,417736.0
+Haryana,2018,Grand Total Female,421757.0
+Haryana,2017,Grand Total Female,383359.0
+Haryana,2016,Grand Total Female,360257.0
+Himachal Pradesh,2020,Grand Total Female,132879.0
+Himachal Pradesh,2019,Grand Total Female,135357.0
+Himachal Pradesh,2018,Grand Total Female,135245.0
+Himachal Pradesh,2017,Grand Total Female,131434.0
+Himachal Pradesh,2016,Grand Total Female,124572.0
+Jammu and Kashmir,2020,Grand Total Female,152643.0
+Jammu and Kashmir,2019,Grand Total Female,141262.0
+Jammu and Kashmir,2018,Grand Total Female,145941.0
+Jammu and Kashmir,2017,Grand Total Female,138190.0
+Jammu and Kashmir,2016,Grand Total Female,128361.0
+Jharkhand,2020,Grand Total Female,365580.0
+Jharkhand,2019,Grand Total Female,376921.0
+Jharkhand,2018,Grand Total Female,332826.0
+Jharkhand,2017,Grand Total Female,319423.0
+Jharkhand,2016,Grand Total Female,296511.0
+Karnataka,2020,Grand Total Female,1158632.0
+Karnataka,2019,Grand Total Female,1055381.0
+Karnataka,2018,Grand Total Female,965215.0
+Karnataka,2017,Grand Total Female,942983.0
+Karnataka,2016,Grand Total Female,883608.0
+Kerala,2020,Grand Total Female,593415.0
+Kerala,2019,Grand Total Female,522666.0
+Kerala,2018,Grand Total Female,502011.0
+Kerala,2017,Grand Total Female,493229.0
+Kerala,2016,Grand Total Female,462954.0
+Jammu and Kashmir,2020,Grand Total Female,2039.0
+Jammu and Kashmir,2019,Grand Total Female,1898.0
+Lakshadweep,2020,Grand Total Female,427.0
+Lakshadweep,2019,Grand Total Female,427.0
+Lakshadweep,2018,Grand Total Female,418.0
+Lakshadweep,2017,Grand Total Female,436.0
+Lakshadweep,2016,Grand Total Female,375.0
+Madhya Pradesh,2020,Grand Total Female,1170726.0
+Madhya Pradesh,2019,Grand Total Female,977758.0
+Madhya Pradesh,2018,Grand Total Female,832905.0
+Madhya Pradesh,2017,Grand Total Female,793236.0
+Madhya Pradesh,2016,Grand Total Female,736073.0
+Maharashtra,2020,Grand Total Female,1718515.0
+Maharashtra,2019,Grand Total Female,1714264.0
+Maharashtra,2018,Grand Total Female,1680756.0
+Maharashtra,2017,Grand Total Female,1593728.0
+Maharashtra,2016,Grand Total Female,1503304.0
+Manipur,2020,Grand Total Female,67229.0
+Manipur,2019,Grand Total Female,60974.0
+Manipur,2018,Grand Total Female,52985.0
+Manipur,2017,Grand Total Female,51153.0
+Manipur,2016,Grand Total Female,48129.0
+Meghalaya,2020,Grand Total Female,51476.0
+Meghalaya,2019,Grand Total Female,43712.0
+Meghalaya,2018,Grand Total Female,43057.0
+Meghalaya,2017,Grand Total Female,39755.0
+Meghalaya,2016,Grand Total Female,36633.0
+Mizoram,2020,Grand Total Female,16101.0
+Mizoram,2019,Grand Total Female,12387.0
+Mizoram,2018,Grand Total Female,12076.0
+Mizoram,2017,Grand Total Female,11737.0
+Mizoram,2016,Grand Total Female,12244.0
+Nagaland,2020,Grand Total Female,23233.0
+Nagaland,2019,Grand Total Female,22362.0
+Nagaland,2018,Grand Total Female,21017.0
+Nagaland,2017,Grand Total Female,19349.0
+Nagaland,2016,Grand Total Female,18317.0
+Odisha,2020,Grand Total Female,443654.0
+Odisha,2019,Grand Total Female,435144.0
+Odisha,2018,Grand Total Female,433400.0
+Odisha,2017,Grand Total Female,443543.0
+Odisha,2016,Grand Total Female,418408.0
+Puducherry,2020,Grand Total Female,41560.0
+Puducherry,2019,Grand Total Female,35713.0
+Puducherry,2018,Grand Total Female,35115.0
+Puducherry,2017,Grand Total Female,31764.0
+Puducherry,2016,Grand Total Female,29758.0
+Punjab,2020,Grand Total Female,376244.0
+Punjab,2019,Grand Total Female,412050.0
+Punjab,2018,Grand Total Female,465759.0
+Punjab,2017,Grand Total Female,470342.0
+Punjab,2016,Grand Total Female,422518.0
+Rajasthan,2020,Grand Total Female,1072511.0
+Rajasthan,2019,Grand Total Female,995294.0
+Rajasthan,2018,Grand Total Female,953375.0
+Rajasthan,2017,Grand Total Female,833982.0
+Rajasthan,2016,Grand Total Female,762004.0
+Sikkim,2020,Grand Total Female,14185.0
+Sikkim,2019,Grand Total Female,12696.0
+Sikkim,2018,Grand Total Female,12080.0
+Sikkim,2017,Grand Total Female,11487.0
+Sikkim,2016,Grand Total Female,9851.0
+Tamil Nadu,2020,Grand Total Female,1451086.0
+Tamil Nadu,2019,Grand Total Female,1471926.0
+Tamil Nadu,2018,Grand Total Female,1470148.0
+Tamil Nadu,2017,Grand Total Female,1457264.015
+Tamil Nadu,2016,Grand Total Female,1371178.0
+Telangana,2020,Grand Total Female,732381.0
+Telangana,2019,Grand Total Female,687063.0
+Telangana,2018,Grand Total Female,697797.0
+Telangana,2017,Grand Total Female,660883.0
+Telangana,2016,Grand Total Female,653944.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Grand Total Female,5622.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Grand Total Female,5005.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Grand Total Female,4511.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Grand Total Female,4208.0
+The Dadra and Nagar Haveli and Daman and Diu,2016,Grand Total Female,3883.0
+Tripura,2020,Grand Total Female,38280.0
+Tripura,2019,Grand Total Female,33239.0
+Tripura,2018,Grand Total Female,32515.0
+Tripura,2017,Grand Total Female,32612.0
+Tripura,2016,Grand Total Female,32497.0
+Uttar Pradesh,2020,Grand Total Female,3192570.0
+Uttar Pradesh,2019,Grand Total Female,3199127.0
+Uttar Pradesh,2018,Grand Total Female,3199531.0
+Uttar Pradesh,2017,Grand Total Female,3078500.0
+Uttar Pradesh,2016,Grand Total Female,2891843.0
+Uttarakhand,2020,Grand Total Female,261729.0
+Uttarakhand,2019,Grand Total Female,201952.0
+Uttarakhand,2018,Grand Total Female,197019.0
+Uttarakhand,2017,Grand Total Female,187810.0
+Uttarakhand,2016,Grand Total Female,175907.0
+West Bengal,2020,Grand Total Female,1028427.0
+West Bengal,2019,Grand Total Female,998164.0
+West Bengal,2018,Grand Total Female,941769.0
+West Bengal,2017,Grand Total Female,888440.0
+West Bengal,2016,Grand Total Female,856513.0
+India,2020,Grand Total Both,36808839.0
+India,2019,Grand Total Both,34249437.0
+India,2018,Grand Total Both,33427320.0
+India,2017,Grand Total Both,32610784.0
+India,2016,Grand Total Both,31616124.0
+Andaman and Nicobar Islands,2020,Grand Total Both,7737.0
+Andaman and Nicobar Islands,2019,Grand Total Both,6031.0
+Andaman and Nicobar Islands,2018,Grand Total Both,7455.0
+Andaman and Nicobar Islands,2017,Grand Total Both,6619.0
+Andaman and Nicobar Islands,2016,Grand Total Both,6477.0
+Andhra Pradesh,2020,Grand Total Both,1834648.0
+Andhra Pradesh,2019,Grand Total Both,1632509.0
+Andhra Pradesh,2018,Grand Total Both,1576181.0
+Andhra Pradesh,2017,Grand Total Both,1585554.0
+Andhra Pradesh,2016,Grand Total Both,1494538.0
+Arunachal Pradesh,2020,Grand Total Both,48803.0
+Arunachal Pradesh,2019,Grand Total Both,39757.0
+Arunachal Pradesh,2018,Grand Total Both,33798.0
+Arunachal Pradesh,2017,Grand Total Both,32710.0
+Arunachal Pradesh,2016,Grand Total Both,30273.0
+Assam,2020,Grand Total Both,647188.0
+Assam,2019,Grand Total Both,563793.0
+Assam,2018,Grand Total Both,599880.0
+Assam,2017,Grand Total Both,569329.0
+Assam,2016,Grand Total Both,545852.0
+Bihar,2020,Grand Total Both,2141455.0
+Bihar,2019,Grand Total Both,1603547.0
+Bihar,2018,Grand Total Both,1493682.0
+Bihar,2017,Grand Total Both,1391676.0
+Bihar,2016,Grand Total Both,1510656.0
+Chandigarh,2020,Grand Total Both,74247.0
+Chandigarh,2019,Grand Total Both,76408.0
+Chandigarh,2018,Grand Total Both,74503.0
+Chandigarh,2017,Grand Total Both,75764.0
+Chandigarh,2016,Grand Total Both,73695.0
+Chhattisgarh,2020,Grand Total Both,571625.0
+Chhattisgarh,2019,Grand Total Both,504035.0
+Chhattisgarh,2018,Grand Total Both,482492.0
+Chhattisgarh,2017,Grand Total Both,453947.0
+Chhattisgarh,2016,Grand Total Both,428719.0
+Delhi,2020,Grand Total Both,455511.0
+Delhi,2019,Grand Total Both,451538.0
+Delhi,2018,Grand Total Both,434971.0
+Delhi,2017,Grand Total Both,428194.0
+Delhi,2016,Grand Total Both,398642.0
+Goa,2020,Grand Total Both,53344.0
+Goa,2019,Grand Total Both,47867.0
+Goa,2018,Grand Total Both,49635.0
+Goa,2017,Grand Total Both,43892.0
+Goa,2016,Grand Total Both,42569.0
+Gujarat,2020,Grand Total Both,1565877.0
+Gujarat,2019,Grand Total Both,1481729.0
+Gujarat,2018,Grand Total Both,1406190.0
+Gujarat,2017,Grand Total Both,1387954.0
+Gujarat,2016,Grand Total Both,1378016.0
+Haryana,2020,Grand Total Both,857332.0
+Haryana,2019,Grand Total Both,791856.0
+Haryana,2018,Grand Total Both,809033.0
+Haryana,2017,Grand Total Both,774495.0
+Haryana,2016,Grand Total Both,749654.0
+Himachal Pradesh,2020,Grand Total Both,238924.0
+Himachal Pradesh,2019,Grand Total Both,243344.0
+Himachal Pradesh,2018,Grand Total Both,244444.0
+Himachal Pradesh,2017,Grand Total Both,236897.0
+Himachal Pradesh,2016,Grand Total Both,229695.0
+Jammu and Kashmir,2020,Grand Total Both,291993.0
+Jammu and Kashmir,2019,Grand Total Both,277683.0
+Jammu and Kashmir,2018,Grand Total Both,276729.0
+Jammu and Kashmir,2017,Grand Total Both,255578.0
+Jammu and Kashmir,2016,Grand Total Both,242287.0
+Jharkhand,2020,Grand Total Both,718025.0
+Jharkhand,2019,Grand Total Both,743133.0
+Jharkhand,2018,Grand Total Both,668723.0
+Jharkhand,2017,Grand Total Both,645864.0
+Jharkhand,2016,Grand Total Both,616026.0
+Karnataka,2020,Grand Total Both,2319929.0
+Karnataka,2019,Grand Total Both,2102002.0
+Karnataka,2018,Grand Total Both,1929855.0
+Karnataka,2017,Grand Total Both,1882507.0
+Karnataka,2016,Grand Total Both,1808536.0
+Kerala,2020,Grand Total Both,1005737.0
+Kerala,2019,Grand Total Both,881477.0
+Kerala,2018,Grand Total Both,848243.0
+Kerala,2017,Grand Total Both,832200.0
+Kerala,2016,Grand Total Both,798052.0
+Jammu and Kashmir,2020,Grand Total Both,3147.0
+Jammu and Kashmir,2019,Grand Total Both,2897.0
+Lakshadweep,2020,Grand Total Both,560.0
+Lakshadweep,2019,Grand Total Both,560.0
+Lakshadweep,2018,Grand Total Both,545.0
+Lakshadweep,2017,Grand Total Both,552.0
+Lakshadweep,2016,Grand Total Both,524.0
+Madhya Pradesh,2020,Grand Total Both,2463276.0
+Madhya Pradesh,2019,Grand Total Both,2025869.0
+Madhya Pradesh,2018,Grand Total Both,1745163.0
+Madhya Pradesh,2017,Grand Total Both,1705167.0
+Madhya Pradesh,2016,Grand Total Both,1615804.0
+Maharashtra,2020,Grand Total Both,3736253.0
+Maharashtra,2019,Grand Total Both,3599671.0
+Maharashtra,2018,Grand Total Both,3589268.0
+Maharashtra,2017,Grand Total Both,3412420.0
+Maharashtra,2016,Grand Total Both,3317307.0
+Manipur,2020,Grand Total Both,133311.0
+Manipur,2019,Grand Total Both,118592.0
+Manipur,2018,Grand Total Both,104354.0
+Manipur,2017,Grand Total Both,98097.0
+Manipur,2016,Grand Total Both,94543.0
+Meghalaya,2020,Grand Total Both,91973.0
+Meghalaya,2019,Grand Total Both,80553.0
+Meghalaya,2018,Grand Total Both,79176.0
+Meghalaya,2017,Grand Total Both,75208.0
+Meghalaya,2016,Grand Total Both,71531.0
+Mizoram,2020,Grand Total Both,32285.0
+Mizoram,2019,Grand Total Both,26022.0
+Mizoram,2018,Grand Total Both,25596.0
+Mizoram,2017,Grand Total Both,24451.0
+Mizoram,2016,Grand Total Both,25469.0
+Nagaland,2020,Grand Total Both,43651.0
+Nagaland,2019,Grand Total Both,41303.0
+Nagaland,2018,Grand Total Both,39781.0
+Nagaland,2017,Grand Total Both,37010.0
+Nagaland,2016,Grand Total Both,35120.0
+Odisha,2020,Grand Total Both,939433.0
+Odisha,2019,Grand Total Both,934497.0
+Odisha,2018,Grand Total Both,963046.0
+Odisha,2017,Grand Total Both,959626.0
+Odisha,2016,Grand Total Both,928400.0
+Puducherry,2020,Grand Total Both,76890.0
+Puducherry,2019,Grand Total Both,66472.0
+Puducherry,2018,Grand Total Both,66422.0
+Puducherry,2017,Grand Total Both,60244.0
+Puducherry,2016,Grand Total Both,57579.0
+Punjab,2020,Grand Total Both,749631.0
+Punjab,2019,Grand Total Both,805432.0
+Punjab,2018,Grand Total Both,879109.0
+Punjab,2017,Grand Total Both,934006.0
+Punjab,2016,Grand Total Both,864044.0
+Rajasthan,2020,Grand Total Both,2201688.0
+Rajasthan,2019,Grand Total Both,2029970.0
+Rajasthan,2018,Grand Total Both,1943979.0
+Rajasthan,2017,Grand Total Both,1778136.0
+Rajasthan,2016,Grand Total Both,1658851.0
+Sikkim,2020,Grand Total Both,27600.0
+Sikkim,2019,Grand Total Both,23725.0
+Sikkim,2018,Grand Total Both,22708.0
+Sikkim,2017,Grand Total Both,20726.0
+Sikkim,2016,Grand Total Both,18481.0
+Tamil Nadu,2020,Grand Total Both,2922001.0
+Tamil Nadu,2019,Grand Total Both,2982489.0
+Tamil Nadu,2018,Grand Total Both,3007564.0
+Tamil Nadu,2017,Grand Total Both,2975131.0
+Tamil Nadu,2016,Grand Total Both,2870773.0
+Telangana,2020,Grand Total Both,1428867.0
+Telangana,2019,Grand Total Both,1333841.0
+Telangana,2018,Grand Total Both,1374056.0
+Telangana,2017,Grand Total Both,1372419.0
+Telangana,2016,Grand Total Both,1391629.0
+The Dadra and Nagar Haveli and Daman and Diu,2020,Grand Total Both,11570.0
+The Dadra and Nagar Haveli and Daman and Diu,2019,Grand Total Both,10325.0
+The Dadra and Nagar Haveli and Daman and Diu,2018,Grand Total Both,9505.0
+The Dadra and Nagar Haveli and Daman and Diu,2017,Grand Total Both,8866.0
+The Dadra and Nagar Haveli and Daman and Diu,2016,Grand Total Both,8726.0
+Tripura,2020,Grand Total Both,80314.0
+Tripura,2019,Grand Total Both,73439.0
+Tripura,2018,Grand Total Both,70132.0
+Tripura,2017,Grand Total Both,69103.0
+Tripura,2016,Grand Total Both,71349.0
+Uttar Pradesh,2020,Grand Total Both,6496553.0
+Uttar Pradesh,2019,Grand Total Both,6261757.0
+Uttar Pradesh,2018,Grand Total Both,6264277.0
+Uttar Pradesh,2017,Grand Total Both,6268586.0
+Uttar Pradesh,2016,Grand Total Both,6042771.0
+Uttarakhand,2020,Grand Total Both,517324.0
+Uttarakhand,2019,Grand Total Both,411777.0
+Uttarakhand,2018,Grand Total Both,408138.0
+Uttarakhand,2017,Grand Total Both,383872.0
+Uttarakhand,2016,Grand Total Both,364568.0
+West Bengal,2020,Grand Total Both,2020137.0
+West Bengal,2019,Grand Total Both,1973537.0
+West Bengal,2018,Grand Total Both,1895251.0
+West Bengal,2017,Grand Total Both,1823984.0
+West Bengal,2016,Grand Total Both,1824968.0

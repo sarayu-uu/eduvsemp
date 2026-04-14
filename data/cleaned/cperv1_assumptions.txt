@@ -1,0 +1,8 @@
+CPERV1 assumptions used:
+- Employed: Principal_Status_Code between 11 and 51 (inclusive).
+- Unemployed: Principal_Status_Code in {81, 82}.
+- Training received: Vocational_Training != 9 OR Training_Completed_365_Days == 1.
+- Informal proxy: Principal_Job_Contract_Type in {1,2} OR Principal_Social_Security == 2.
+- Industry sections approximated from NIC 2008 2-digit ranges (sector shares by district).
+State code mapping uses the uploaded State Code -> State Name file.
+These follow the decoded CPERV1 variable definitions provided.
