@@ -1,0 +1,4 @@
+data/raw/CPERV1.txt.TXT filter=lfs diff=lfs merge=lfs -text
+data/raw/cperv1.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/job_market.csv filter=lfs diff=lfs merge=lfs -text
+data/cleaned/job_market_clean.csv filter=lfs diff=lfs merge=lfs -text
