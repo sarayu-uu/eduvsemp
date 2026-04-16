@@ -360,7 +360,6 @@ def main() -> None:
         "Time Trend",
         "Model Insights",
         "Gap Trend (State)",
-        "Education vs Employment",
         "Drivers (Feature Importance)",
         "Socio-Economic Segments",
     ]
@@ -453,15 +452,68 @@ with education and where sector mix includes manufacturing or professional servi
 
 
     if choice == "Gap Trend (State)":
-        st.header("Gap Trend (National, Averaged Across States)")
-        st.image(
-            str(EDA_DIR / "gap_trend.png"),
-            caption="Average gap over time (state averages combined)",
+        st.header("Gap Trend (State)")
+        national, _ = time_trend_frames()
+        if national.empty:
+            st.info("Missing trend inputs. Run `python cleaning/cleaning.py` and `python eda/eda.py` first.")
+            return
+
+        trend_long = national.melt(
+            id_vars=["Year"],
+            value_vars=["education_index", "employment_index"],
+            var_name="series",
+            value_name="index_value",
         )
+        trend_long["series"] = trend_long["series"].map(
+            {
+                "education_index": "Education Index",
+                "employment_index": "Employment Index",
+            }
+        )
+        fig_dual = px.line(
+            trend_long,
+            x="Year",
+            y="index_value",
+            color="series",
+            markers=True,
+            title="Education vs Employment Index Over Time",
+        )
+        fig_dual.update_layout(yaxis_title="Normalized Index (0 to 1)", legend_title="")
+        st.plotly_chart(fig_dual, use_container_width=True)
         st.markdown(
             """
-This shows whether mismatch is increasing over time (national trend).  
-Higher values mean education is growing faster than jobs.
+**What this first chart means:**  
+- Blue line = education trend over time.  
+- Green line = employment trend over time.  
+- If blue rises faster than green, mismatch is widening.
+"""
+        )
+
+        gap_df = national[["Year", "gap"]].copy()
+        gap_df["gap_sign"] = gap_df["gap"].apply(
+            lambda x: "Education > Employment" if x >= 0 else "Employment > Education"
+        )
+        fig_gap = px.bar(
+            gap_df,
+            x="Year",
+            y="gap",
+            color="gap_sign",
+            color_discrete_map={
+                "Education > Employment": "#C62828",
+                "Employment > Education": "#2E7D32",
+            },
+            title="Gap by Year (education_index - employment_index)",
+        )
+        fig_gap.add_hline(y=0, line_dash="dash", line_color="black")
+        fig_gap.update_layout(yaxis_title="Gap Value", legend_title="")
+        st.plotly_chart(fig_gap, use_container_width=True)
+        st.markdown(
+            """
+**What this second chart means:**  
+- This is the exact difference: **gap = education_index - employment_index**.  
+- **Above 0 (red):** education index is higher than employment index.  
+- **Below 0 (green):** employment index is higher than education index.  
+- Bigger bars mean a larger mismatch in that year.
 """
         )
         st.caption("Feature guide:")
@@ -473,26 +525,68 @@ Higher values mean education is growing faster than jobs.
 """
         )
 
-    if choice == "Education vs Employment":
-        st.header("Education vs Employment")
-        st.image(
-            str(EDA_DIR / "education_vs_employment_trend.png"),
-            caption="Education and employment indexes over time",
+    if choice == "Drivers (Feature Importance)":
+        st.header("Drivers of Mismatch")
+        district_plot = EDA_DIR / "rf_feature_importance_district.png"
+        if file_exists(district_plot):
+            st.image(str(district_plot), caption="Top drivers in district model")
+        else:
+            st.image(
+                str(EDA_DIR / "rf_feature_importance.png"),
+                caption="Top drivers (state model)",
+            )
+        st.markdown(
+            """
+**How to read this:**  
+- Each bar is a district-level driver used by the model.  
+- Longer bar = stronger contribution to mismatch differences across districts.  
+"""
+        )
+        st.caption("Plain-English driver guide (what it means + what to do):")
+        st.markdown(
+            """
+`District` here means each CPERV1 district unit (shown as State + District Code) across all districts in the dataset, not one single district.
+"""
         )
         st.markdown(
             """
-Education rising faster than employment means mismatch is increasing.
+- **Farm Jobs** (`sector_share_A_Agriculture`): district has many agriculture workers.  
+  Meaning: education may rise faster than local non-farm jobs.  
+  Action: create non-farm pathways (agro-processing, logistics, rural services).
+- **Education Jobs** (`sector_share_P_Education`): district has many workers in education services.  
+  Meaning: local system can absorb education-related skills better.  
+  Action: expand teacher training, ed-tech support, and allied roles.
+- **Construction Jobs** (`sector_share_F_Construction`): district has many construction workers.  
+  Meaning: jobs exist, but often low-formal and skill mismatch can remain.  
+  Action: certify workers, improve safety, and link training to certified contractors.
+- **Factory Jobs** (`sector_share_C_Manufacturing`): district has manufacturing base.  
+  Meaning: better potential to absorb trained youth if skills match demand.  
+  Action: align ITI/polytechnic curricula with local factory skill needs.
+- **Professional Jobs** (`sector_share_M_Professional`): more technical/professional services.  
+  Meaning: stronger knowledge-economy absorption.  
+  Action: scale advanced digital, analytical, and service-sector training.
+- **Trade Jobs** (`sector_share_G_Trade`): many wholesale/retail jobs.  
+  Meaning: large job volume but quality/skill alignment may vary.  
+  Action: upskill for supply-chain, digital retail, and formal sales roles.
+- **Hospitality Jobs** (`sector_share_I_Accommodation`): accommodation/food-service concentration.  
+  Meaning: service jobs available but often seasonal/informal.  
+  Action: train for hospitality standards, language, and formal placement channels.
+- **Unknown Sector** (`sector_share_Unknown`): missing or unclear industry coding share.  
+  Meaning: weaker data quality can hide real mismatch causes.  
+  Action: improve local labor-data capture before policy targeting.
+- **Training Coverage** (`skill_rate`): share of people with vocational/recent training.  
+  Meaning: indicates readiness of workforce for skilled jobs.  
+  Action: expand demand-linked training where this is low.
+- **Informal Work** (`informal_rate`): share of workers without contract/social security.  
+  Meaning: high informality usually means weaker quality employment absorption.  
+  Action: incentivize formal hiring, apprenticeships, and social-security-linked jobs.
 """
         )
-        st.caption("Feature guide:")
-        st.markdown(
-            """
-- **education_index**: normalized education metric (higher = more education).  
-- **employment_index**: normalized employment metric (higher = more jobs).
-"""
+        st.success(
+            "How to use this: focus first on districts with the tallest bars, then apply the matching action above for those dominant drivers."
         )
 
-    if choice == "Drivers (Feature Importance)":
+    if False and choice == "Drivers (Feature Importance)":
         st.header("Drivers of Mismatch")
         district_plot = EDA_DIR / "rf_feature_importance_district.png"
         if file_exists(district_plot):
@@ -695,52 +789,6 @@ Higher values mean worse mismatch.
             )
             fig1.update_layout(yaxis_title="Average Gap Ratio")
             st.plotly_chart(fig1, use_container_width=True)
-
-        # 4) YoY change for education and employment indexes.
-        yoy = national[["Year", "education_index", "employment_index"]].copy()
-        yoy = yoy.sort_values("Year")
-        prev_edu = yoy["education_index"].shift(1)
-        prev_emp = yoy["employment_index"].shift(1)
-
-        # Zero-safe YoY: use pct_change when prior value exists and is non-zero,
-        # otherwise fall back to index-point change on 0-1 scale (x100).
-        yoy["education_yoy_pct"] = (
-            (yoy["education_index"] - prev_edu) / prev_edu
-        ) * 100
-        yoy["employment_yoy_pct"] = (
-            (yoy["employment_index"] - prev_emp) / prev_emp
-        ) * 100
-        yoy.loc[prev_edu.eq(0), "education_yoy_pct"] = (
-            yoy["education_index"] - prev_edu
-        ) * 100
-        yoy.loc[prev_emp.eq(0), "employment_yoy_pct"] = (
-            yoy["employment_index"] - prev_emp
-        ) * 100
-
-        yoy = yoy.replace([float("inf"), float("-inf")], pd.NA)
-        yoy = yoy.dropna(subset=["education_yoy_pct", "employment_yoy_pct"])
-        yoy_long = yoy.melt(
-            id_vars=["Year"],
-            value_vars=["education_yoy_pct", "employment_yoy_pct"],
-            var_name="series",
-            value_name="yoy_pct",
-        )
-        yoy_long["series"] = yoy_long["series"].map(
-            {
-                "education_yoy_pct": "Education YoY %",
-                "employment_yoy_pct": "Employment YoY %",
-            }
-        )
-        fig4 = px.line(
-            yoy_long,
-            x="Year",
-            y="yoy_pct",
-            color="series",
-            markers=True,
-            title="Year-over-Year Growth: Education vs Employment (Zero-Safe)",
-        )
-        fig4.update_layout(yaxis_title="YoY Change (%)", legend_title="")
-        st.plotly_chart(fig4, use_container_width=True)
 
         # 7) State-wise small multiples (top 12 by average mismatch).
         if "State" in state_year.columns and "gap_ratio" in state_year.columns:

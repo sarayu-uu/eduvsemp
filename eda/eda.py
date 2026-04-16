@@ -566,8 +566,22 @@ def train_models_district() -> None:
     importances = pd.Series(rf.feature_importances_, index=X.columns).sort_values(
         ascending=False
     )
+    district_label_map = {
+        "sector_share_A_Agriculture": "Farm Jobs",
+        "sector_share_P_Education": "Education Jobs",
+        "sector_share_F_Construction": "Construction Jobs",
+        "sector_share_C_Manufacturing": "Factory Jobs",
+        "sector_share_M_Professional": "Professional Jobs",
+        "sector_share_G_Trade": "Trade Jobs",
+        "sector_share_I_Accommodation": "Hospitality Jobs",
+        "sector_share_Unknown": "Unknown Sector",
+        "skill_rate": "Training Coverage",
+        "informal_rate": "Informal Work",
+    }
+    top10_named = importances.head(10).copy()
+    top10_named.index = [district_label_map.get(i, i) for i in top10_named.index]
     plt.figure()
-    importances.head(10).iloc[::-1].plot(kind="barh", color="teal")
+    top10_named.iloc[::-1].plot(kind="barh", color="teal")
     plt.title("District Model: Top Feature Importances")
     plt.grid(False)
     plt.tight_layout()
