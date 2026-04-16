@@ -361,7 +361,6 @@ def main() -> None:
         "Model Insights",
         "Gap Trend (State)",
         "Drivers (Feature Importance)",
-        "Socio-Economic Segments",
     ]
     choice = st.sidebar.selectbox("Section", graph_options)
 
@@ -636,77 +635,6 @@ If both appear, **_resid** captures short-term or state/district-specific differ
 - **informal_rate**: share in informal work (no contract or no social security).
 """
         )
-
-    if choice == "Socio-Economic Segments":
-        st.header("Gap by Poverty Segment (mean gap_simple = education_index / employment_rate)")
-        poverty_df, income_df = segment_data()
-        if not poverty_df.empty:
-            fig_pov = px.bar(
-                poverty_df,
-                x="poverty_segment",
-                y="avg_gap",
-                color="poverty_segment",
-                color_discrete_map={"High Poverty": "#C62828", "Low Poverty": "#2E7D32"},
-            )
-            fig_pov.update_layout(showlegend=False, yaxis_title="Average Gap (education / employment)")
-            st.plotly_chart(fig_pov, use_container_width=True)
-        else:
-            st.info("Missing data to compute poverty segment chart.")
-        st.markdown("Taller bars mean mismatch is worse in poorer regions.")
-        st.caption("Feature guide:")
-        st.markdown(
-            """
-- **gap_simple**: education_index / employment_rate (district/state-level CPERV1).  
-- **poverty_rate**: share of population below the poverty line.
-"""
-        )
-
-        st.header("Gap by Income Segment (mean gap_simple = education_index / employment_rate)")
-        if not income_df.empty:
-            fig_inc = px.bar(
-                income_df,
-                x="income_segment",
-                y="avg_gap",
-                color="income_segment",
-                color_discrete_map={"High Income": "#2E7D32", "Low Income": "#C62828"},
-            )
-            fig_inc.update_layout(showlegend=False, yaxis_title="Average Gap (education / employment)")
-            st.plotly_chart(fig_inc, use_container_width=True)
-        else:
-            st.info("Missing data to compute income segment chart.")
-        st.markdown("Shorter bars mean mismatch is smaller in richer regions.")
-        st.caption("Feature guide:")
-        st.markdown(
-            """
-- **gap_simple**: education_index / employment_rate.  
-- **per_capita**: per-capita income (higher = richer).
-"""
-        )
-
-        stats = segment_stats()
-        if stats:
-            st.markdown(
-                f"""
-**How the bars are calculated:**  
-- **gap_simple** = education_index / employment_rate (both from CPERV1).  
-- **High vs Low** groups are created using the **median** poverty_rate or per_capita across rows.  
-- The bar height is the **mean gap_simple** within each group.
-
-**Poverty segment (current data):**  
-- High Poverty group mean gap (approx): **{stats.get('poverty_high_mean', float('nan')):.2f}**  
-- Low Poverty group mean gap (approx): **{stats.get('poverty_low_mean', float('nan')):.2f}**
-
-**Income segment (current data):**  
-- High Income group mean gap (approx): **{stats.get('income_high_mean', float('nan')):.2f}**  
-- Low Income group mean gap (approx): **{stats.get('income_low_mean', float('nan')):.2f}**
-
-**How this was analyzed (data pipeline):**  
-These numbers are computed from `data/cleaned/final_merged.csv` merged with
-`data/cleaned/cperv1_features_by_state.csv`, following the same logic used in `eda/eda.py`.
-"""
-            )
-        else:
-            st.info("Missing cleaned data files required to compute segment stats.")
 
     # Legacy section kept for reference; disabled after replacing with "Time Trend".
     if False and choice == "District Insights":
