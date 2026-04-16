@@ -11,12 +11,12 @@ CLEAN_DIR = DATA_DIR / "cleaned"
 
 
 def ensure_dirs() -> None:
-    # Ensure output folder exists.
+    # Create output folder for cleaned datasets.
     CLEAN_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def normalize_key(text: str) -> str:
-    # Normalize strings for robust state matching.
+    # Normalize state/UT text so merges are consistent across datasets.
     if text is None:
         return ""
     key = str(text).strip().upper()
@@ -26,7 +26,7 @@ def normalize_key(text: str) -> str:
     return key
 
 
-# === State name standardization ===
+# === State name standardization (used across multiple raw datasets) ===
 STATE_MAP = {
     "AP": "Andhra Pradesh",
     "AR": "Arunachal Pradesh",
@@ -88,7 +88,7 @@ def standardize_state(value: object) -> object:
 
 
 def year_from_string(value: object) -> object:
-    # Extract YYYY from strings like "2019-20".
+    # Extract YYYY from strings like "2019-20" (used in AISHE + economic indicators).
     if pd.isna(value):
         return value
     text = str(value).strip()
@@ -99,7 +99,7 @@ def year_from_string(value: object) -> object:
 
 
 def apply_missing_policy(df: pd.DataFrame) -> pd.DataFrame:
-    # Apply missing-value rules: drop columns/rows, then fill median/mode.
+    # Apply missing-value rules: drop heavy-missing columns/rows, then fill median/mode.
     if df.empty:
         return df
 
@@ -125,9 +125,10 @@ def apply_missing_policy(df: pd.DataFrame) -> pd.DataFrame:
 
 def parse_aishe(file_path: Path, label_col: str) -> pd.DataFrame:
     # Dataset: AISHE tables (data/raw/aishe_enrollment.csv.csv or data/raw/aishe_university_type.csv.csv).
-    # Action: rebuild multi-row headers and convert to long format.
+    # Action: rebuild multi-row headers and convert to long format for analysis/merging.
     raw = pd.read_csv(file_path, header=None)
 
+    # AISHE header is split across multiple rows: level + gender.
     header_levels = raw.iloc[1].copy()
     header_genders = raw.iloc[2].copy()
 
@@ -148,6 +149,7 @@ def parse_aishe(file_path: Path, label_col: str) -> pd.DataFrame:
             else:
                 columns.append(f"{level} {gender}".strip())
 
+    # Data starts after header rows.
     data = raw.iloc[4:].copy()
     data.columns = columns
     data = data.dropna(how="all")
@@ -157,6 +159,7 @@ def parse_aishe(file_path: Path, label_col: str) -> pd.DataFrame:
     years = []
     year_pattern = re.compile(r"^\d{4}[-/]\d{2}$")
 
+    # AISHE rows alternate between state/university type labels and year rows.
     for _, row in data.iterrows():
         label = row[label_col]
         label_str = "" if pd.isna(label) else str(label).strip()
@@ -175,6 +178,7 @@ def parse_aishe(file_path: Path, label_col: str) -> pd.DataFrame:
     data["Year"] = years
     data = data.dropna(subset=["Year"])
 
+    # Convert wide AISHE table to long format: one metric value per row.
     metric_cols = [c for c in data.columns if c not in {"SlNo", label_col, "Year"}]
     long_df = data.melt(
         id_vars=[label_col, "Year"],
@@ -197,6 +201,7 @@ def clean_unemployment() -> pd.DataFrame:
     df = pd.read_csv(RAW_DIR / "unemployment_india.csv.csv")
     df.columns = [c.strip() for c in df.columns]
 
+    # Parse month -> year.
     df["Date"] = pd.to_datetime(df["Date"], errors="coerce", dayfirst=True)
     df["Year"] = df["Date"].dt.year
     df = df.drop(columns=["Date", "Frequency"])
@@ -207,6 +212,7 @@ def clean_unemployment() -> pd.DataFrame:
     numeric_cols = [
         c for c in df.select_dtypes(include=["number"]).columns.tolist() if c not in group_cols
     ]
+    # Yearly state/area averages.
     yearly = df.groupby(group_cols, dropna=False)[numeric_cols].mean().reset_index()
 
     yearly = apply_missing_policy(yearly)
@@ -246,6 +252,7 @@ def clean_job_market() -> tuple[pd.DataFrame, pd.DataFrame]:
     # Action: derive sector + average salary, then aggregate by sector.
     df = pd.read_csv(RAW_DIR / "job_market.csv")
 
+    # Use first tag in tagsAndSkills as a proxy sector label.
     df["sector"] = df["tagsAndSkills"].fillna("").apply(
         lambda x: x.split(",")[0].strip() if x.strip() else "Unknown"
     )
@@ -256,6 +263,7 @@ def clean_job_market() -> tuple[pd.DataFrame, pd.DataFrame]:
 
     df = apply_missing_policy(df)
 
+    # Sector summary used later as a national job-demand proxy.
     sector_summary = (
         df.groupby("sector", dropna=False)
         .agg(job_count=("jobId", "count"), avg_salary=("average_salary", "median"))
@@ -267,7 +275,7 @@ def clean_job_market() -> tuple[pd.DataFrame, pd.DataFrame]:
 
 def clean_cperv1() -> tuple[pd.DataFrame, pd.DataFrame]:
     # Dataset: CPERV1 person file (data/raw/cperv1.csv).
-    # Action: derive education, employment, skill, and informal rates.
+    # Action: derive education, employment, skill, informal rates + sector shares.
     use_cols = [
         "State_UT_Code",
         "District_Code",
@@ -355,6 +363,7 @@ def clean_cperv1() -> tuple[pd.DataFrame, pd.DataFrame]:
 
     df["industry_section"] = df["Principal_Industry_Code"].apply(nic_section)
 
+    # State-level aggregates for CPERV1 features.
     agg = (
         df.groupby("State_UT_Code", dropna=False)
         .agg(
@@ -368,7 +377,7 @@ def clean_cperv1() -> tuple[pd.DataFrame, pd.DataFrame]:
         .reset_index()
     )
 
-    # District-level aggregation with sector shares.
+    # District-level aggregates + sector share features.
     district = (
         df.groupby(["State_UT_Code", "District_Code"], dropna=False)
         .agg(
@@ -414,6 +423,7 @@ def clean_cperv1() -> tuple[pd.DataFrame, pd.DataFrame]:
     else:
         agg["State"] = agg["State_UT_Code"].astype(str)
 
+    # National-level CPERV1 aggregates (one-row summary).
     national = pd.DataFrame(
         {
             "education_index": [df["Years_Formal_Education"].mean()],
@@ -425,6 +435,7 @@ def clean_cperv1() -> tuple[pd.DataFrame, pd.DataFrame]:
         }
     )
 
+    # Save CPERV1 feature engineering assumptions for transparency.
     assumptions = (
         "CPERV1 assumptions used:\n"
         "- Employed: Principal_Status_Code between 11 and 51 (inclusive).\n"

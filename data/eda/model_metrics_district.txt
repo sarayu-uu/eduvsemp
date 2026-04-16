@@ -1,0 +1,7 @@
+Target: gap_ratio (district-level CPERV1)
+LR R2: 0.7770
+LR RMSE: 1.8491
+RF R2: 0.7639
+RF RMSE: 1.9026
+GBR R2: 0.7620
+GBR RMSE: 1.9103

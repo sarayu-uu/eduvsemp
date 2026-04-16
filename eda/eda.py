@@ -15,10 +15,12 @@ EDA_DIR = DATA_DIR / "eda"
 
 
 def ensure_dirs() -> None:
+    # Create output folder for EDA artifacts (charts + metrics).
     EDA_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def load_base() -> pd.DataFrame:
+    # Base merged dataset produced by cleaning/build_base_and_merge.
     df = pd.read_csv(CLEAN_DIR / "final_merged.csv")
     df = df.rename(
         columns={
@@ -40,6 +42,7 @@ def add_mismatch_index(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def add_time_features(df: pd.DataFrame) -> pd.DataFrame:
+    # Add a simple time-trend adjustment for job demand.
     df = df.sort_values(["Year"]).copy()
     if "job_count_total" in df.columns:
         min_year = df["Year"].min()
@@ -50,6 +53,7 @@ def add_time_features(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def normalize_series(series: pd.Series) -> pd.Series:
+    # Min-max scale to [0, 1] for index comparisons.
     min_val = series.min()
     max_val = series.max()
     if pd.isna(min_val) or pd.isna(max_val) or min_val == max_val:
@@ -58,6 +62,7 @@ def normalize_series(series: pd.Series) -> pd.Series:
 
 
 def build_national_trends(df: pd.DataFrame) -> pd.DataFrame:
+    # National yearly averages used for trend charts and index construction.
     yearly = (
         df.groupby("Year", dropna=False)
         .agg(
@@ -84,12 +89,14 @@ def build_national_trends(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_state_year_dataset(df: pd.DataFrame) -> pd.DataFrame:
+    # Combine state-year base with national education index and CPERV1 features.
     trends = build_national_trends(df)
     edu_index_by_year = trends[["Year", "education_index"]].copy()
 
     state_year = df.copy()
     state_year = state_year.merge(edu_index_by_year, on="Year", how="left")
 
+    # Normalize employment so it is comparable to education_index.
     state_year["employment_index"] = normalize_series(state_year["estimated_employed"])
     # Prefer state-level education from CPERV1 when available.
     if "cperv1_education_index" in state_year.columns:
@@ -168,6 +175,7 @@ def segment_analysis(state_year: pd.DataFrame) -> None:
         df["gap_simple"] = df["education_index_state"] / denom
     else:
         df["gap_simple"] = df["gap_ratio"] if "gap_ratio" in df.columns else df["gap"]
+    # Median split creates High vs Low groups for comparison.
     poverty_med = df["poverty_rate"].median()
     income_med = df["per_capita"].median()
 
@@ -249,18 +257,24 @@ def correlation_analysis(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def plot_key_charts(df: pd.DataFrame) -> None:
+    # Core trend charts used in the Streamlit UI.
     sns.set_style("whitegrid")
     plt.rcParams["figure.figsize"] = (10, 6)
     plt.rcParams["font.size"] = 12
-    from matplotlib.ticker import FixedFormatter, FixedLocator
+    from matplotlib.ticker import FixedFormatter, FixedLocator, ScalarFormatter
 
     def set_year_axis(ax: plt.Axes, years: pd.Series) -> None:
         years_sorted = sorted(pd.unique(years.dropna().astype(int)))
         if not years_sorted:
             return
         ax.xaxis.set_major_locator(FixedLocator(years_sorted))
-        ax.xaxis.set_major_formatter(FixedFormatter([str(y) for y in years_sorted]))
-        ax.ticklabel_format(style="plain", axis="x")
+        # Use ScalarFormatter so we can safely disable scientific notation.
+        scalar = ScalarFormatter()
+        scalar.set_scientific(False)
+        scalar.set_useOffset(False)
+        ax.xaxis.set_major_formatter(scalar)
+        # Keep labels as plain years in the same order as the locator.
+        ax.set_xticklabels([str(y) for y in years_sorted])
 
     # 1) Mismatch Gap Trend (main evidence)
     plt.figure()
@@ -309,10 +323,11 @@ def plot_key_charts(df: pd.DataFrame) -> None:
     plt.savefig(EDA_DIR / "education_vs_employment_trend.png", dpi=300, bbox_inches="tight")
     plt.close()
 
-        # Extra charts removed to keep only the images used in the Streamlit app.
+    # Extra charts removed to keep only the images used in the Streamlit app.
 
 
 def train_models(df: pd.DataFrame, target_col: str = "gap") -> dict:
+    # Train state-level models to explain mismatch after removing time trend.
     df = df.copy()
 
     # Residualize features and target against Year to remove time-trend leakage.
@@ -361,7 +376,7 @@ def train_models(df: pd.DataFrame, target_col: str = "gap") -> dict:
     X = X.loc[valid_mask].copy()
     y = y.loc[valid_mask].copy()
 
-    # One-hot encode categorical columns (e.g., Area)
+    # One-hot encode categorical columns (e.g., Area).
     X = pd.get_dummies(X, drop_first=True)
 
     X_train, X_test, y_train, y_test = train_test_split(
@@ -453,7 +468,7 @@ def train_models(df: pd.DataFrame, target_col: str = "gap") -> dict:
 
     # No file writes for explainability to keep output clean.
 
-    # Top feature importance (hide zero-importance bars)
+    # Top feature importance (hide zero-importance bars).
     non_zero = importances[importances > 0]
     top5_imp = non_zero.head(5).iloc[::-1]
     rename_map = {
@@ -537,7 +552,17 @@ def train_models_district() -> None:
     rmse_gbr = mean_squared_error(y_test, pred_gbr) ** 0.5
     r2_gbr = r2_score(y_test, pred_gbr)
 
-    # Feature importance (top 10)
+    # Save district model metrics (restored for reporting).
+    with open(EDA_DIR / "model_metrics_district.txt", "w", encoding="utf-8") as f:
+        f.write("Target: gap_ratio (district-level CPERV1)\n")
+        f.write(f"LR R2: {r2_lr:.4f}\n")
+        f.write(f"LR RMSE: {rmse_lr:.4f}\n")
+        f.write(f"RF R2: {r2:.4f}\n")
+        f.write(f"RF RMSE: {rmse:.4f}\n")
+        f.write(f"GBR R2: {r2_gbr:.4f}\n")
+        f.write(f"GBR RMSE: {rmse_gbr:.4f}\n")
+
+    # Feature importance (top 10).
     importances = pd.Series(rf.feature_importances_, index=X.columns).sort_values(
         ascending=False
     )
@@ -549,7 +574,7 @@ def train_models_district() -> None:
     plt.savefig(EDA_DIR / "rf_feature_importance_district.png", dpi=300, bbox_inches="tight")
     plt.close()
 
-    # District mismatch extremes (top/bottom 10 by gap_ratio)
+    # District mismatch extremes (top/bottom 10 by gap_ratio).
     df["district_label"] = df["State"].fillna("State?") + " - " + df["District_Code"].astype(str)
     top10 = df.nlargest(10, "gap_ratio")[["district_label", "gap_ratio"]]
     bottom10 = df.nsmallest(10, "gap_ratio")[["district_label", "gap_ratio"]]
@@ -572,7 +597,7 @@ def train_models_district() -> None:
     plt.savefig(EDA_DIR / "district_bottom10_gap.png", dpi=300, bbox_inches="tight")
     plt.close()
 
-    # State-level mismatch extremes (mean gap_ratio across districts)
+    # State-level mismatch extremes (mean gap_ratio across districts).
     state_gap = (
         df.groupby("State", dropna=False)["gap_ratio"]
         .mean()
@@ -602,6 +627,7 @@ def train_models_district() -> None:
 
 
 def main() -> None:
+    # Run full EDA pipeline and produce artifacts for the app.
     ensure_dirs()
     df = load_base()
     df = add_mismatch_index(df)

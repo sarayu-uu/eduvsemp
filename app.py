@@ -4,7 +4,18 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 import plotly.express as px
-from eda.eda import add_mismatch_index, add_time_features, build_state_year_dataset, load_base
+from eda.eda import (
+    add_mismatch_index,
+    add_time_features,
+    build_national_trends,
+    build_state_year_dataset,
+    load_base,
+)
+from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
 
 
 BASE_DIR = Path(".")
@@ -188,6 +199,115 @@ def segment_data() -> tuple[pd.DataFrame, pd.DataFrame]:
     return poverty_df, income_df
 
 
+@st.cache_data(show_spinner=False)
+def district_model_insights() -> dict[str, pd.DataFrame | float]:
+    path = CLEAN_DIR / "cperv1_features_by_district.csv"
+    if not path.exists():
+        return {}
+    df = pd.read_csv(path)
+    if "education_index" not in df.columns or "employment_rate" not in df.columns:
+        return {}
+
+    df["gap_ratio"] = df["education_index"] / df["employment_rate"].replace(0, pd.NA)
+    df = df.dropna(subset=["gap_ratio"]).copy()
+    feature_cols = ["skill_rate", "informal_rate"] + [
+        c for c in df.columns if c.startswith("sector_share_")
+    ]
+    if not feature_cols:
+        return {}
+
+    X = df[feature_cols].copy()
+    y = df["gap_ratio"].copy()
+    district_label = (
+        df["State"].fillna("State?")
+        + " - "
+        + df["District_Code"].astype(str)
+        if "State" in df.columns and "District_Code" in df.columns
+        else pd.Series([f"D{i}" for i in range(len(df))], index=df.index)
+    )
+
+    X_train, X_test, y_train, y_test, d_train, d_test = train_test_split(
+        X, y, district_label, test_size=0.2, random_state=42
+    )
+
+    scaler = StandardScaler()
+    X_train_scaled = scaler.fit_transform(X_train)
+    X_test_scaled = scaler.transform(X_test)
+
+    lr = LinearRegression().fit(X_train_scaled, y_train)
+    rf = RandomForestRegressor(random_state=42, n_estimators=300).fit(X_train, y_train)
+    gbr = GradientBoostingRegressor(
+        n_estimators=200, learning_rate=0.05, random_state=42
+    ).fit(X_train, y_train)
+
+    pred_lr = lr.predict(X_test_scaled)
+    pred_rf = rf.predict(X_test)
+    pred_gbr = gbr.predict(X_test)
+
+    comparison = pd.DataFrame(
+        [
+            {
+                "Model": "Linear Regression",
+                "R2": r2_score(y_test, pred_lr),
+                "RMSE": mean_squared_error(y_test, pred_lr) ** 0.5,
+            },
+            {
+                "Model": "Random Forest",
+                "R2": r2_score(y_test, pred_rf),
+                "RMSE": mean_squared_error(y_test, pred_rf) ** 0.5,
+            },
+            {
+                "Model": "Gradient Boosting",
+                "R2": r2_score(y_test, pred_gbr),
+                "RMSE": mean_squared_error(y_test, pred_gbr) ** 0.5,
+            },
+        ]
+    )
+
+    eval_df = pd.DataFrame(
+        {
+            "district_label": d_test.values,
+            "actual_gap_ratio": y_test.values,
+            "pred_gap_ratio_rf": pred_rf,
+        }
+    )
+    eval_df["residual_rf"] = eval_df["actual_gap_ratio"] - eval_df["pred_gap_ratio_rf"]
+    eval_df["abs_error_rf"] = eval_df["residual_rf"].abs()
+    top_error = eval_df.nlargest(10, "abs_error_rf").copy()
+
+    importance_df = (
+        pd.DataFrame({"feature": X.columns, "importance": rf.feature_importances_})
+        .sort_values("importance", ascending=False)
+        .head(10)
+    )
+
+    return {
+        "comparison": comparison,
+        "eval": eval_df,
+        "top_error": top_error,
+        "importance": importance_df,
+    }
+
+
+@st.cache_data(show_spinner=False)
+def time_trend_frames() -> tuple[pd.DataFrame, pd.DataFrame]:
+    try:
+        base = load_base()
+    except Exception:
+        return pd.DataFrame(), pd.DataFrame()
+    base = add_mismatch_index(base)
+    base = add_time_features(base)
+
+    national = build_national_trends(base).copy()
+    state_year = build_state_year_dataset(base).copy()
+
+    if "Year" in national.columns:
+        national["Year"] = national["Year"].astype(int)
+    if "Year" in state_year.columns:
+        state_year["Year"] = state_year["Year"].astype(int)
+    return national, state_year
+
+
 def main() -> None:
     st.set_page_config(page_title="Education–Employment Mismatch", layout="wide")
     st.markdown(
@@ -237,7 +357,8 @@ def main() -> None:
     st.sidebar.header("Sections")
     graph_options = [
         "Home",
-        "District Insights",
+        "Time Trend",
+        "Model Insights",
         "Gap Trend (State)",
         "Education vs Employment",
         "Drivers (Feature Importance)",
@@ -493,7 +614,8 @@ These numbers are computed from `data/cleaned/final_merged.csv` merged with
         else:
             st.info("Missing cleaned data files required to compute segment stats.")
 
-    if choice == "District Insights":
+    # Legacy section kept for reference; disabled after replacing with "Time Trend".
+    if False and choice == "District Insights":
         st.header("District Insights (Detailed + Grouped)")
 
         st.subheader("Top/Bottom Districts (with codes)")
@@ -546,6 +668,230 @@ Higher values mean worse mismatch.
 2. Compute **employment_rate** = share of people with `Principal_Status_Code` in 11–51.  
 3. **Gap Ratio** = education_index / employment_rate.  
 4. District gaps are averaged to get state-level bars.
+"""
+        )
+
+    if choice == "Time Trend":
+        st.header("Time Trend")
+        national, state_year = time_trend_frames()
+        if national.empty:
+            st.info("Missing trend inputs. Run `python cleaning/cleaning.py` and `python eda/eda.py` first.")
+            return
+
+        # 1) State mismatch over time.
+        if "gap_ratio" in state_year.columns:
+            trend_ratio = (
+                state_year.groupby("Year", dropna=False)["gap_ratio"]
+                .mean()
+                .reset_index()
+                .dropna()
+            )
+            fig1 = px.line(
+                trend_ratio,
+                x="Year",
+                y="gap_ratio",
+                markers=True,
+                title="Mismatch Over Time (Average State Gap Ratio)",
+            )
+            fig1.update_layout(yaxis_title="Average Gap Ratio")
+            st.plotly_chart(fig1, use_container_width=True)
+
+        # 4) YoY change for education and employment indexes.
+        yoy = national[["Year", "education_index", "employment_index"]].copy()
+        yoy = yoy.sort_values("Year")
+        prev_edu = yoy["education_index"].shift(1)
+        prev_emp = yoy["employment_index"].shift(1)
+
+        # Zero-safe YoY: use pct_change when prior value exists and is non-zero,
+        # otherwise fall back to index-point change on 0-1 scale (x100).
+        yoy["education_yoy_pct"] = (
+            (yoy["education_index"] - prev_edu) / prev_edu
+        ) * 100
+        yoy["employment_yoy_pct"] = (
+            (yoy["employment_index"] - prev_emp) / prev_emp
+        ) * 100
+        yoy.loc[prev_edu.eq(0), "education_yoy_pct"] = (
+            yoy["education_index"] - prev_edu
+        ) * 100
+        yoy.loc[prev_emp.eq(0), "employment_yoy_pct"] = (
+            yoy["employment_index"] - prev_emp
+        ) * 100
+
+        yoy = yoy.replace([float("inf"), float("-inf")], pd.NA)
+        yoy = yoy.dropna(subset=["education_yoy_pct", "employment_yoy_pct"])
+        yoy_long = yoy.melt(
+            id_vars=["Year"],
+            value_vars=["education_yoy_pct", "employment_yoy_pct"],
+            var_name="series",
+            value_name="yoy_pct",
+        )
+        yoy_long["series"] = yoy_long["series"].map(
+            {
+                "education_yoy_pct": "Education YoY %",
+                "employment_yoy_pct": "Employment YoY %",
+            }
+        )
+        fig4 = px.line(
+            yoy_long,
+            x="Year",
+            y="yoy_pct",
+            color="series",
+            markers=True,
+            title="Year-over-Year Growth: Education vs Employment (Zero-Safe)",
+        )
+        fig4.update_layout(yaxis_title="YoY Change (%)", legend_title="")
+        st.plotly_chart(fig4, use_container_width=True)
+
+        # 7) State-wise small multiples (top 12 by average mismatch).
+        if "State" in state_year.columns and "gap_ratio" in state_year.columns:
+            state_trend = (
+                state_year.groupby(["State", "Year"], dropna=False)["gap_ratio"]
+                .mean()
+                .reset_index()
+                .dropna(subset=["State", "gap_ratio"])
+            )
+            top_states = (
+                state_trend.groupby("State")["gap_ratio"]
+                .mean()
+                .sort_values(ascending=False)
+                .head(12)
+                .index.tolist()
+            )
+            small = state_trend[state_trend["State"].isin(top_states)].copy()
+            fig7 = px.line(
+                small,
+                x="Year",
+                y="gap_ratio",
+                facet_col="State",
+                facet_col_wrap=4,
+                title="State-wise Mismatch Trends (Top 12 by Average Gap Ratio)",
+            )
+            fig7.update_layout(showlegend=False, yaxis_title="Gap Ratio", height=900)
+            st.plotly_chart(fig7, use_container_width=True)
+
+        # 10) National gap with milestones.
+        fig10 = px.line(
+            national,
+            x="Year",
+            y="gap",
+            markers=True,
+            title="National Gap with Milestones",
+        )
+        fig10.update_layout(yaxis_title="Education Index - Employment Index")
+        years = national["Year"].dropna().astype(int).tolist()
+        if years:
+            mid_year = years[len(years) // 2]
+            milestone_years = [years[0], mid_year, years[-1]]
+            for yr in milestone_years:
+                fig10.add_vline(x=yr, line_dash="dot", line_color="gray")
+        st.plotly_chart(fig10, use_container_width=True)
+
+        st.markdown(
+            """
+**How to read this section:**  
+- These are descriptive trend visuals only (no driver-causality claims).  
+- They directly support the problem statement by showing how mismatch changes over time.
+"""
+        )
+
+    if choice == "Model Insights":
+        st.header("Model Insights (District Model)")
+        st.markdown(
+            """
+This section shows how the district model performs in predicting mismatch.
+It directly supports the problem statement by showing whether the model can reliably identify districts with higher education-employment mismatch.
+"""
+        )
+
+        insights = district_model_insights()
+        if not insights:
+            st.info("Missing district data. Run `python cleaning/cleaning.py` and `python eda/eda.py` first.")
+            return
+
+        comparison = insights["comparison"]
+        eval_df = insights["eval"]
+        top_error = insights["top_error"]
+        importance_df = insights["importance"]
+
+        c1, c2 = st.columns(2)
+        with c1:
+            fig_r2 = px.bar(
+                comparison,
+                x="Model",
+                y="R2",
+                color="Model",
+                title="Test R2 by Model (District)",
+            )
+            fig_r2.update_layout(showlegend=False)
+            st.plotly_chart(fig_r2, use_container_width=True)
+        with c2:
+            fig_rmse = px.bar(
+                comparison,
+                x="Model",
+                y="RMSE",
+                color="Model",
+                title="Test RMSE by Model (District)",
+            )
+            fig_rmse.update_layout(showlegend=False)
+            st.plotly_chart(fig_rmse, use_container_width=True)
+
+        fig_scatter = px.scatter(
+            eval_df,
+            x="actual_gap_ratio",
+            y="pred_gap_ratio_rf",
+            title="Random Forest: Actual vs Predicted (District Test Set)",
+            hover_name="district_label",
+            opacity=0.7,
+        )
+        lim = max(
+            float(eval_df["actual_gap_ratio"].max()),
+            float(eval_df["pred_gap_ratio_rf"].max()),
+        )
+        fig_scatter.add_shape(
+            type="line",
+            x0=0,
+            y0=0,
+            x1=lim,
+            y1=lim,
+            line=dict(color="black", dash="dash"),
+        )
+        st.plotly_chart(fig_scatter, use_container_width=True)
+
+        fig_resid = px.histogram(
+            eval_df,
+            x="residual_rf",
+            nbins=30,
+            title="Random Forest Residual Distribution (District Test Set)",
+        )
+        st.plotly_chart(fig_resid, use_container_width=True)
+
+        c3, c4 = st.columns(2)
+        with c3:
+            fig_imp = px.bar(
+                importance_df.sort_values("importance"),
+                x="importance",
+                y="feature",
+                orientation="h",
+                title="Top 10 Random Forest Feature Importances",
+            )
+            st.plotly_chart(fig_imp, use_container_width=True)
+        with c4:
+            fig_err = px.bar(
+                top_error.sort_values("abs_error_rf"),
+                x="abs_error_rf",
+                y="district_label",
+                orientation="h",
+                title="Top 10 Districts with Largest Prediction Error",
+            )
+            st.plotly_chart(fig_err, use_container_width=True)
+
+        st.markdown(
+            """
+**How to interpret these visuals:**  
+- Higher **R2** and lower **RMSE** indicate better predictive quality.  
+- In the Actual vs Predicted chart, points closer to the diagonal are better predictions.  
+- Residuals centered near zero indicate fewer systematic errors.  
+- Feature importance shows which district characteristics contribute most to mismatch prediction.
 """
         )
 
