@@ -347,6 +347,28 @@ def main() -> None:
             li[role="option"] {
                 color: #000000 !important;
             }
+            .home-hero {
+                background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 55%, #0EA5E9 100%);
+                border-radius: 16px;
+                padding: 22px 24px;
+                margin: 6px 0 14px 0;
+                box-shadow: 0 10px 24px rgba(15, 23, 42, 0.20);
+            }
+            .home-hero h3, .home-hero p {
+                color: #FFFFFF !important;
+                margin: 0;
+            }
+            .home-hero p {
+                margin-top: 8px;
+                opacity: 0.95;
+            }
+            .mini-card {
+                border: 1px solid #E5E7EB;
+                border-radius: 12px;
+                padding: 12px 14px;
+                background: #FAFAFA;
+                height: 100%;
+            }
         </style>
         """,
         unsafe_allow_html=True,
@@ -362,93 +384,134 @@ def main() -> None:
         "Gap Trend (State)",
         "Drivers (Feature Importance)",
     ]
-    choice = st.sidebar.selectbox("Section", graph_options)
+    choice = st.sidebar.radio("Section", graph_options)
 
     if choice == "Home":
-        st.header("Problem Statement")
         st.markdown(
             """
-India's education levels are rising faster than employment opportunities, creating a growing mismatch.
-The goal of this project is to quantify that mismatch over time and identify which socio-economic and
-job-market factors explain it.
-"""
-        )
-        st.markdown(
-            """
-**How this project answers the problem statement:**  
-- Builds education and employment indexes and tracks the gap over time.  
-- Shows where mismatch is highest (district/state).  
-- Identifies drivers (skills, informality, sector mix, poverty, income).  
-"""
+            <div class="home-hero">
+                <h3>Education is rising faster than jobs. This dashboard tracks where and why mismatch is widening.</h3>
+                <p>Quickly scan the trend, hotspots, and key drivers, then open detailed sections from the sidebar.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
         )
 
-        # Insight cards
-        c1, c2, c3 = st.columns(3)
-        with c1:
-            st.markdown("**Trend**\n\nMismatch is increasing over time")
-        with c2:
-            st.markdown("**Model Strength**\n\nDistrict model explains most variation (R² ~0.76)")
-        with c3:
-            st.markdown("**Key Drivers**\n\nSkills and informal employment matter most")
-
-        # One strong visual
-        st.header("Mismatch Hotspots Across India")
+        national, _ = time_trend_frames()
         state_df = load_state_mismatch()
-        fig = plot_mismatch_map(state_df)
-        if fig is not None:
-            st.plotly_chart(fig, use_container_width=True)
+
+        latest_gap = float("nan")
+        gap_change = float("nan")
+        start_year = None
+        end_year = None
+        if not national.empty and {"Year", "gap"}.issubset(national.columns):
+            national_sorted = national.sort_values("Year")
+            start_year = int(national_sorted["Year"].iloc[0])
+            end_year = int(national_sorted["Year"].iloc[-1])
+            first_gap = float(national_sorted["gap"].iloc[0])
+            latest_gap = float(national_sorted["gap"].iloc[-1])
+            gap_change = latest_gap - first_gap
+
+        rf_r2 = 0.76
+        metrics_path = EDA_DIR / "model_metrics_district.txt"
+        if file_exists(metrics_path):
+            for line in metrics_path.read_text(encoding="utf-8").splitlines():
+                if line.strip().startswith("RF R2:"):
+                    try:
+                        rf_r2 = float(line.split(":", maxsplit=1)[1].strip())
+                    except (ValueError, IndexError):
+                        pass
+
+        k1, k2, k3 = st.columns(3)
+        with k1:
+            if pd.notna(latest_gap) and end_year is not None:
+                st.metric("Latest Gap", f"{latest_gap:.3f}", f"{gap_change:+.3f} since {start_year}")
+            else:
+                st.metric("Latest Gap", "N/A", "trend data missing")
+        with k2:
+            st.metric("District Model (RF R2)", f"{rf_r2:.3f}", "model strength")
+        with k3:
+            st.metric("Top Drivers", "Skills + Informality", "district level")
+
+        left, right = st.columns([1.2, 1.0])
+        with left:
+            st.subheader("National Trend Snapshot")
+            if national.empty:
+                st.info("Trend data missing. Run `python cleaning/cleaning.py` and `python eda/eda.py`.")
+            else:
+                trend_long = national.melt(
+                    id_vars=["Year"],
+                    value_vars=["education_index", "employment_index"],
+                    var_name="series",
+                    value_name="index_value",
+                )
+                trend_long["series"] = trend_long["series"].map(
+                    {"education_index": "Education Index", "employment_index": "Employment Index"}
+                )
+                fig_overview = px.line(
+                    trend_long,
+                    x="Year",
+                    y="index_value",
+                    color="series",
+                    markers=True,
+                    color_discrete_map={
+                        "Education Index": "#C62828",
+                        "Employment Index": "#1565C0",
+                    },
+                    title="Education vs Employment",
+                )
+                fig_overview.update_layout(yaxis_title="Normalized index", legend_title="")
+                st.plotly_chart(fig_overview, use_container_width=True)
+
+        with right:
+            st.subheader("Mismatch Hotspots Map")
+            fig = plot_mismatch_map(state_df)
+            if fig is not None:
+                st.plotly_chart(fig, use_container_width=True)
+                st.caption("Red = higher mismatch, Green = better alignment.")
+            else:
+                st.info("State-level map input missing (`cperv1_features_by_state.csv`).")
+
+        c1, c2 = st.columns(2)
+        with c1:
             st.markdown(
                 """
-**How to read this map:**  
-- Red points indicate states with the highest mismatch (education rising faster than jobs).  
-- Green points indicate states where education and employment are more aligned.  
-"""
+                <div class="mini-card">
+                    <h4>What This Project Solves</h4>
+                    <p style="margin-bottom: 8px;">Quantifies the education-employment mismatch and explains where it is most severe.</p>
+                    <ul>
+                        <li>Builds education and employment indexes over time</li>
+                        <li>Locates high-mismatch regions (state and district)</li>
+                        <li>Ranks structural drivers from model evidence</li>
+                    </ul>
+                </div>
+                """,
+                unsafe_allow_html=True,
             )
-        else:
-            st.info("State-level CPERV1 features not found. Run `python cleaning/cleaning.py` first.")
-
-        st.header("Data Sources")
-        st.markdown(
-            """
-- **Education:** AISHE  
-- **Employment:** PLFS CPERV1  
-- **Economic Indicators:** National statistics  
-- **Job Market Structure:** Sector shares + job demand  
-"""
-        )
-
-        with st.expander("Trend Analysis (State-Level) — details"):
+        with c2:
             st.markdown(
                 """
-Purpose: explain mismatch after removing time trend.  
-Target: gap_ratio_resid (education_index / employment_index), residualized by Year.  
-Features: per_capita, poverty_rate, youth_unemployment_rate, skill_rate, informal_rate.  
-Interpretation: moderate signal; time trend still dominates.
-"""
+                <div class="mini-card">
+                    <h4>Data Backbone</h4>
+                    <ul>
+                        <li><b>Education:</b> AISHE</li>
+                        <li><b>Employment:</b> PLFS CPERV1</li>
+                        <li><b>Economic:</b> poverty, per-capita, youth unemployment</li>
+                        <li><b>Job Market:</b> sector shares and demand signals</li>
+                    </ul>
+                </div>
+                """,
+                unsafe_allow_html=True,
             )
-            st.caption("Feature guide for labels mentioned above:")
+
+        with st.expander("Method Snapshot"):
             st.markdown(
                 """
-- **per_capita**: per-capita income (economic indicator).  
-- **poverty_rate**: share of population below the poverty line.  
-- **youth_unemployment_rate**: unemployment rate among youth.  
-- **skill_rate**: share with vocational training or recent training (CPERV1).  
-- **informal_rate**: share in informal work (no contract or no social security).  
-- **education_index**: average years of formal education (CPERV1).  
-- **employment_index / employment_rate**: share employed (CPERV1, Principal_Status_Code 11-51).  
-- **gap_ratio_resid**: (education_index / employment_index) after removing the time trend.
+- `gap = education_index - employment_index` for trend tracking.
+- District-level model explains mismatch using sector share, skill, and informality features.
+- Higher mismatch commonly aligns with slower quality job absorption.
 """
             )
-
-        st.header("Why the mismatch is high or low (interpretation)")
-        st.markdown(
-            """
-High mismatch (red) typically appears where education levels rise but job creation is slower, especially in
-informal or low-productivity sectors. Low mismatch (green) tends to appear where employment growth keeps pace
-with education and where sector mix includes manufacturing or professional services that absorb educated workers.
-"""
-        )
-
 
     if choice == "Gap Trend (State)":
         st.header("Gap Trend (State)")
