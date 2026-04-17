@@ -268,12 +268,17 @@ def district_model_insights() -> dict[str, pd.DataFrame | float]:
         {
             "district_label": d_test.values,
             "actual_gap_ratio": y_test.values,
+            "pred_gap_ratio_lr": pred_lr,
             "pred_gap_ratio_rf": pred_rf,
+            "pred_gap_ratio_gbr": pred_gbr,
         }
     )
+    eval_df["residual_lr"] = eval_df["actual_gap_ratio"] - eval_df["pred_gap_ratio_lr"]
     eval_df["residual_rf"] = eval_df["actual_gap_ratio"] - eval_df["pred_gap_ratio_rf"]
+    eval_df["residual_gbr"] = eval_df["actual_gap_ratio"] - eval_df["pred_gap_ratio_gbr"]
+    eval_df["abs_error_lr"] = eval_df["residual_lr"].abs()
     eval_df["abs_error_rf"] = eval_df["residual_rf"].abs()
-    top_error = eval_df.nlargest(10, "abs_error_rf").copy()
+    eval_df["abs_error_gbr"] = eval_df["residual_gbr"].abs()
 
     importance_df = (
         pd.DataFrame({"feature": X.columns, "importance": rf.feature_importances_})
@@ -284,7 +289,6 @@ def district_model_insights() -> dict[str, pd.DataFrame | float]:
     return {
         "comparison": comparison,
         "eval": eval_df,
-        "top_error": top_error,
         "importance": importance_df,
     }
 
@@ -412,15 +416,24 @@ def main() -> None:
             latest_gap = float(national_sorted["gap"].iloc[-1])
             gap_change = latest_gap - first_gap
 
-        rf_r2 = 0.76
+        best_model_name = "N/A"
+        best_r2 = float("nan")
         metrics_path = EDA_DIR / "model_metrics_district.txt"
         if file_exists(metrics_path):
+            model_scores: dict[str, float] = {}
             for line in metrics_path.read_text(encoding="utf-8").splitlines():
-                if line.strip().startswith("RF R2:"):
-                    try:
-                        rf_r2 = float(line.split(":", maxsplit=1)[1].strip())
-                    except (ValueError, IndexError):
-                        pass
+                line = line.strip()
+                for prefix, model_name in [("LR R2:", "LR"), ("RF R2:", "RF"), ("GBR R2:", "GBR")]:
+                    if line.startswith(prefix):
+                        try:
+                            model_scores[model_name] = float(line.split(":", maxsplit=1)[1].strip())
+                        except (ValueError, IndexError):
+                            pass
+            if model_scores:
+                best_model_name, best_r2 = max(model_scores.items(), key=lambda item: item[1])
+        if pd.isna(best_r2):
+            best_model_name = "RF"
+            best_r2 = 0.76
 
         k1, k2, k3 = st.columns(3)
         with k1:
@@ -429,7 +442,7 @@ def main() -> None:
             else:
                 st.metric("Latest Gap", "N/A", "trend data missing")
         with k2:
-            st.metric("District Model (RF R2)", f"{rf_r2:.3f}", "model strength")
+            st.metric("District Model (Best R2)", f"{best_r2:.3f}", f"best: {best_model_name}")
         with k3:
             st.metric("Top Drivers", "Skills + Informality", "district level")
 
@@ -849,8 +862,23 @@ It directly supports the problem statement by showing whether the model can reli
 
         comparison = insights["comparison"]
         eval_df = insights["eval"]
-        top_error = insights["top_error"]
         importance_df = insights["importance"]
+        best_row = comparison.loc[comparison["R2"].idxmax()]
+        best_model = str(best_row["Model"])
+        model_key_map = {
+            "Linear Regression": "lr",
+            "Random Forest": "rf",
+            "Gradient Boosting": "gbr",
+        }
+        best_key = model_key_map.get(best_model, "rf")
+        pred_col = f"pred_gap_ratio_{best_key}"
+        resid_col = f"residual_{best_key}"
+        abs_error_col = f"abs_error_{best_key}"
+        top_error = eval_df.nlargest(10, abs_error_col).copy()
+
+        st.caption(
+            f"Best model on current test split: **{best_model}** (R2={best_row['R2']:.3f}, RMSE={best_row['RMSE']:.3f})"
+        )
 
         c1, c2 = st.columns(2)
         with c1:
@@ -877,14 +905,14 @@ It directly supports the problem statement by showing whether the model can reli
         fig_scatter = px.scatter(
             eval_df,
             x="actual_gap_ratio",
-            y="pred_gap_ratio_rf",
-            title="Random Forest: Actual vs Predicted (District Test Set)",
+            y=pred_col,
+            title=f"{best_model}: Actual vs Predicted (District Test Set)",
             hover_name="district_label",
             opacity=0.7,
         )
         lim = max(
             float(eval_df["actual_gap_ratio"].max()),
-            float(eval_df["pred_gap_ratio_rf"].max()),
+            float(eval_df[pred_col].max()),
         )
         fig_scatter.add_shape(
             type="line",
@@ -898,9 +926,9 @@ It directly supports the problem statement by showing whether the model can reli
 
         fig_resid = px.histogram(
             eval_df,
-            x="residual_rf",
+            x=resid_col,
             nbins=30,
-            title="Random Forest Residual Distribution (District Test Set)",
+            title=f"{best_model} Residual Distribution (District Test Set)",
         )
         st.plotly_chart(fig_resid, use_container_width=True)
 
@@ -916,11 +944,11 @@ It directly supports the problem statement by showing whether the model can reli
             st.plotly_chart(fig_imp, use_container_width=True)
         with c4:
             fig_err = px.bar(
-                top_error.sort_values("abs_error_rf"),
-                x="abs_error_rf",
+                top_error.sort_values(abs_error_col),
+                x=abs_error_col,
                 y="district_label",
                 orientation="h",
-                title="Top 10 Districts with Largest Prediction Error",
+                title=f"Top 10 Districts with Largest Prediction Error ({best_model})",
             )
             st.plotly_chart(fig_err, use_container_width=True)
 
@@ -930,7 +958,7 @@ It directly supports the problem statement by showing whether the model can reli
 - Higher **R2** and lower **RMSE** indicate better predictive quality.  
 - In the Actual vs Predicted chart, points closer to the diagonal are better predictions.  
 - Residuals centered near zero indicate fewer systematic errors.  
-- Feature importance shows which district characteristics contribute most to mismatch prediction.
+- Feature importance chart is from **Random Forest** (tree-based importance).
 """
         )
 

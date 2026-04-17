@@ -1,223 +1,176 @@
-# Education?Employment Mismatch in India
-ps. Accurate Problem Statement
+# Education-Employment Mismatch in India
+Quantifying trends, hotspots, and structural drivers
 
-India’s education attainment has been rising faster than employment opportunities, but the gap isn’t uniform across regions or socio‑economic groups. This project’s goal is to quantify the education–employment mismatch over time, locate where it is most severe (state/district), and identify which economic, skill, and job‑market structure factors explain that mismatch, so policymakers and researchers can target interventions more precisely.
-
-In short: it turns scattered education, employment, and socio‑economic datasets into a single, interpretable view of mismatch trends, hotspots, and drivers.
 ---
 
-## Slide 1 ? Title
-**Education?Employment Mismatch in India**  
-Quantifying trends, hotspots, and drivers
+## Slide 1 - Problem Statement
+India's education attainment is rising faster than employment opportunities.  
+The mismatch is not uniform across regions.
+
+Goal:
+- quantify mismatch over time
+- locate where it is worst (state/district)
+- identify key drivers for policy targeting
 
 **Presenter notes:**
-- One?line summary: education is rising faster than jobs, but the mismatch varies by region and socio?economic context.
+- This is a diagnostic + explanation system, not a forecasting product.
 
 ---
 
-## Slide 2 ? Problem Statement
-**Problem Statement**  
-Education attainment is increasing faster than employment opportunities in India. We need to measure how large this mismatch is, where it is worst, and what factors drive it.
+## Slide 2 - What This Project Does
+- Integrates education, employment, economic, and job-market datasets
+- Builds comparable mismatch indicators (`gap`, `gap_ratio`)
+- Maps hotspot regions
+- Trains interpretable ML models to explain mismatch differences
 
 **Presenter notes:**
-- Emphasize mismatch is not uniform.
-- Need an interpretable, data?backed dashboard.
+- Emphasize "single view from scattered public data."
 
 ---
 
-## Slide 3 ? What This Project Does
-- Builds education and employment indexes over time
-- Computes mismatch gap (trend + ratio)
-- Maps hotspots at state and district level
-- Identifies key drivers (skills, informality, sector mix)
+## Slide 3 - Data Sources
+- AISHE (education enrollment)
+- PLFS CPERV1 (employment, skills, informality, sector structure)
+- Economic indicators (poverty, per-capita, youth unemployment)
+- Job-market postings (demand proxy)
 
 **Presenter notes:**
-- Clarify: this is a diagnostic + explanation project, not a forecasting system.
+- Mention all sources are standardized and merged before modeling.
 
 ---
 
-## Slide 4 ? Data Sources
-- **AISHE**: higher?education enrollment
-- **PLFS CPERV1**: employment, skills, informal work, district codes
-- **Economic Indicators**: poverty, per?capita income, youth unemployment
-- **Job Market Postings**: sector demand proxy
+## Slide 4 - Pipeline Overview
+1. Clean and standardize states/years
+2. Build merged state-year base table
+3. Engineer CPERV1 state and district features
+4. Compute mismatch indicators
+5. Train and evaluate regression models
+6. Serve insights in Streamlit dashboard
 
 **Presenter notes:**
-- Mention datasets are cleaned + standardized before merge.
+- Code references: `cleaning/cleaning.py`, `eda/eda.py`, `app.py`.
 
 ---
 
-## Slide 5 ? Data Pipeline (High Level)
-1. Clean each dataset independently
-2. Standardize states and years
-3. Merge into a state?year base table
-4. Add CPERV1 features by state/district
-5. Generate EDA + models
+## Slide 5 - Core Feature Engineering
+- `education_index`: min-max normalized education metric
+- `employment_index`: min-max normalized employment metric
+- `gap = education_index - employment_index`
+- `gap_ratio = education_index / employment_rate`
+- district predictors: `skill_rate`, `informal_rate`, `sector_share_*`
 
 **Presenter notes:**
-- Refer to `cleaning/cleaning.py` and `eda/eda.py`.
+- `gap_ratio` is the district model target.
 
 ---
 
-## Slide 6 ? Key Feature Engineering
-- **education_index**: normalized education metric
-- **employment_index**: normalized employment metric
-- **gap**: education_index ? employment_index
-- **gap_ratio**: education_index / employment_index
-- **skill_rate, informal_rate** from CPERV1
-- **sector_share_*** from NIC codes
+## Slide 6 - Dashboard (Current)
+Active sections:
+- Home
+- Time Trend
+- Gap Trend (State)
+- Model Insights
+- Drivers (Feature Importance)
+
+Recent updates:
+- sidebar switched to option list (`radio`)
+- redesigned visual Home page
+- Home KPI now auto-shows best district R2
+- Model Insights auto-selects current best model
+
+---
+
+## Slide 7 - National Trend Snapshot
+- Education and employment are index-normalized for comparability
+- Gap chart tracks divergence over time
+- Current data has limited years, so normalized values can appear extreme
 
 **Presenter notes:**
-- Explain that gap_ratio gives a sharper mismatch signal.
+- With 2 years, min-max normalization can produce `-1` to `+1` gap jumps.
 
 ---
 
-## Slide 7 ? National Trend
-**Mismatch Trend (Gap Over Time)**  
-Education is rising faster than employment, widening the gap.
+## Slide 8 - Regional Hotspot Logic
+- State map uses centroid points
+- Color encodes mismatch intensity (`gap_ratio`)
+- Helps quickly identify high-mismatch regions for targeting
 
 **Presenter notes:**
-- Show `gap_trend.png` in demo if available.
+- Red means higher mismatch; green means better alignment.
 
 ---
 
-## Slide 8 ? Education vs Employment
-**Dual Trend Lines**  
-Education index outpaces employment index.
-
-**Presenter notes:**
-- Explain how indexes are normalized to compare growth.
-
----
-
-## Slide 9 ? Hotspots Map
-**State Hotspots (Map)**  
-Red = highest mismatch, Green = lower mismatch.
-
-**Presenter notes:**
-- Points are state centroids colored by gap_ratio.
-
----
-
-## Slide 10 ? District Insights
-- Top 10 and Bottom 10 districts by mismatch
-- State averages can hide extreme districts
-
-**Presenter notes:**
-- Mention district codes are from CPERV1, not names.
-
----
-
-## Slide 11 ? Socio?Economic Segments
-- Split by median poverty and income
-- Compare average mismatch between groups
-
-**Presenter notes:**
-- Explain mean gap_simple = education_index / employment_rate.
-
----
-
-## Slide 12 ? Drivers of Mismatch
-**Feature Importance (Models)**  
-Key drivers:
-- Skills & informality
-- Youth unemployment
-- Sector mix (agriculture, education, manufacturing)
-
-**Presenter notes:**
-- Model uses residualized features to remove time trend.
-
----
-
-## Slide 13 ? Model Summary
-Models tested:
+## Slide 9 - Modeling Setup (District)
+Models trained:
 - Linear Regression
-- Random Forest
-- Gradient Boosting
+- Random Forest Regressor
+- Gradient Boosting Regressor
 
-Metrics reported for:
-- gap_resid
-- gap_ratio_resid
+Target:
+- `y = gap_ratio`
 
-**Presenter notes:**
-- Show `model_metrics.txt` if needed.
+Features:
+- `X = [skill_rate, informal_rate, sector_share_*]`
 
----
-
-## Slide 14 ? What This Makes Easier
-- One place to quantify mismatch
-- Easy identification of hotspots
-- Interpretable driver analysis for policy and research
-
-**Presenter notes:**
-- This reduces time spent combining datasets manually.
+Split and metrics:
+- 80/20 train-test split (`random_state=42`)
+- R2 and RMSE
 
 ---
 
-## Slide 15 ? Limitations / Assumptions
-- District names not available (codes only)
-- Poverty/income are national?year indicators, not state?specific
-- Job market data has no year, used as constant proxy
+## Slide 10 - Latest District Results
+From `data/eda/model_metrics_district.txt`:
+- LR: **R2 = 0.7770**, RMSE = 1.8491
+- RF: R2 = 0.7639, RMSE = 1.9026
+- GBR: R2 = 0.7620, RMSE = 1.9103
 
-**Presenter notes:**
-- Position as a strong baseline that can be improved with richer data.
-
-
----
-
-## Slide 15 ? Challenges Faced
-- Different dataset granularities (national AISHE vs state/district CPERV1)
-- Inconsistent state names and year formats
-- Very large files (Git/LFS issues)
-- Missing district names (codes only)
-
-**Presenter notes:**
-- Emphasize this is common in real-world public datasets.
-- Highlight the effort in standardization and merging.
+Best model by R2:
+- **Linear Regression (0.7770)**
 
 ---
 
-## Slide 16 ? Limitations
-- Poverty/income are national-by-year, not state-specific
-- Job market postings have no year (used as constant proxy)
-- Gap ratio can inflate when employment_rate is small
-- Residualization removes time trend but may remove real signals
+## Slide 11 - Baseline Comparison
+Baseline model:
+- predict mean of training target for all test points
 
-**Presenter notes:**
-- Frame as known limitations and opportunities for improvement.
+RMSE:
+- Baseline: 3.9162
+- LR: 1.8491
+- RF: 1.9026
+- GBR: 1.9103
 
-## Slide 16 ? Next Steps
-- Add district name mapping
-- Bring in state?level poverty/income data
-- Expand to forecasting or scenario analysis
+Interpretation:
+- all trained models are ~51-53% better than baseline RMSE
 
-**Presenter notes:**
-- Optional future work if audience asks.
+---
 
-## how to sell the idea
+## Slide 12 - Model Quality Read
+Train vs test behavior:
+- LR generalizes best (small train-test gap)
+- RF/GBR show higher train scores and lower test gains (more overfit)
 
-How good is the PS?
-It’s strong and relevant. It connects a real macro issue (education rising faster than jobs) to measurable outcomes and geographic inequality. The only weakness is that it can sound abstract unless you tie it to concrete stakes (youth unemployment, wasted education investment, regional inequality, policy targeting).
+Meaning:
+- current feature set captures strong signal
+- simpler model (LR) is most stable on this split
 
-How to sell it as a real problem (3 angles)
+---
 
-Waste of investment
+## Slide 13 - Practical Value
+- Creates a reproducible mismatch diagnostic from public data
+- Surfaces where intervention is needed most
+- Identifies likely structural drivers (skills, informality, sector composition)
+- Supports evidence-based skilling and employment policy design
 
-Government and families invest heavily in education.
-If jobs don’t grow alongside, that investment doesn’t translate into employment or productivity.
-Social and economic risk
+---
 
-Educated unemployment fuels frustration, migration, and underemployment.
-It can depress wages and create regional imbalance.
-Policy targeting failure
+## Slide 14 - Limitations and Next Steps
+Limitations:
+- national index trend has few years
+- district names unavailable in CPERV1 feature file (codes shown)
+- some economic/job proxies are coarse
 
-National averages hide local extremes.
-Without district/state diagnosis, policy money is spent blindly.
-What to say in one crisp slide
-“India is producing more educated people than the job market can absorb. The mismatch isn’t uniform—some regions are far worse. Without a map and driver analysis, we can’t target policy. This project turns scattered datasets into a clear, explainable mismatch picture.”
-
-How it helps the world (practical impact)
-
-Helps policymakers target skilling, industry, and employment programs where they’re most needed.
-Helps researchers and planners diagnose what actually drives mismatch (skills, informality, sector mix).
-Helps educators and NGOs align training with real job‑market structure.
+Next steps:
+- add richer time coverage
+- add district-name mapping
+- add state-specific socio-economic covariates
+- test cross-validation and regularized models
