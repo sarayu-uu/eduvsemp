@@ -1,4 +1,4 @@
-  INTERNSHIP REPORT-1
+INTERNSHIP REPORT-1
 
 ON
 Education-Employment Mismatch in India: Trends, Hotspots, and Structural Drivers
@@ -36,65 +36,60 @@ APRIL 2026
 
 
 
+
+
 ABSTRACT
 
-Education in India has expanded quickly, but labor-market absorption has not kept the same pace everywhere (Government of India, Ministry of Education 2023a; Government of India, Ministry of Statistics and Programme Implementation 2023b). That mismatch now shows up clearly across states and districts. In this report, I combine AISHE, PLFS, state economic indicators, and job-posting proxy data to build one working analysis base. Two mismatch measures are calculated and compared over time, then district-level models are trained to explain why the gap changes by location. The pattern is fairly consistent: skill mix, informality, and sector structure matter a lot, and the simpler linear model performs best on current data. The framework is useful for practical targeting, but there are limits too. Time coverage is short, and district metadata is still incomplete in part of the CPERV1 extract.
+However, even though education has grown rapidly in India, there hasn’t been a corresponding development in terms of labor market absorption, which varies from place to place (Government of India, Ministry of Education 2023a; Government of India, Ministry of Statistics and Programme Implementation 2023b). This discrepancy is visible among states and districts alike. In the present study, the combination of AISHE, PLFS, state economic variables, and proxy job postings data yields a basis for analysis. Two mismatch metrics are constructed and analyzed over time, after which district-level regressions are used to determine the reasons behind the regional variation. The result seems to be that skill profile, informality levels, and sectoral composition are key explanatory factors, while the simple linear approach proves the most effective for current data. While the approach can be useful in practice, some limitations should be noted. Namely, the available timeframe is limited, while part of the district metadata in CPERV1 is lacking.
 
 
 Keywords: Education-employment mismatch; labor market alignment; India; district analytics; skill rate; informality
 
 1. Introduction
-Education levels in India have clearly improved in recent years, and that part is easy to see. More students in schools and colleges should translate into stronger job outcomes. But the labor market side is not moving in a straight line. Many employers still say they cannot find the right fit fast enough, while many young graduates keep cycling through short-term or low-quality work.
+It is evident that educational qualifications among Indian youth have become higher than ever before. This is rather obvious because more schooling means better employment opportunities. However, the other half of the issue – labor market – seems not be growing at the pace we expect. It appears that there is a certain mismatch where employers claim they cannot find suitable candidates fast enough while graduates continue changing low-level jobs regularly.
 
-That is the mismatch this chapter talks about. In simple terms, education readiness is rising, but job absorption is not always rising with it. Sometimes it does, sometimes it does not. The pattern shifts by state, and even within a state, one district can look very different from the next. So using only national averages can hide the actual stress points.
+And this is what the current chapter is all about – identifying the mismatch between education preparation on the one hand and job demand on the other. As stated above, the former grows continuously, but the latter might increase, but could also stagnate, depending on a variety of factors. And while some discrepancies between states are visible, within each of them there are drastic differences between districts. Therefore, averaging national data would not show the real situation.
 
-This work is built as a diagnostic setup, not a forecasting engine. The goal here is to measure the gap properly and explain why it differs across places. We merge scattered public datasets into one comparable base, calculate two mismatch indicators, and then test interpretable machine learning (ML) models to see what explains district-level variation better.
+The current paper is developed as a diagnostic framework and not as a predictor. The aim is to measure the gap accurately and reveal reasons behind its inconsistency. This will involve bringing diverse public databases together and creating a uniform foundation to compute two mismatch indices as well as interpretative ML algorithms.
 
-The contributions are practical rather than theoretical:
-1. A reproducible pipeline for integrating education, labor, and economic data.
-2. Transparent mismatch indicators that can be audited and modified by policymakers.
-3. District-level explanatory modeling with clear feature meaning.
-4. A dashboard-ready output layer for communication.
+These contributions are applied, not theoretical:
+1. An actionable approach to combining data on education, workforce participation, and economics.
+2. Audit-proof mismatch measures subject to adjustment by policymakers.
+3. District-based explanatory models with understandable features.
+4. Output layer geared for presentation via dashboard.
 
-The chapter is organized as follows. Section 2 reviews related literature and policy context. Section 3 explains data, equations, algorithmic workflow, and model setup. Section 4 discusses empirical results. Section 5 covers policy applications and limitations. Section 6 closes with future work.
+This chapter is structured as follows. In section 2, we survey the literature and policy context. Section 3 details our methodology, including data, equations, algorithmic procedures, and modeling design. Section 4 examines empirical findings. Section 5 delves into policy implications and constraints. Section 6 concludes with directions for future research.
+
 
 Figure 1. Concept Mind Map for Education-Employment Mismatch
 
-                           [Education-Employment Mismatch]
-                                      /     |      \
-                                     /      |       \
-                              [Skills]  [Informality]  [Sector Mix]
-                                  \         |          /
-                                   \        |         /
-                                [Regional Variation]
-                                         |
-                                   [Policy Targeting]
+                        
 
 
 2. Literature Review / Related Work
-Most research on education-employment mismatch falls into two broad lines. One line studies person-level issues, like overeducation or underemployment (Quintini 2011; ILO 2022). The other line looks at structural frictions, where the economy itself is not set up to absorb changing labor profiles evenly (World Bank 2019; Mehrotra and Parida 2019). India shows both patterns, but across regions, structural mismatch often stands out more.
+Most academic scholarship on education-employment mismatch can be categorized into one of two general approaches. First, there is person-level mismatch that is associated with the phenomenon of either overeducation or underemployment (Quintini 2011; ILO 2022). Second, there is structural mismatch, in which the economy as a whole is not calibrated to accommodate changes in labor profiles smoothly (World Bank 2019; Mehrotra and Parida 2019). In India, both types exist, but the former type often prevails regionally.
 
-Indian labor-market literature repeatedly points to three linked frictions. One, skill formation and skill utilization do not line up cleanly, especially across smaller urban centers and rural transition zones (Kumar and Chandra 2020). Two, high informality distorts signaling and productivity matching, which weakens the return to credentials in many occupations (NITI Aayog 2021). Three, sector concentration matters: districts with larger low-productivity service and informal trade shares often absorb people into work, but not necessarily into stable or well-matched work (Mehrotra and Sinha 2017).
+There are three common structural frictions that Indian literature on the subject matter emphasizes time and again. First, skill formation and skill utilization do not always overlap seamlessly, particularly in case of smaller urban and rural-to-urban areas (Kumar and Chandra 2020). Second, labor informality causes signaling and productivity mismatch issues to arise, thus making credentialism less advantageous for many workers in India (NITI Aayog 2021). Third, sectoral composition is important, because more concentrated low-productivity sectors mean absorption but not necessarily matching (Mehrotra and Sinha 2017).
 
-There is a plain data challenge as well. National reports are good for big-picture trends, but policy action usually needs district-level detail. AISHE covers education well, PLFS is strong on labor outcomes, and state economic files add context. The problem is they do not arrive in one clean format. Names differ, year coverage is uneven, and keys do not always match neatly. So a lot of studies stop at descriptive summaries. Fair enough, but weak integration usually means weak modeling later.
+The simple fact is that there exists a straightforward data problem too. National surveys give a decent idea of large-scale trends, but policymaking requires more localized statistics. This study makes use of AISHE for educational statistics, PLFS for labor-related data, and economic state files to complement. What makes things difficult is that all three sources come in different formats. Names vary, years of data collection are different, and keys may not line up perfectly. The result is that many prior papers limit themselves to description alone. Nothing wrong with that, but poor integration will generally produce a poor modeling effort.
 
-Prior studies using ML in labor economics tend to optimize prediction accuracy, sometimes with opaque feature interactions. For policy, pure accuracy is not enough. Interpretable models are often more useful, particularly when the output needs to support district-level discussions with administrators and program teams. A model that is slightly less complex but easier to defend can be the better tool.
+Prior studies on the use of machine learning techniques in labor economics have been geared primarily toward maximizing prediction accuracy. In such applications, however, the need for interpretability cannot be ignored. In cases when the outputs of the model must be used as input for further discussion involving district administrations and policy makers, a slightly simplified yet defensible solution may work better.
 
-This report sits in that applied space. It takes ideas from mismatch literature, but the focus here is practical: combine messy data, define usable indicators, test what explains variation, and be clear about where uncertainty still remains.
+This paper represents the practical application of mismatch literature. Instead of theorizing, we attempt to combine the raw data in an effort to develop relevant indicators and assess possible explanations for observed variations.
 
 3. Methodology / Proposed System
 
 3.1 Data Sources and Variables
-Four grouped sources were used:
+We utilized four data sources:
 
-1. All India Survey on Higher Education (AISHE): enrollment and participation indicators for education-side signal (Government of India, Ministry of Education 2023a).
-2. Periodic Labour Force Survey (PLFS): employment and structure indicators. We use the CPERV1 feature set; CPERV1 is the cleaned district-level feature bundle used in this project (Government of India, Ministry of Statistics and Programme Implementation 2023b).
-3. State economic indicators: poverty, per-capita proxy, and youth unemployment context variables.
-4. Job-posting proxy data: high-level demand pressure indicator.
-Key district predictors from PLFS-CPERV1:
-1. skill_rate: share of workers with relevant skill profile.
-2. informal_rate: share of workers in informal employment.
-3. sector_share_agri, sector_share_industry, sector_share_services: labor distribution across major sectors.
+1. All India Survey on Higher Education (AISHE) to get enrollment and participation indicators as an education-side signal (Government of India, Ministry of Education 2023a).
+2. Periodical Labour Force Survey (PLFS) to obtain the employment and structure indicators. We apply CPERV1 featureset, which refers to the cleaned version of district-level feature set used in this study (Government of India, Ministry of Statistics and Programme Implementation 2023b).
+3. Economic indicators for the State – poverty, per capita, and youth unemployment context variable.
+4. High-level job-posting proxy data (demand-side pressure).
+Main predictor variables obtained from PLFS-CPERV1 are:
+1. skill_rate – proportion of the population working with the relevant skill profile.
+2. informal_rate – proportion of workers engaged in informal employment.
+3. sector_share_agri, sector_share_industry, sector_share_services.
 
 3.2 Data Integration Pipeline
 Data integration followed six operational steps:
@@ -112,7 +107,6 @@ Algorithm 1. Unified Mismatch Data Builder
 
 Input: AISHE table A, PLFS-CPERV1 table P, Economic table E, Job proxy J
 Output: District-level analysis table D
-
 1. Clean labels in A, P, E, J (state names, year, district code)
 2. Build state_year_table S = merge(A, E, on = [state, year])
 3. Build district_table T = merge(P, J, on = [state, district, year], left join)
@@ -121,25 +115,8 @@ Output: District-level analysis table D
 6. Remove duplicates, flag missingness, and keep analysis-ready rows
 7. Return D = T with selected predictors + target gap_ratio
 
-
 Figure 2. Unified Data Pipeline and Modeling Flow
 
-[AISHE]   [PLFS-CPERV1]   [Economic Indicators]   [Job Proxy]
-    \            |                |                   /
-     \           |                |                  /
-      +-------- Data Cleaning and Key Standardization --------+
-                               |
-                        State-Year Merge
-                               |
-                       Feature Engineering
-                               |
-                   gap and gap_ratio Construction
-                               |
-                      Train/Test Model Stage
-                               |
-                LR / RF / GBR Comparison (R2, RMSE)
-                               |
-                      Dashboard + Policy Notes
 
 
 3.3 Indicator Construction
@@ -191,20 +168,17 @@ Technical implementation was done in Python with separate modules for cleaning, 
 4. Results and Discussion
 
 4.1 Descriptive Pattern
-At the aggregate level, the education index seems to rise faster than the employment index in the years we currently have. Some jumps in the chart look sharp, maybe too sharp. Part of that comes from min-max scaling over a short series, so not every spike should be read as a real structural break. Even then, the broad direction still points to growing mismatch pressure.
+In general, it appears that the education index is increasing more rapidly than the employment index over the periods we currently observe. There are some spikes in the graph, possibly exaggerated ones. The reason for this may lie partly in the use of the min-max method on a limited number of observations. Nevertheless, the trend continues to suggest the increasing pressure for mismatch.
 
-State-level divergence is substantial. Some regions with stronger industrial or formal service bases show tighter education-employment alignment. Others show large positive gaps, meaning education-side values look relatively better than labor absorption indicators. District dispersion inside the same state is often wide, which suggests state-average targeting can miss local pressure pockets.
+Divergence within states is significant. Some states with strong manufacturing or formal services sectors exhibit higher correlations between the education and employment indexes. There are other states with large positive gaps; this implies that the education sector values are relatively high compared to labor absorption measures.
 
 4.2 Model Performance
 District model metrics are shown in Table 1.
 
 Table 1. District-Level Regression Performance
 
-
 Model
-
-
-R2
+R²
 RMSE
 Linear Regression
 0.7770
@@ -215,22 +189,22 @@ Random Forest
 Gradient Boosting
 0.7620
 1.9103
-Baseline Model(mean predictor)
+Baseline Model (Mean Predictor)
 NA
 3.9162
 
 
-Linear Regression gives the best out-of-sample R2 and, just as important, it stays relatively stable from train to test. RF and GBR learn the training pattern strongly, but test gains are smaller, which hints at mild overfitting with the current feature set. These values come from the project run outputs in `data/eda/model_metrics_district.txt` (April 2026 run).
+In terms of out-of-sample R2 and stability from train to test, Linear Regression is performing better, followed by RF and GBR. The latter two fit training data very well, but their results on the test set are not as pronounced, indicating possible overfitting. These numbers are based on the output in `data/eda/model_metrics_district.txt` file obtained for an April 2026 run.
 
-So for this dataset, the simpler model is doing the more reliable job. That may change later if we add longer time coverage and richer district covariates, but right now the linear model is the safer choice.
+Thus, in this case, the more complex model is less reliable. This might not be the case later when we obtain longer time periods and more features, but now we should rely on the simpler model.
 
 4.3 Feature Interpretation
-Feature importance and coefficient patterns show three consistent drivers:
-1. Higher informal_rate is generally associated with higher mismatch pressure.
-2. Better skill_rate tends to reduce mismatch in districts where formal absorption exists; in structurally weak local markets, skill gains alone are not enough.
-3. Sector composition matters. Higher low-productivity concentration often corresponds with weaker alignment.
+The following three features consistently stand out in terms of importance/coefficient values:
+1. Positive correlation between informal_rate and the mismatch pressure;
+2. Skill_rate has a positive effect on decreasing mismatch if the sector can absorb additional workers; for districts with poor structural conditions, the increase in skill alone is not enough;
+3. Low-productivity sectors are negatively correlated with alignment.
 
-These are associations, not strict causal claims. The direction, however, matches broader labor-economy literature and administrative experience. Program teams usually see this on the ground: training numbers go up, placement quality varies sharply by local economic structure.
+But these are associations rather than cause-and-effect relationships. But the directionality is consistent with other research on the relationship between work and the economy and with experience in management. Training enrollments increase; placement depends on the local economic base.
 
 4.4 Discussion of Uncertainty
 A few caveats matter for interpretation.
@@ -242,40 +216,41 @@ A few caveats matter for interpretation.
 Even with these limits, the framework is still useful as a ranking-and-diagnosis tool. It should not be read as a long-horizon forecasting engine at this stage.
 
 5. Applications and Challenges
+5.1 Practical Implementations
+Chapter outputs could be utilized for multiple policy workflows.
 
-5.1 Practical Applications
-The chapter outputs can support several policy workflows.
+1. Skill training prioritization: Areas with high gap_ratio and informal_rate could be identified as candidates for skill and placement partnerships rather than just skills.
+2. State labor dashboard: State departments could monitor whether increases in education levels are accompanied by an increase in the quality of jobs year after year.
+3. Sectoral planning: When sector shares suggest risks of concentration, governments could use targeted incentives, apprenticeships, and industry engagement at the local level.
+4. Implementation evaluation: Managers of intervention programs could observe whether skill rates and absorption results improve simultaneously through interventions.
 
-1. Targeted skilling allocation: Districts with high gap_ratio and high informal_rate can be prioritized for blended interventions (skills plus placement partnerships), not training-only programs.
-2. State labor strategy dashboards: State departments can monitor whether education expansion is matched by employment quality improvements year to year.
-3. Sector-specific planning: Where sector shares indicate concentration risks, governments can align incentives, apprenticeship programs, and local industry outreach.
-4. Evaluation support: Program managers can track whether interventions move both skill rates and absorption outcomes together.
+A straightforward visualization tool could increase implementation significantly. High-level policymakers will never start with the details of the model. What they need is three things right away: where the pressure is high, why, and how to act in the next quarter.
 
-A simple visualization layer improves adoption a lot. Senior officials usually do not want model internals first. They want three things quickly: where pressure is high, what may be driving it, and what can be done next quarter.
+5.2 Challenges for Operation and Analysis
+There are certain technical challenges and other non-technical ones.
 
-5.2 Operational and Research Challenges
-Some constraints are technical, and some are organizational.
+1. Data normalization costs: Open datasets have their value; however, they differ in terms of keys and frequencies.
+2. Proxy problems: Employment quality is not completely captured by statistics.
+3. Lack of causality: The current approach captures variance; however, it fails to create the causation process.
+4. Practicality of outcomes: Complicated results mean slow adoption.
 
-1. Data harmonization overhead: Public datasets are valuable but inconsistent in keys and update cycles.
-2. Proxy limitations: Employment quality is not fully captured by headline rates.
-3. Causality gap: The current setup explains variation but does not establish causal pathways.
-4. Administrative usability: If outputs are too complex, implementation slows down.
-
-There is also a political-economy layer that data by itself cannot fix. Districts with higher mismatch often deal with infrastructure gaps and weak firm demand, and those sit outside education departments. So real action needs coordination across departments, and that is usually where delays begin.
+There is another element related to political economy that can't be addressed through data alone. Places experiencing larger mismatches also face deficiencies in infrastructure and poor demand from firms, which exist beyond the jurisdiction of education departments. Therefore, any change requires cooperation between departments, which leads to delays.
 
 6. Conclusion and Future Work
-Education-employment mismatch in India can be measured reasonably well with available public data, and the pattern is clearly uneven across regions. A clean integration pipeline, readable indicators, and interpretable district models are enough to support early policy decisions. Under current data limits, Linear Regression stays the strongest and most stable model on test performance. That does not mean advanced models are useless. It just means the simpler one is more dependable for now.
+Educational mismatch in employment in India is measureable using public sources with fair accuracy and clear spatial variations. An effective integration, good visualization indicators and district-level models will provide enough information for early-stage decision making. Within present data limitations, Linear Regression remains the most effective and reliable algorithm for testing results. This does not mean that advanced algorithms cannot help but rather implies that they are less trustworthy at present.
 
-Future extensions are already clear:
-1. Expand time coverage to reduce normalization artifacts and strengthen trend inference.
-2. Improve district metadata and geospatial joins for clearer local reporting.
-3. Add richer socioeconomic covariates and institutional variables.
-4. Test panel and quasi-experimental strategies for stronger causal interpretation.
+Some future directions are quite clear, including:
+1. Increasing the time span to avoid normalization and improve trend conclusions;
+2. Improving quality of district-level data and geospatial analysis;
+3. Introducing additional socioeconomic and institutional factors;
+4. Testing more advanced techniques like panel or quasi-experiment designs.
 
-The larger takeaway is direct: education expansion and labor absorption need to be tracked together, not in separate silos. When they drift apart, response has to be local, quick, and tied to actual district constraints. Also, this is still a diagnostic system, not a causal proof engine, so policy use should stay grounded and iterative.
+In any case, one general conclusion is quite clear. Education growth and labor market expansion have to be monitored and correlated at once. If they diverge, intervention has to be rapid and local. The other key lesson from this exercise is that this framework operates as a diagnostic tool and not as a causal engine, and policy implications have to keep in mind.
 
 
-References 
+
+
+References
 
 Government of India, Ministry of Education. 2023a. All India Survey on Higher Education (AISHE) 2021-22. New Delhi (IN): Department of Higher Education.
 Government of India, Ministry of Statistics and Programme Implementation. 2023b. Periodic Labour Force Survey (PLFS): Annual Report 2022-23. New Delhi (IN): National Statistical Office.
@@ -286,5 +261,8 @@ Mehrotra S, Sinha S. 2017. Explaining falling female employment in India. World 
 NITI Aayog. 2021. Reforms in Urban Planning Capacity in India: Final Report. New Delhi (IN): Government of India.
 Quintini G. 2011. Right for the Job: Over-qualified or Under-skilled? OECD Social, Employment and Migration Working Papers No. 120. Paris (FR): OECD Publishing.
 World Bank. 2019. The Changing Nature of Work: World Development Report 2019. Washington (DC): World Bank.
+
+
+
 
 
